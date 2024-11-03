@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"a0cf50d9410b59ff","x":-120,"y":-330,"width":472,"height":625,"type":"file","file":"hse/ma/conspects/par10/Непрерывность функции.md"},
+		{"id":"3d9b5fa0b8ecc570","x":142,"y":507,"width":421,"height":175,"type":"file","file":"hse/ma/conspects/par10/Стабилизация знака в непрерывности.md"},
+		{"id":"74db2c56329cf872","x":-408,"y":433,"width":400,"height":323,"type":"file","file":"hse/ma/conspects/par10/Арифметические действия с непрерывностью.md"},
+		{"id":"5e7a7946f1702da3","x":563,"y":-82,"width":400,"height":129,"type":"file","file":"hse/ma/conspects/par10/Непрерывность экспоненты.md"},
+		{"id":"0ff77fad36762a39","x":-732,"y":-123,"width":400,"height":212,"type":"file","file":"hse/ma/conspects/par10/Теорема о пределе композиции.md"}
+	],
+	"edges":[
+		{"id":"82a72f1f1b351b05","fromNode":"a0cf50d9410b59ff","fromSide":"bottom","toNode":"74db2c56329cf872","toSide":"top"},
+		{"id":"aa93d9b588ec4238","fromNode":"a0cf50d9410b59ff","fromSide":"bottom","toNode":"3d9b5fa0b8ecc570","toSide":"top"},
+		{"id":"dc6b14550e0e61c6","fromNode":"a0cf50d9410b59ff","fromSide":"right","toNode":"5e7a7946f1702da3","toSide":"left"},
+		{"id":"a3b12276887b5790","fromNode":"a0cf50d9410b59ff","fromSide":"left","toNode":"0ff77fad36762a39","toSide":"right"}
+	]
+}

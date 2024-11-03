@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"69ee8921a0d04cbf","type":"file","file":"hse/ma/conspects/par7/Частичный предел.md","x":1189,"y":1015,"width":400,"height":177},
+		{"id":"14f41ef308eee551","type":"file","file":"hse/ma/conspects/par7/Подпоследовательность.md","x":1794,"y":972,"width":400,"height":252},
+		{"id":"3d67deb605ad313e","type":"file","file":"hse/ma/conspects/par7/Нижний (верхний) предел.md","x":0,"y":948,"width":415,"height":320},
+		{"id":"ee7a1b1cdc676e5f","type":"file","file":"hse/ma/conspects/par7/Теорема о свойствах верхних-нижних пределов.md","x":15,"y":1365,"width":400,"height":171},
+		{"id":"bbef8de272cc831b","type":"file","file":"hse/ma/conspects/par7/Характеристика верхних-нижних пределов на языке e-N.md","x":-477,"y":999,"width":400,"height":218},
+		{"id":"101d827fcc096dc4","type":"file","file":"hse/ma/conspects/par7/Теорема о связи между пределами.md","x":586,"y":956,"width":422,"height":312},
+		{"id":"447a2717f37cc28c","type":"file","file":"hse/ma/conspects/par7/Свойства подпоследовательностей.md","x":1772,"y":509,"width":444,"height":322},
+		{"id":"631913cfcdae62df","type":"file","file":"hse/ma/conspects/par7/Характеристика частичного предела.md","x":1189,"y":670,"width":400,"height":179},
+		{"id":"61a73b354dbe22ce","type":"file","file":"hse/ma/conspects/par7/Критерий Коши.md","x":2350,"y":1485,"width":277,"height":125},
+		{"id":"42a845b991a40a54","type":"file","file":"hse/ma/conspects/par7/Свойства фундаментальной последовательности.md","x":1740,"y":1347,"width":507,"height":400},
+		{"id":"459698d2ad3d102f","type":"file","file":"hse/ma/conspects/par7/Фундаментальная последовательность.md","x":1210,"y":1461,"width":400,"height":171},
+		{"id":"56b311d33d6c04a8","type":"file","file":"hse/ma/conspects/par7/Теорема о стягивающихся отрезках.md","x":2702,"y":461,"width":574,"height":249},
+		{"id":"608c6b2283c740ce","type":"file","file":"hse/ma/conspects/par7/Теорема о неограниченных последовательностях.md","x":2489,"y":1041,"width":435,"height":306},
+		{"id":"b0c17e5960833456","type":"file","file":"hse/ma/conspects/par7/Теорема Больцано-Вейерштрасса.md","x":2489,"y":849,"width":437,"height":110},
+		{"id":"dd85651c513b20c9","x":3074,"y":793,"width":768,"height":199,"type":"file","file":"hse/ma/conspects/par7/Теорема Больцано-Вейерштрасса для неограниченных.md"}
+	],
+	"edges":[
+		{"id":"318f249a7ea83035","fromNode":"56b311d33d6c04a8","fromSide":"bottom","toNode":"b0c17e5960833456","toSide":"top"},
+		{"id":"0ac6dbdec0470d52","fromNode":"459698d2ad3d102f","fromSide":"right","toNode":"42a845b991a40a54","toSide":"left"},
+		{"id":"49155a75c73cbf26","fromNode":"42a845b991a40a54","fromSide":"right","toNode":"61a73b354dbe22ce","toSide":"left"},
+		{"id":"2b8058e8cd0c7d7a","fromNode":"3d67deb605ad313e","fromSide":"bottom","toNode":"ee7a1b1cdc676e5f","toSide":"top"},
+		{"id":"b6b15243e32d866d","fromNode":"bbef8de272cc831b","fromSide":"right","toNode":"3d67deb605ad313e","toSide":"left","fromEnd":"arrow"},
+		{"id":"0285ba0cede91992","fromNode":"3d67deb605ad313e","fromSide":"right","toNode":"101d827fcc096dc4","toSide":"left"},
+		{"id":"4886c9f16a022226","fromNode":"69ee8921a0d04cbf","fromSide":"left","toNode":"101d827fcc096dc4","toSide":"right"},
+		{"id":"105e8e94d3761f7a","fromNode":"14f41ef308eee551","fromSide":"right","toNode":"608c6b2283c740ce","toSide":"left"},
+		{"id":"5005afad41e9714e","fromNode":"14f41ef308eee551","fromSide":"left","toNode":"69ee8921a0d04cbf","toSide":"right"},
+		{"id":"27f80e6495ec4841","fromNode":"14f41ef308eee551","fromSide":"bottom","toNode":"42a845b991a40a54","toSide":"top"},
+		{"id":"fc9a234b3f8fdfa0","fromNode":"14f41ef308eee551","fromSide":"top","toNode":"447a2717f37cc28c","toSide":"bottom"},
+		{"id":"e78c071e207cd065","fromNode":"631913cfcdae62df","fromSide":"bottom","toNode":"69ee8921a0d04cbf","toSide":"top","fromEnd":"arrow"},
+		{"id":"ad551352325933e9","fromNode":"14f41ef308eee551","fromSide":"right","toNode":"b0c17e5960833456","toSide":"left"},
+		{"id":"6aa884289055b688","fromNode":"b0c17e5960833456","fromSide":"right","toNode":"dd85651c513b20c9","toSide":"left"}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"9a9f0b9b60e0bbd9","type":"file","file":"hse/alg/alg_conspects/lecture01/Деление с остатком.md","x":-440,"y":-320,"width":600,"height":200},
+		{"id":"7da1ecbd42601b2e","type":"file","file":"hse/alg/alg_conspects/lecture01/Аксиома индукции.md","x":200,"y":-180,"width":400,"height":160},
+		{"id":"3b0ffe792370121c","type":"file","file":"hse/alg/alg_conspects/lecture01/Делимость.md","x":-600,"y":-40,"width":350,"height":201},
+		{"id":"1b3c8f5db7d64f46","type":"file","file":"hse/alg/alg_conspects/lecture01/Линейные диофантовы уравнения.md","x":-84,"y":240,"width":421,"height":236},
+		{"id":"d813fdb380c97d70","type":"file","file":"hse/alg/alg_conspects/lecture01/Основные св-ва делимости.md","x":-586,"y":259,"width":322,"height":347},
+		{"id":"564bcfe389775732","type":"file","file":"hse/alg/alg_conspects/lecture01/Идеал.md","x":-136,"y":606,"width":526,"height":343},
+		{"id":"61e8a8cf34db47ac","type":"file","file":"hse/alg/alg_conspects/lecture01/Теорема о главных идеалах.md","x":520,"y":694,"width":400,"height":169},
+		{"id":"65f71efe10412f40","type":"file","file":"hse/alg/alg_conspects/lecture01/НОД.md","x":982,"y":688,"width":505,"height":350},
+		{"id":"8d683c7b6b9ea58f","type":"file","file":"hse/alg/alg_conspects/lecture01/Теорема о линейном представлении НОД.md","x":770,"y":217,"width":465,"height":259},
+		{"id":"ac1f50191d74478c","type":"file","file":"hse/alg/alg_conspects/lecture01/Лемма об инварианте НОД.md","x":1057,"y":1167,"width":355,"height":200},
+		{"id":"0662a5e56c632f13","type":"file","file":"hse/alg/alg_conspects/lecture01/Алгоритм Евклида.md","x":1057,"y":1451,"width":363,"height":201},
+		{"id":"233c335c284e82ca","type":"file","file":"hse/alg/alg_conspects/lecture02/НОД от нескольких чисел.md","x":1576,"y":807,"width":665,"height":112}
+	],
+	"edges":[
+		{"id":"9721fb19f1b7e4d4","fromNode":"9a9f0b9b60e0bbd9","fromSide":"right","toNode":"7da1ecbd42601b2e","toSide":"top"},
+		{"id":"c0225a21cbda88aa","fromNode":"3b0ffe792370121c","fromSide":"bottom","toNode":"d813fdb380c97d70","toSide":"top"},
+		{"id":"69ba633b85498c33","fromNode":"564bcfe389775732","fromSide":"top","toNode":"1b3c8f5db7d64f46","toSide":"bottom"},
+		{"id":"91d355e29caf05f7","fromNode":"564bcfe389775732","fromSide":"right","toNode":"61e8a8cf34db47ac","toSide":"left"},
+		{"id":"e0ee7c8ce786d3c0","fromNode":"ac1f50191d74478c","fromSide":"bottom","toNode":"0662a5e56c632f13","toSide":"top"},
+		{"id":"e197891ce58f6dab","fromNode":"1b3c8f5db7d64f46","fromSide":"right","toNode":"8d683c7b6b9ea58f","toSide":"left"},
+		{"id":"63d9ef452a0029d6","fromNode":"61e8a8cf34db47ac","fromSide":"top","toNode":"8d683c7b6b9ea58f","toSide":"bottom"},
+		{"id":"53ab389512f84384","fromNode":"65f71efe10412f40","fromSide":"top","toNode":"8d683c7b6b9ea58f","toSide":"bottom"},
+		{"id":"e8606202a2da4e0a","fromNode":"65f71efe10412f40","fromSide":"bottom","toNode":"ac1f50191d74478c","toSide":"top"},
+		{"id":"a175729627dfcd8f","fromNode":"65f71efe10412f40","fromSide":"right","toNode":"233c335c284e82ca","toSide":"left"}
+	]
+}
