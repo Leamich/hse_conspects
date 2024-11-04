@@ -1,13 +1,16 @@
 {
 	"nodes":[
-		{"id":"abe0730643b421cc","x":-246,"y":995,"width":400,"height":400,"type":"file","file":"hse/alg/alg_conspects/lecture04/Произведение групп и колец.md"},
-		{"id":"01a9d78760a892fc","type":"file","file":"hse/alg/alg_conspects/lecture04/Область целостности.md","x":-257,"y":166,"width":400,"height":400},
-		{"id":"7c7e020e3a21df00","type":"file","file":"hse/alg/alg_conspects/lecture04/Теорема о свойства кольца вычетов.md","x":-485,"y":-34,"width":400,"height":400},
-		{"id":"51df2e8a396032f5","type":"file","file":"hse/alg/alg_conspects/lecture04/Каноническое отображение.md","x":-135,"y":-34,"width":400,"height":400},
-		{"id":"ab2d579f232d6f4f","type":"file","file":"hse/alg/alg_conspects/lecture04/Признак поля.md","x":265,"y":166,"width":400,"height":400},
-		{"id":"06c51388723cebc3","type":"file","file":"hse/alg/alg_conspects/lecture04/Делители нуля.md","x":-768,"y":246,"width":400,"height":400},
-		{"id":"649fdb8909774135","x":35,"y":566,"width":400,"height":400,"type":"file","file":"hse/alg/alg_conspects/lecture04/Лемма об области целостности.md"},
-		{"id":"d4d1463e2fba9bc4","x":506,"y":720,"width":400,"height":400,"type":"file","file":"hse/alg/alg_conspects/lecture04/Утверждение около КТО.md"}
+		{"id":"51df2e8a396032f5","type":"file","file":"hse/alg/alg_conspects/lecture04/Каноническое отображение.md","x":-12,"y":-449,"width":427,"height":477},
+		{"id":"7c7e020e3a21df00","type":"file","file":"hse/alg/alg_conspects/lecture04/Теорема о свойства кольца вычетов.md","x":556,"y":-273,"width":428,"height":126},
+		{"id":"06c51388723cebc3","type":"file","file":"hse/alg/alg_conspects/lecture04/Делители нуля.md","x":119,"y":163,"width":344,"height":157},
+		{"id":"01a9d78760a892fc","type":"file","file":"hse/alg/alg_conspects/lecture04/Область целостности.md","x":580,"y":165,"width":448,"height":153},
+		{"id":"649fdb8909774135","type":"file","file":"hse/alg/alg_conspects/lecture04/Лемма об области целостности.md","x":638,"y":402,"width":333,"height":166},
+		{"id":"ab2d579f232d6f4f","type":"file","file":"hse/alg/alg_conspects/lecture04/Признак поля.md","x":240,"y":428,"width":291,"height":115}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"d5b124eff8b577de","fromNode":"51df2e8a396032f5","fromSide":"right","toNode":"7c7e020e3a21df00","toSide":"left"},
+		{"id":"d109d2c87a86244e","fromNode":"06c51388723cebc3","fromSide":"right","toNode":"01a9d78760a892fc","toSide":"left"},
+		{"id":"fb7bbbe9cddc49e9","fromNode":"01a9d78760a892fc","fromSide":"bottom","toNode":"649fdb8909774135","toSide":"top"},
+		{"id":"eeba3288aa152368","fromNode":"ab2d579f232d6f4f","fromSide":"right","toNode":"649fdb8909774135","toSide":"left"}
+	]
 }
