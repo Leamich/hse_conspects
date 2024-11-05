@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"d5ddba94905724e3","type":"file","file":"hse/alg/alg_conspects/lecture06/Теорема Лагранжа (переформулировка).md","x":-289,"y":-228,"width":400,"height":145},
+		{"id":"0ba5b8b8ea27c5ce","x":757,"y":-518,"width":705,"height":726,"type":"file","file":"hse/alg/alg_conspects/lecture06/Функция Эйлера.md"},
+		{"id":"aceebe555668df15","type":"file","file":"hse/alg/alg_conspects/lecture06/Теорема Эйлера.md","x":239,"y":-228,"width":400,"height":145},
+		{"id":"03ce6ece7bc4ac5b","x":757,"y":344,"width":679,"height":775,"type":"file","file":"hse/alg/alg_conspects/lecture06/Алгоритм RSA.md"},
+		{"id":"03dad758d8afa59c","x":1638,"y":617,"width":378,"height":230,"type":"file","file":"hse/alg/alg_conspects/lecture06/Лемма о биективном отображении.md"},
+		{"id":"7dd6b2157eb8a836","x":97,"y":1119,"width":521,"height":305,"type":"file","file":"hse/alg/alg_conspects/lecture06/Первообразный корень.md"},
+		{"id":"9bb3a42a5bf6cb05","x":161,"y":834,"width":393,"height":209,"type":"file","file":"hse/alg/alg_conspects/lecture06/Теорема о циклических группах для простых чисел.md"},
+		{"id":"8036ff422122f4a0","x":111,"y":47,"width":493,"height":235,"type":"file","file":"hse/alg/alg_conspects/lecture06/Группа, порождённая числом.md"},
+		{"id":"f1dfa403f64517f9","x":145,"y":359,"width":426,"height":138,"type":"file","file":"hse/alg/alg_conspects/lecture06/Циклические группы.md"},
+		{"id":"a404b23a2edbcd30","x":97,"y":574,"width":521,"height":183,"type":"file","file":"hse/alg/alg_conspects/lecture06/Теорема об изоморфности циклических групп.md"}
+	],
+	"edges":[
+		{"id":"d318a7f12e3e177a","fromNode":"aceebe555668df15","fromSide":"right","toNode":"0ba5b8b8ea27c5ce","toSide":"left"},
+		{"id":"ba92eb6f6407ee9d","fromNode":"8036ff422122f4a0","fromSide":"bottom","toNode":"f1dfa403f64517f9","toSide":"top"},
+		{"id":"44a407f295b8938d","fromNode":"f1dfa403f64517f9","fromSide":"bottom","toNode":"a404b23a2edbcd30","toSide":"top"},
+		{"id":"8afd9692085f3845","fromNode":"a404b23a2edbcd30","fromSide":"bottom","toNode":"9bb3a42a5bf6cb05","toSide":"top"},
+		{"id":"b27d3cf1b88cdd04","fromNode":"9bb3a42a5bf6cb05","fromSide":"bottom","toNode":"7dd6b2157eb8a836","toSide":"top"},
+		{"id":"09be2ed271b0eae1","fromNode":"03dad758d8afa59c","fromSide":"left","toNode":"03ce6ece7bc4ac5b","toSide":"right"},
+		{"id":"13bcaf3d55f10162","fromNode":"d5ddba94905724e3","fromSide":"right","toNode":"aceebe555668df15","toSide":"left"}
+	]
+}
