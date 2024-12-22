@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"302689351de5160c","type":"file","file":"hse/alg/alg_conspects/lecture12/Извлечение корней в комплексной плоскости.md","x":-1404,"y":-174,"width":501,"height":535},
+		{"id":"7a0c5af8f4639891","type":"file","file":"hse/alg/alg_conspects/lecture12/Корни из единицы.md","x":-833,"y":-41,"width":400,"height":270},
+		{"id":"803c35977cd23d08","type":"file","file":"hse/alg/alg_conspects/lecture13/Группы корней в поле.md","x":-356,"y":-103,"width":505,"height":395},
+		{"id":"187078ec22e77367","type":"file","file":"hse/alg/alg_conspects/lecture13/Лемма о сумме корней.md","x":-254,"y":363,"width":302,"height":215},
+		{"id":"72f2648366b2ca6e","type":"file","file":"hse/alg/alg_conspects/lecture13/Дискретное преобразование Фурье.md","x":236,"y":-114,"width":484,"height":417},
+		{"id":"3baa6d4df5cb8220","type":"file","file":"hse/alg/alg_conspects/lecture13/Формула для обратного ДПО.md","x":304,"y":401,"width":349,"height":141},
+		{"id":"a6990df35ea33a6e","type":"file","file":"hse/alg/alg_conspects/lecture13/Применение ДПО (быстрое умножение мн-нов).md","x":953,"y":70,"width":400,"height":400},
+		{"id":"500dfe65c2b102ec","type":"file","file":"hse/alg/alg_conspects/lecture13/Теорема о неразложимых элементах в поле вещественных многочленов.md","x":-1075,"y":754,"width":483,"height":274},
+		{"id":"80f118f0f7c1d63b","type":"file","file":"hse/alg/alg_conspects/lecture13/Лемма о сопряженных комплексных корнях.md","x":-1027,"y":1129,"width":388,"height":131},
+		{"id":"f07f797f69d0ea72","type":"file","file":"hse/alg/alg_conspects/lecture13/Теорема о евклидовости гауссовых чисел.md","x":-433,"y":867,"width":373,"height":137},
+		{"id":"e0b9f4f9d376b9ff","type":"file","file":"hse/alg/alg_conspects/lecture13/Гауссовы числа.md","x":57,"y":754,"width":452,"height":362},
+		{"id":"ad507cb9d5c624a4","type":"file","file":"hse/alg/alg_conspects/lecture13/Рождественская теорема Ферма.md","x":-246,"y":1328,"width":461,"height":263},
+		{"id":"1658a3319083ea17","x":-1604,"y":805,"width":451,"height":172,"type":"file","file":"hse/alg/alg_conspects/lecture13/Основная теорема алгебры.md"}
+	],
+	"edges":[
+		{"id":"a67ce61521cd9d67","fromNode":"302689351de5160c","fromSide":"right","toNode":"7a0c5af8f4639891","toSide":"left"},
+		{"id":"c177772cd9b591d9","fromNode":"7a0c5af8f4639891","fromSide":"right","toNode":"803c35977cd23d08","toSide":"left"},
+		{"id":"04f6f65b6c8e7b9d","fromNode":"803c35977cd23d08","fromSide":"bottom","toNode":"187078ec22e77367","toSide":"top"},
+		{"id":"25a37915bc0d639f","fromNode":"803c35977cd23d08","fromSide":"right","toNode":"72f2648366b2ca6e","toSide":"left"},
+		{"id":"4e91284f1767bc14","fromNode":"187078ec22e77367","fromSide":"right","toNode":"3baa6d4df5cb8220","toSide":"left"},
+		{"id":"0bc0624fe9df4c1b","fromNode":"72f2648366b2ca6e","fromSide":"bottom","toNode":"3baa6d4df5cb8220","toSide":"top"},
+		{"id":"e003f05bc3243c84","fromNode":"3baa6d4df5cb8220","fromSide":"right","toNode":"a6990df35ea33a6e","toSide":"left"},
+		{"id":"0f76079b65017536","fromNode":"72f2648366b2ca6e","fromSide":"right","toNode":"a6990df35ea33a6e","toSide":"left"},
+		{"id":"fec10fa196ed2582","fromNode":"80f118f0f7c1d63b","fromSide":"top","toNode":"500dfe65c2b102ec","toSide":"bottom"},
+		{"id":"3fe164d18af2f33f","fromNode":"e0b9f4f9d376b9ff","fromSide":"left","toNode":"f07f797f69d0ea72","toSide":"right"},
+		{"id":"29fd0ae5f1244de1","fromNode":"f07f797f69d0ea72","fromSide":"bottom","toNode":"ad507cb9d5c624a4","toSide":"top"},
+		{"id":"5920a05624633d64","fromNode":"e0b9f4f9d376b9ff","fromSide":"bottom","toNode":"ad507cb9d5c624a4","toSide":"top"},
+		{"id":"712c1e19ec633b25","fromNode":"1658a3319083ea17","fromSide":"right","toNode":"500dfe65c2b102ec","toSide":"left"}
+	]
+}

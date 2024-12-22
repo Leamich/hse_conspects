@@ -7,7 +7,7 @@
 		{"id":"8c33f1f9cd3a5d47","type":"file","file":"hse/alg/alg_conspects/lecture03/Пример некоммутативной группы (композиция).md","x":1523,"y":-134,"width":472,"height":529},
 		{"id":"462399483af2fafb","type":"file","file":"hse/alg/alg_conspects/lecture03/Группа с композицией.md","x":2125,"y":-276,"width":552,"height":812},
 		{"id":"b8b04054ab158196","type":"file","file":"hse/alg/alg_conspects/lecture03/Простейшие свойства группы.md","x":127,"y":-14,"width":614,"height":288},
-		{"id":"1f94c0634399292f","type":"file","file":"hse/alg/alg_conspects/lecture03/Равенство по модулю.md","x":1609,"y":1178,"width":400,"height":257}
+		{"id":"1f94c0634399292f","type":"file","file":"hse/alg/alg_conspects/lecture03/Равенство по модулю.md","x":1609,"y":1178,"width":736,"height":467}
 	],
 	"edges":[
 		{"id":"ea8d1b2b064dd2e6","fromNode":"25303185ac2f4f6e","fromSide":"bottom","toNode":"f8193df31d08785b","toSide":"top"},

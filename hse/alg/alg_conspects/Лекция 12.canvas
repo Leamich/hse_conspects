@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"fd8a646aa94e516b","type":"file","file":"hse/alg/alg_conspects/lecture11/Задание комплексных чисел.md","x":-1488,"y":-1047,"width":565,"height":571},
+		{"id":"9f4be502d39e3f12","type":"file","file":"hse/alg/alg_conspects/lecture11/Расширение полей.md","x":-2261,"y":-1225,"width":623,"height":925},
+		{"id":"9ebd896a19398bf7","type":"file","file":"hse/alg/alg_conspects/lecture11/Свойства модуля и сопряжения.md","x":-400,"y":-149,"width":400,"height":400},
+		{"id":"a8ebbe577fffc679","type":"file","file":"hse/alg/alg_conspects/lecture11/Комплексные числа.md","x":-1351,"y":-63,"width":291,"height":229},
+		{"id":"03845c86a84369b1","type":"file","file":"hse/alg/alg_conspects/lecture11/Сопряжённое к комплексному.md","x":-923,"y":91,"width":333,"height":150},
+		{"id":"4ecaa1f502e36f43","type":"file","file":"hse/alg/alg_conspects/lecture11/Модуль комплесного числа.md","x":-938,"y":-109,"width":363,"height":136},
+		{"id":"b5f2f4df774860d6","type":"file","file":"hse/alg/alg_conspects/lecture12/Группа углов.md","x":-2549,"y":-275,"width":459,"height":654},
+		{"id":"411f55ec5d6cb04b","type":"file","file":"hse/alg/alg_conspects/lecture12/Тригонометрическая форма комплексного числа.md","x":-1982,"y":-124,"width":466,"height":353},
+		{"id":"53b3df7412d10378","type":"file","file":"hse/alg/alg_conspects/lecture12/Умножение в триг форме.md","x":-1949,"y":335,"width":400,"height":200},
+		{"id":"85a172d7d651199c","type":"file","file":"hse/alg/alg_conspects/lecture12/Формула Муавра.md","x":-1949,"y":609,"width":400,"height":400},
+		{"id":"305663e6787d12c2","type":"file","file":"hse/alg/alg_conspects/lecture12/Гомотетия.md","x":-938,"y":919,"width":511,"height":312},
+		{"id":"b0ffe785dd7a41f4","type":"file","file":"hse/alg/alg_conspects/lecture12/Геометрические преобразования.md","x":-949,"y":468,"width":533,"height":282},
+		{"id":"ba89429a4c1106c1","type":"file","file":"hse/alg/alg_conspects/lecture12/Геом преобразования в терминах CC.md","x":-336,"y":842,"width":645,"height":466},
+		{"id":"90748e1c827bce7e","type":"file","file":"hse/alg/alg_conspects/lecture12/Теорема Шаля.md","x":-304,"y":456,"width":581,"height":306},
+		{"id":"e07ffdf3ea889c4f","type":"file","file":"hse/alg/alg_conspects/lecture12/Теорема о композиции поворотных гомотетий.md","x":416,"y":946,"width":534,"height":259},
+		{"id":"8ed3d2c51b239d3d","type":"file","file":"hse/alg/alg_conspects/lecture11/Основная теорема алгебры.md","x":-1429,"y":535,"width":447,"height":153}
+	],
+	"edges":[
+		{"id":"d8f4f68688687c88","fromNode":"fd8a646aa94e516b","fromSide":"bottom","toNode":"a8ebbe577fffc679","toSide":"top"},
+		{"id":"fc3caa4237c6cfe3","fromNode":"9f4be502d39e3f12","fromSide":"right","toNode":"fd8a646aa94e516b","toSide":"left"},
+		{"id":"5c905ea2fc8f0756","fromNode":"a8ebbe577fffc679","fromSide":"right","toNode":"4ecaa1f502e36f43","toSide":"left"},
+		{"id":"509b37bcce99a075","fromNode":"a8ebbe577fffc679","fromSide":"right","toNode":"03845c86a84369b1","toSide":"left"},
+		{"id":"c69691fcd149f00f","fromNode":"a8ebbe577fffc679","fromSide":"bottom","toNode":"8ed3d2c51b239d3d","toSide":"top"},
+		{"id":"8fd261c04432c814","fromNode":"03845c86a84369b1","fromSide":"right","toNode":"9ebd896a19398bf7","toSide":"left"},
+		{"id":"6f384b13d02a2e2c","fromNode":"4ecaa1f502e36f43","fromSide":"right","toNode":"9ebd896a19398bf7","toSide":"left"},
+		{"id":"742c16bee3382b20","fromNode":"b5f2f4df774860d6","fromSide":"right","toNode":"411f55ec5d6cb04b","toSide":"left"},
+		{"id":"ec60e2175138a8be","fromNode":"411f55ec5d6cb04b","fromSide":"bottom","toNode":"53b3df7412d10378","toSide":"top"},
+		{"id":"91d495b0ac36a021","fromNode":"53b3df7412d10378","fromSide":"bottom","toNode":"85a172d7d651199c","toSide":"top"},
+		{"id":"51e0e009a5125af5","fromNode":"a8ebbe577fffc679","fromSide":"left","toNode":"411f55ec5d6cb04b","toSide":"right"},
+		{"id":"818c7035ca92a0fa","fromNode":"b0ffe785dd7a41f4","fromSide":"right","toNode":"90748e1c827bce7e","toSide":"left"},
+		{"id":"d4decce0c51e9f6a","fromNode":"b0ffe785dd7a41f4","fromSide":"bottom","toNode":"305663e6787d12c2","toSide":"top"},
+		{"id":"2b73bbf79d1cf4cf","fromNode":"305663e6787d12c2","fromSide":"right","toNode":"ba89429a4c1106c1","toSide":"left"},
+		{"id":"a33c4a5b93d6c296","fromNode":"90748e1c827bce7e","fromSide":"bottom","toNode":"ba89429a4c1106c1","toSide":"top"},
+		{"id":"f784df1b52dafbfc","fromNode":"ba89429a4c1106c1","fromSide":"right","toNode":"e07ffdf3ea889c4f","toSide":"left"},
+		{"id":"9832c877a1bf5ee8","fromNode":"a8ebbe577fffc679","fromSide":"bottom","toNode":"b0ffe785dd7a41f4","toSide":"top"}
+	]
+}

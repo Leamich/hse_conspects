@@ -10,8 +10,8 @@
 		{"id":"65f71efe10412f40","type":"file","file":"hse/alg/alg_conspects/lecture01/НОД.md","x":982,"y":688,"width":505,"height":350},
 		{"id":"8d683c7b6b9ea58f","type":"file","file":"hse/alg/alg_conspects/lecture01/Теорема о линейном представлении НОД.md","x":770,"y":217,"width":465,"height":259},
 		{"id":"ac1f50191d74478c","type":"file","file":"hse/alg/alg_conspects/lecture01/Лемма об инварианте НОД.md","x":1057,"y":1167,"width":355,"height":200},
-		{"id":"0662a5e56c632f13","type":"file","file":"hse/alg/alg_conspects/lecture01/Алгоритм Евклида.md","x":1057,"y":1451,"width":363,"height":201},
-		{"id":"233c335c284e82ca","type":"file","file":"hse/alg/alg_conspects/lecture02/НОД от нескольких чисел.md","x":1576,"y":807,"width":665,"height":112}
+		{"id":"233c335c284e82ca","type":"file","file":"hse/alg/alg_conspects/lecture02/НОД от нескольких чисел.md","x":1576,"y":807,"width":665,"height":112},
+		{"id":"0662a5e56c632f13","type":"file","file":"hse/alg/alg_conspects/lecture01/Алгоритм Евклида.md","x":1053,"y":1449,"width":363,"height":201}
 	],
 	"edges":[
 		{"id":"9721fb19f1b7e4d4","fromNode":"9a9f0b9b60e0bbd9","fromSide":"right","toNode":"7da1ecbd42601b2e","toSide":"top"},

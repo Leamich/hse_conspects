@@ -1,11 +1,12 @@
 {
 	"nodes":[
-		{"id":"51df2e8a396032f5","type":"file","file":"hse/alg/alg_conspects/lecture04/Каноническое отображение.md","x":-12,"y":-449,"width":427,"height":477},
-		{"id":"7c7e020e3a21df00","type":"file","file":"hse/alg/alg_conspects/lecture04/Теорема о свойства кольца вычетов.md","x":556,"y":-273,"width":428,"height":126},
+		{"id":"e4a22223dc632347","x":1323,"y":-82,"width":400,"height":400,"type":"file","file":"hse/alg/alg_conspects/lecture04/Взаимнопростые в кольце вычетов.md"},
+		{"id":"51df2e8a396032f5","type":"file","file":"hse/alg/alg_conspects/lecture04/Каноническое отображение.md","x":-12,"y":-449,"width":427,"height":488},
 		{"id":"06c51388723cebc3","type":"file","file":"hse/alg/alg_conspects/lecture04/Делители нуля.md","x":119,"y":163,"width":344,"height":157},
 		{"id":"01a9d78760a892fc","type":"file","file":"hse/alg/alg_conspects/lecture04/Область целостности.md","x":580,"y":165,"width":448,"height":153},
-		{"id":"649fdb8909774135","type":"file","file":"hse/alg/alg_conspects/lecture04/Лемма об области целостности.md","x":638,"y":402,"width":333,"height":166},
-		{"id":"ab2d579f232d6f4f","type":"file","file":"hse/alg/alg_conspects/lecture04/Признак поля.md","x":240,"y":428,"width":291,"height":115}
+		{"id":"649fdb8909774135","type":"file","file":"hse/alg/alg_conspects/lecture04/Лемма об области целостности.md","x":638,"y":402,"width":564,"height":639},
+		{"id":"ab2d579f232d6f4f","type":"file","file":"hse/alg/alg_conspects/lecture04/Признак поля.md","x":240,"y":428,"width":291,"height":115},
+		{"id":"7c7e020e3a21df00","type":"file","file":"hse/alg/alg_conspects/lecture04/Теорема о свойства кольца вычетов.md","x":555,"y":-268,"width":428,"height":126}
 	],
 	"edges":[
 		{"id":"d5b124eff8b577de","fromNode":"51df2e8a396032f5","fromSide":"right","toNode":"7c7e020e3a21df00","toSide":"left"},
