@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"fd8a646aa94e516b","type":"file","file":"hse/alg/alg_conspects/lecture11/Задание комплексных чисел.md","x":-1488,"y":-1047,"width":565,"height":571},
 		{"id":"9f4be502d39e3f12","type":"file","file":"hse/alg/alg_conspects/lecture11/Расширение полей.md","x":-2261,"y":-1225,"width":623,"height":925},
-		{"id":"9ebd896a19398bf7","type":"file","file":"hse/alg/alg_conspects/lecture11/Свойства модуля и сопряжения.md","x":-400,"y":-149,"width":400,"height":400},
+		{"id":"9ebd896a19398bf7","type":"file","file":"hse/alg/alg_conspects/lecture11/Свойства модуля и сопряжения.md","x":-400,"y":-149,"width":551,"height":400},
 		{"id":"a8ebbe577fffc679","type":"file","file":"hse/alg/alg_conspects/lecture11/Комплексные числа.md","x":-1351,"y":-63,"width":291,"height":229},
 		{"id":"03845c86a84369b1","type":"file","file":"hse/alg/alg_conspects/lecture11/Сопряжённое к комплексному.md","x":-923,"y":91,"width":333,"height":150},
 		{"id":"4ecaa1f502e36f43","type":"file","file":"hse/alg/alg_conspects/lecture11/Модуль комплесного числа.md","x":-938,"y":-109,"width":363,"height":136},

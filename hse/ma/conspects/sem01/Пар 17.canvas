@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"cf6162e998a29703","type":"file","file":"hse/ma/conspects/sem01/par17/Экстремумы функций.md","x":-202,"y":-101,"width":485,"height":361},
+		{"id":"5fa872d1fd33d9a7","type":"file","file":"hse/ma/conspects/sem01/par17/Необходимое условие экстремума.md","x":-235,"y":312,"width":551,"height":372},
+		{"id":"f6df911623bba967","type":"file","file":"hse/ma/conspects/sem01/par17/Достаточные условия экстр в терминах первой производной.md","x":-580,"y":779,"width":537,"height":367},
+		{"id":"b59b670bfe56c924","x":72,"y":815,"width":488,"height":295,"type":"file","file":"hse/ma/conspects/sem01/par17/Достаточное условие экстремума в терминах второй производной.md"}
+	],
+	"edges":[
+		{"id":"c5d4a9122aaeef30","fromNode":"cf6162e998a29703","fromSide":"bottom","toNode":"5fa872d1fd33d9a7","toSide":"top"},
+		{"id":"6f4bdb4d618a9050","fromNode":"5fa872d1fd33d9a7","fromSide":"bottom","toNode":"f6df911623bba967","toSide":"top"},
+		{"id":"60a919434324caa5","fromNode":"5fa872d1fd33d9a7","fromSide":"bottom","toNode":"b59b670bfe56c924","toSide":"top"},
+		{"id":"c6a28f21405fedb2","fromNode":"f6df911623bba967","fromSide":"right","toNode":"b59b670bfe56c924","toSide":"left"}
+	]
+}

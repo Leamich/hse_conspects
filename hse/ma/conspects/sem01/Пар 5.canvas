@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"674155e0dd51b8a8","type":"file","file":"hse/ma/conspects/sem01/par5/Неравенство Бернулли.md","x":-480,"y":-260,"width":620,"height":400},
+		{"id":"e956734bbf734e5c","type":"file","file":"hse/ma/conspects/sem01/par5/Предел степенной последовательности.md","x":-480,"y":260,"width":620,"height":240},
+		{"id":"daa1872b309ab337","type":"file","file":"hse/ma/conspects/sem01/par5/Теорема о свойствах последовательности.md","x":300,"y":260,"width":440,"height":340},
+		{"id":"94ea607cd3e501e6","type":"file","file":"hse/ma/conspects/sem01/par5/Экспонента.md","x":368,"y":680,"width":305,"height":192},
+		{"id":"6fff8fa0aacbcd62","type":"file","file":"hse/ma/conspects/sem01/par5/Число e.md","x":-430,"y":1070,"width":260,"height":140},
+		{"id":"cbe3d582053917c8","type":"file","file":"hse/ma/conspects/sem01/par5/Замечание о пределе.md","x":-81,"y":1040,"width":480,"height":200},
+		{"id":"113c907a41a366d1","type":"file","file":"hse/ma/conspects/sem01/par5/Свойства exp.md","x":673,"y":960,"width":400,"height":720},
+		{"id":"c0ce62a0546e74ea","x":1280,"y":1230,"width":580,"height":370,"type":"file","file":"hse/ma/conspects/sem01/par5/Лемма об экспоненте предела.md"}
+	],
+	"edges":[
+		{"id":"d92a6e4521f8b6b3","fromNode":"e956734bbf734e5c","fromSide":"top","toNode":"674155e0dd51b8a8","toSide":"bottom"},
+		{"id":"bd2367e48099319c","fromNode":"daa1872b309ab337","fromSide":"top","toNode":"674155e0dd51b8a8","toSide":"bottom"},
+		{"id":"733ba754701b9642","fromNode":"daa1872b309ab337","fromSide":"bottom","toNode":"94ea607cd3e501e6","toSide":"top"},
+		{"id":"73542a0c081b6db4","fromNode":"94ea607cd3e501e6","fromSide":"bottom","toNode":"6fff8fa0aacbcd62","toSide":"top"},
+		{"id":"aa84e951df24baf7","fromNode":"6fff8fa0aacbcd62","fromSide":"right","toNode":"cbe3d582053917c8","toSide":"left"},
+		{"id":"fceb4cafaa7bce1b","fromNode":"94ea607cd3e501e6","fromSide":"bottom","toNode":"113c907a41a366d1","toSide":"top"},
+		{"id":"78ff6aa76707d39d","fromNode":"113c907a41a366d1","fromSide":"right","toNode":"c0ce62a0546e74ea","toSide":"left"}
+	]
+}

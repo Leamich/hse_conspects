@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"969fb4e092e905ee","type":"file","file":"hse/ma/conspects/sem01/par15/Теорема Ферма.md","x":-508,"y":-494,"width":499,"height":451},
+		{"id":"e756df2e1801d458","type":"file","file":"hse/ma/conspects/sem01/par15/Теорема Дарбу.md","x":-474,"y":54,"width":432,"height":385},
+		{"id":"3151348f0ee1270e","type":"file","file":"hse/ma/conspects/sem01/par15/Правило Лопиталя для беск больших.md","x":-817,"y":560,"width":522,"height":256},
+		{"id":"691b6db2f42aa3ca","type":"file","file":"hse/ma/conspects/sem01/par15/Правило Лопиталя для беск малых.md","x":-245,"y":560,"width":493,"height":224},
+		{"id":"6aae8b4cced01276","type":"file","file":"hse/ma/conspects/sem01/par15/Правило Лопиталя - примеры.md","x":-517,"y":994,"width":518,"height":257},
+		{"id":"8b35ddd9bd92b6ac","type":"file","file":"hse/ma/conspects/sem01/par15/Следствия из теоремы Лагранжа.md","x":362,"y":392,"width":671,"height":776},
+		{"id":"70acca1aff8129c6","type":"file","file":"hse/ma/conspects/sem01/par15/Теорема Лагранжа (о конечных приращениях).md","x":480,"y":18,"width":435,"height":315},
+		{"id":"be4e152b74b9efb4","type":"file","file":"hse/ma/conspects/sem01/par15/Теорема Ролля.md","x":512,"y":-498,"width":370,"height":424},
+		{"id":"c18226cd15520c62","type":"file","file":"hse/ma/conspects/sem01/par15/Теорема Коши.md","x":1033,"y":-505,"width":471,"height":439},
+		{"id":"9c576469e01ddc00","type":"file","file":"hse/ma/conspects/sem01/par15/Липшицева функция.md","x":1150,"y":672,"width":394,"height":216}
+	],
+	"edges":[
+		{"id":"87860b057bb470e4","fromNode":"8b35ddd9bd92b6ac","fromSide":"right","toNode":"9c576469e01ddc00","toSide":"left"},
+		{"id":"457cb55ba1446411","fromNode":"70acca1aff8129c6","fromSide":"bottom","toNode":"8b35ddd9bd92b6ac","toSide":"top"},
+		{"id":"9d6e23458f0da173","fromNode":"be4e152b74b9efb4","fromSide":"bottom","toNode":"70acca1aff8129c6","toSide":"top"},
+		{"id":"eaf1a086602f5753","fromNode":"be4e152b74b9efb4","fromSide":"right","toNode":"c18226cd15520c62","toSide":"left"},
+		{"id":"16399d8b201828d1","fromNode":"969fb4e092e905ee","fromSide":"bottom","toNode":"e756df2e1801d458","toSide":"top"},
+		{"id":"860299ce23b272e2","fromNode":"e756df2e1801d458","fromSide":"bottom","toNode":"691b6db2f42aa3ca","toSide":"top"},
+		{"id":"12078e404df50770","fromNode":"e756df2e1801d458","fromSide":"bottom","toNode":"3151348f0ee1270e","toSide":"top"},
+		{"id":"4a67397ecfe97497","fromNode":"3151348f0ee1270e","fromSide":"bottom","toNode":"6aae8b4cced01276","toSide":"top"},
+		{"id":"b56649c960f347e9","fromNode":"691b6db2f42aa3ca","fromSide":"bottom","toNode":"6aae8b4cced01276","toSide":"top"},
+		{"id":"ff69b2b8bec3c50f","fromNode":"969fb4e092e905ee","fromSide":"right","toNode":"be4e152b74b9efb4","toSide":"left"}
+	]
+}

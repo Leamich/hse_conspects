@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"3895abc0c6d0f23e","type":"file","file":"hse/ma/conspects/sem01/par3/Супремум (инфинум).md","x":-40,"y":-1120,"width":560,"height":180},
+		{"id":"41cc2fe5fd47f6d6","type":"file","file":"hse/ma/conspects/sem01/par3/Теорема о существовании sup и inf.md","x":-50,"y":-780,"width":580,"height":120},
+		{"id":"3c694e940e685b12","type":"file","file":"hse/ma/conspects/sem01/par3/Теорема о характеристике sup и inf.md","x":-400,"y":-430,"width":540,"height":180},
+		{"id":"680e5ec7dfa47073","type":"file","file":"hse/ma/conspects/sem01/par3/Следствие из теоремы о сущ-нии sup и inf.md","x":430,"y":-430,"width":500,"height":220},
+		{"id":"687c5031340f5dee","type":"file","file":"hse/ma/conspects/sem01/par3/Теорема о вложенных отрезках.md","x":1040,"y":-1230,"width":690,"height":580}
+	],
+	"edges":[
+		{"id":"50e3c2d165ebc6cd","fromNode":"3895abc0c6d0f23e","fromSide":"bottom","toNode":"41cc2fe5fd47f6d6","toSide":"top"},
+		{"id":"f2d1f814c07c7f0d","fromNode":"41cc2fe5fd47f6d6","fromSide":"bottom","toNode":"3c694e940e685b12","toSide":"top"},
+		{"id":"6d6a0d6b3cebadb8","fromNode":"41cc2fe5fd47f6d6","fromSide":"bottom","toNode":"680e5ec7dfa47073","toSide":"top"}
+	]
+}

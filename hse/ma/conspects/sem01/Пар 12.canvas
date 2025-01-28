@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"b9f2ac914a0bdf0a","type":"file","file":"hse/ma/conspects/sem01/par12/Тригонометрические функции.md","x":-787,"y":-228,"width":400,"height":400},
+		{"id":"2f322c8e8692a3f7","type":"file","file":"hse/ma/conspects/sem01/par12/Свойства натурального логарифма.md","x":-276,"y":116,"width":469,"height":557},
+		{"id":"0db524ef400553df","type":"file","file":"hse/ma/conspects/sem01/par12/Натуральный логарифм.md","x":-242,"y":-135,"width":402,"height":149},
+		{"id":"26cd2bf37d4e1fea","type":"file","file":"hse/ma/conspects/sem01/par12/Свойства степени.md","x":356,"y":82,"width":692,"height":454},
+		{"id":"09379ef59836036e","type":"file","file":"hse/ma/conspects/sem01/par12/Возведение в вещественную степень.md","x":509,"y":-176,"width":386,"height":190},
+		{"id":"1012eacf141144fe","type":"file","file":"hse/ma/conspects/sem01/par12/Показательная функция.md","x":1230,"y":-29,"width":352,"height":338},
+		{"id":"2ae4757ab5f574a8","type":"file","file":"hse/ma/conspects/sem01/par12/Теорема об эквивалентности показательной функции.md","x":1176,"y":408,"width":460,"height":208},
+		{"id":"44ca4b5f53e03f9e","type":"file","file":"hse/ma/conspects/sem01/par12/Степенная функция.md","x":1230,"y":-442,"width":251,"height":341},
+		{"id":"e217dbb0aab7963c","type":"file","file":"hse/ma/conspects/sem01/par12/Теорема о сходимости к e.md","x":470,"y":616,"width":464,"height":168},
+		{"id":"2a23daf2ff5528fc","x":1582,"y":-338,"width":354,"height":134,"type":"file","file":"hse/ma/conspects/sem01/par12/Теорема об эквивалентности степенной функции.md"}
+	],
+	"edges":[
+		{"id":"348fe6a383784337","fromNode":"0db524ef400553df","fromSide":"bottom","toNode":"2f322c8e8692a3f7","toSide":"top"},
+		{"id":"c4617b78312eef3e","fromNode":"09379ef59836036e","fromSide":"bottom","toNode":"26cd2bf37d4e1fea","toSide":"top"},
+		{"id":"06fe7ae5052e9e25","fromNode":"09379ef59836036e","fromSide":"right","toNode":"1012eacf141144fe","toSide":"left"},
+		{"id":"eb9e78a10a325f33","fromNode":"1012eacf141144fe","fromSide":"bottom","toNode":"2ae4757ab5f574a8","toSide":"top"},
+		{"id":"bb13082af4374886","fromNode":"09379ef59836036e","fromSide":"right","toNode":"44ca4b5f53e03f9e","toSide":"left"},
+		{"id":"dabaed35ee4dbf73","fromNode":"26cd2bf37d4e1fea","fromSide":"bottom","toNode":"e217dbb0aab7963c","toSide":"top"},
+		{"id":"a2fa88baff085858","fromNode":"44ca4b5f53e03f9e","fromSide":"right","toNode":"2a23daf2ff5528fc","toSide":"left"}
+	]
+}
