@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"b8dcae5e451624e5","type":"file","file":"hse/ma/conspects/sem01/par13/Символы Ландау.md","x":-562,"y":-22,"width":498,"height":569},
+		{"id":"948a8396eb7dbfd8","type":"file","file":"hse/ma/conspects/sem01/par13/О-большое на множестве.md","x":139,"y":181,"width":400,"height":163},
+		{"id":"1ce82851d8db572c","type":"file","file":"hse/ma/conspects/sem01/par13/Свойства символов Ландау.md","x":-557,"y":642,"width":488,"height":1352},
+		{"id":"730bd31be35f4612","type":"file","file":"hse/ma/conspects/sem01/par13/Примеры для символов Ландау.md","x":89,"y":1145,"width":511,"height":347}
+	],
+	"edges":[
+		{"id":"36a72a1d1fbc7cbf","fromNode":"b8dcae5e451624e5","fromSide":"bottom","toNode":"1ce82851d8db572c","toSide":"top"},
+		{"id":"9cf5e6e927c2ac1a","fromNode":"b8dcae5e451624e5","fromSide":"right","toNode":"948a8396eb7dbfd8","toSide":"left"},
+		{"id":"297b47e29e3f1ddd","fromNode":"1ce82851d8db572c","fromSide":"right","toNode":"730bd31be35f4612","toSide":"left"}
+	]
+}

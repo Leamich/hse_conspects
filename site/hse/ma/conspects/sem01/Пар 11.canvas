@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"d2592084fd1ad0e1","type":"file","file":"hse/ma/conspects/sem01/par11/Следствие из теоремы об ограничениях для триг функций.md","x":155,"y":-5,"width":476,"height":464},
+		{"id":"66fedfb9d93a2979","type":"file","file":"hse/ma/conspects/sem01/par11/Теорема об ограничениях триг функций.md","x":237,"y":-228,"width":313,"height":146},
+		{"id":"d1c99c53d06653e7","type":"file","file":"hse/ma/conspects/sem01/par11/Первый замечательный предел.md","x":491,"y":544,"width":280,"height":154},
+		{"id":"40f7ed5895b324f0","type":"file","file":"hse/ma/conspects/sem01/par11/Теорема о непрерывности триг функций.md","x":-121,"y":544,"width":464,"height":138},
+		{"id":"51219e659a16ce72","type":"file","file":"hse/ma/conspects/sem01/par11/Теорема Больцано-Коши.md","x":1005,"y":382,"width":488,"height":400},
+		{"id":"41443913ee4b04ca","x":1633,"y":434,"width":478,"height":297,"type":"file","file":"hse/ma/conspects/sem01/par11/Теорема об обратных функциях.md"},
+		{"id":"6d96e52a29e616fe","x":2235,"y":428,"width":490,"height":309,"type":"file","file":"hse/ma/conspects/sem01/par11/Обратная функция.md"},
+		{"id":"2440440d989b9d64","type":"file","file":"hse/ma/conspects/sem01/par11/Теорема Вейерштрасса.md","x":1049,"y":-251,"width":400,"height":492},
+		{"id":"fa2bd93c745f443d","x":1642,"y":11,"width":469,"height":157,"type":"file","file":"hse/ma/conspects/sem01/par11/Теорема о непрерывном образе промежутка.md"},
+		{"id":"75a2893c1b9de313","x":1642,"y":-153,"width":418,"height":104,"type":"file","file":"hse/ma/conspects/sem01/par11/Теорема о непрерывном образе отрезка.md"},
+		{"id":"6e30d2afc352bdab","x":2235,"y":-15,"width":287,"height":209,"type":"file","file":"hse/ma/conspects/sem01/par11/Промежуток.md"}
+	],
+	"edges":[
+		{"id":"b65643ff2f2311da","fromNode":"66fedfb9d93a2979","fromSide":"bottom","toNode":"d2592084fd1ad0e1","toSide":"top"},
+		{"id":"18d1bae808122c02","fromNode":"2440440d989b9d64","fromSide":"bottom","toNode":"51219e659a16ce72","toSide":"top"},
+		{"id":"8e7a28fb79831426","fromNode":"d2592084fd1ad0e1","fromSide":"bottom","toNode":"d1c99c53d06653e7","toSide":"top"},
+		{"id":"ebf40abc1c708bf7","fromNode":"d2592084fd1ad0e1","fromSide":"bottom","toNode":"40f7ed5895b324f0","toSide":"top"},
+		{"id":"e7b783a6a309f309","fromNode":"2440440d989b9d64","fromSide":"right","toNode":"fa2bd93c745f443d","toSide":"left"},
+		{"id":"5ed30694401890dd","fromNode":"2440440d989b9d64","fromSide":"right","toNode":"75a2893c1b9de313","toSide":"left"},
+		{"id":"ec7d43520bf76220","fromNode":"6e30d2afc352bdab","fromSide":"left","toNode":"fa2bd93c745f443d","toSide":"right"},
+		{"id":"bd8968d0d876576f","fromNode":"fa2bd93c745f443d","fromSide":"bottom","toNode":"41443913ee4b04ca","toSide":"top"},
+		{"id":"3d186e7743d65f51","fromNode":"51219e659a16ce72","fromSide":"right","toNode":"41443913ee4b04ca","toSide":"left"},
+		{"id":"151bda2a13198cc5","fromNode":"6d96e52a29e616fe","fromSide":"left","toNode":"41443913ee4b04ca","toSide":"right"}
+	]
+}

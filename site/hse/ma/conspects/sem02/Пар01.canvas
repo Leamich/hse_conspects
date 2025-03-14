@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"844920298f267bbf","type":"file","file":"hse/ma/conspects/sem02/par01/Первообразная.md","x":-794,"y":-178,"width":416,"height":272},
+		{"id":"bfa716edc5a50d90","type":"file","file":"hse/ma/conspects/sem02/par01/Неопределённый интеграл.md","x":334,"y":-196,"width":507,"height":308},
+		{"id":"26e53ef33abdaf38","type":"file","file":"hse/ma/conspects/sem02/par01/Утверждения о первообразной.md","x":-1101,"y":185,"width":515,"height":309},
+		{"id":"476ca217032ef327","type":"file","file":"hse/ma/conspects/sem02/par01/Теорема об общем виде первообразных.md","x":-540,"y":185,"width":490,"height":247},
+		{"id":"591526eda9024ae9","type":"file","file":"hse/ma/conspects/sem02/par01/Действия с множествами функций.md","x":972,"y":-267,"width":452,"height":450},
+		{"id":"876005e81c807f32","type":"file","file":"hse/ma/conspects/sem02/par01/Линейность интеграла.md","x":69,"y":275,"width":508,"height":428},
+		{"id":"e8c2263e6bc3615f","type":"file","file":"hse/ma/conspects/sem02/par01/Таблица интегралов.md","x":678,"y":275,"width":327,"height":315},
+		{"id":"571368b0fdf325a3","type":"file","file":"hse/ma/conspects/sem02/par01/Замена переменной.md","x":-146,"y":-1100,"width":723,"height":744},
+		{"id":"d62335d1191131fe","x":691,"y":-1096,"width":563,"height":740,"type":"file","file":"hse/ma/conspects/sem02/par01/Интегрирование по частям.md"}
+	],
+	"edges":[
+		{"id":"a785312c3df522f1","fromNode":"844920298f267bbf","fromSide":"bottom","toNode":"26e53ef33abdaf38","toSide":"top"},
+		{"id":"494d36297c22fd35","fromNode":"844920298f267bbf","fromSide":"right","toNode":"bfa716edc5a50d90","toSide":"left"},
+		{"id":"5aec35deae1c9024","fromNode":"844920298f267bbf","fromSide":"bottom","toNode":"476ca217032ef327","toSide":"top"},
+		{"id":"2f4240d4696fa541","fromNode":"bfa716edc5a50d90","fromSide":"right","toNode":"591526eda9024ae9","toSide":"left"},
+		{"id":"6a3690d8f58a1e0c","fromNode":"bfa716edc5a50d90","fromSide":"bottom","toNode":"876005e81c807f32","toSide":"top"},
+		{"id":"787052694563e95c","fromNode":"bfa716edc5a50d90","fromSide":"bottom","toNode":"e8c2263e6bc3615f","toSide":"top"},
+		{"id":"986a4fb01798d7d1","fromNode":"bfa716edc5a50d90","fromSide":"top","toNode":"571368b0fdf325a3","toSide":"bottom"},
+		{"id":"02a01457e438f7cf","fromNode":"bfa716edc5a50d90","fromSide":"top","toNode":"d62335d1191131fe","toSide":"bottom"},
+		{"id":"7751c36f597cf895","fromNode":"571368b0fdf325a3","fromSide":"right","toNode":"d62335d1191131fe","toSide":"left"}
+	]
+}
