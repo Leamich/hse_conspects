@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"54fbd56561cf68b7","type":"file","file":"hse/alg/alg_conspects/sem01/lecture09/Теорема об интерполяционной задаче.md","x":1485,"y":429,"width":471,"height":272},
+		{"id":"990a7b474d9dfbbf","type":"file","file":"hse/alg/alg_conspects/sem01/lecture09/Замечание о сведении интерп задачи к КТО.md","x":1483,"y":806,"width":475,"height":173},
+		{"id":"41ed005775204471","type":"file","file":"hse/alg/alg_conspects/sem01/lecture09/Интерполяционные данные.md","x":1470,"y":75,"width":501,"height":266},
+		{"id":"615a2e1af3699538","type":"file","file":"hse/alg/alg_conspects/sem01/lecture09/Замечание о функциях в кольце вычетов.md","x":857,"y":846,"width":477,"height":487},
+		{"id":"488766c26e92375d","type":"file","file":"hse/alg/alg_conspects/sem01/lecture09/Теорема о формальном и функциональном равенстве.md","x":835,"y":369,"width":520,"height":392},
+		{"id":"bc8aad23118984ec","type":"file","file":"hse/alg/alg_conspects/sem01/lecture09/Теорема о первообразном корне.md","x":2609,"y":470,"width":452,"height":185},
+		{"id":"fa90e4d4750ea045","type":"file","file":"hse/alg/alg_conspects/sem01/lecture09/Теорема о кол-ве корней многочлена.md","x":2648,"y":211,"width":375,"height":194},
+		{"id":"26468a43c17adc0e","type":"file","file":"hse/alg/alg_conspects/sem01/lecture09/Лемма о делимости на серию корней.md","x":2107,"y":208,"width":410,"height":200}
+	],
+	"edges":[
+		{"id":"a9d807a46b3ff15c","fromNode":"54fbd56561cf68b7","fromSide":"bottom","toNode":"990a7b474d9dfbbf","toSide":"top"},
+		{"id":"001e009d1b70c8dd","fromNode":"41ed005775204471","fromSide":"bottom","toNode":"54fbd56561cf68b7","toSide":"top"},
+		{"id":"ea83d5bee3c3ca8b","fromNode":"488766c26e92375d","fromSide":"bottom","toNode":"615a2e1af3699538","toSide":"top"},
+		{"id":"9dc044d4aeb49a9d","fromNode":"fa90e4d4750ea045","fromSide":"bottom","toNode":"bc8aad23118984ec","toSide":"top"},
+		{"id":"895b453080de7b63","fromNode":"26468a43c17adc0e","fromSide":"right","toNode":"fa90e4d4750ea045","toSide":"left"},
+		{"id":"9024c161f5300baa","fromNode":"488766c26e92375d","fromSide":"right","toNode":"54fbd56561cf68b7","toSide":"left"}
+	]
+}

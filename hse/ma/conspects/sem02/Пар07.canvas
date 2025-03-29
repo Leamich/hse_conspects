@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"d720df686ce01bc3","x":2696,"y":-1108,"width":527,"height":374,"type":"file","file":"hse/ma/conspects/sem02/par07/Полное метрическое пространство.md"},
+		{"id":"950ac61223dcb5e3","x":2660,"y":-627,"width":600,"height":278,"type":"file","file":"hse/ma/conspects/sem02/par07/Предел в метрическом пр-ве.md"},
+		{"id":"01953924f61eb621","x":2088,"y":-1006,"width":427,"height":171,"type":"file","file":"hse/ma/conspects/sem02/par07/Фундаментальная последовательность в метр пр-ве.md"},
+		{"id":"403d1e404a90580b","x":2079,"y":-1322,"width":445,"height":214,"type":"file","file":"hse/ma/conspects/sem02/par07/Свойства фунд посл-ти в метр пр-ве.md"},
+		{"id":"c3207af33c8bc333","x":2960,"y":-199,"width":518,"height":419,"type":"file","file":"hse/ma/conspects/sem02/par07/Теорема об арифметических действиях с пределами в нормированном пр-ве.md"},
+		{"id":"4e7d892740d903bf","x":2233,"y":-199,"width":639,"height":569,"type":"file","file":"hse/ma/conspects/sem02/par07/Свойства пределов в метр пр-ве.md"},
+		{"id":"43ca0592244ac06f","x":2960,"y":316,"width":657,"height":109,"type":"file","file":"hse/ma/conspects/sem02/par07/Теорема о покоординатной сх-ти.md"},
+		{"id":"70f203992648211e","x":3066,"y":470,"width":445,"height":257,"type":"file","file":"hse/ma/conspects/sem02/par07/Покоординатная сходимость в пространстве столбцов.md"},
+		{"id":"07e2e5e9d5b86e46","x":3289,"y":-971,"width":515,"height":101,"type":"file","file":"hse/ma/conspects/sem02/par07/Теорема о полноте Rd.md"},
+		{"id":"7d1043f89a4f2a2d","x":2091,"y":-627,"width":433,"height":202,"type":"file","file":"hse/ma/conspects/sem02/par07/Ограниченное множество в метр пр-ве.md"}
+	],
+	"edges":[
+		{"id":"6ee9264a58ccdd64","fromNode":"d720df686ce01bc3","fromSide":"bottom","toNode":"950ac61223dcb5e3","toSide":"top"},
+		{"id":"2740e76379bad274","fromNode":"01953924f61eb621","fromSide":"right","toNode":"d720df686ce01bc3","toSide":"left"},
+		{"id":"10d047241a998bcc","fromNode":"01953924f61eb621","fromSide":"top","toNode":"403d1e404a90580b","toSide":"bottom"},
+		{"id":"5d32a0b447d07502","fromNode":"950ac61223dcb5e3","fromSide":"bottom","toNode":"4e7d892740d903bf","toSide":"top"},
+		{"id":"c34a2c029f6b3f55","fromNode":"950ac61223dcb5e3","fromSide":"bottom","toNode":"c3207af33c8bc333","toSide":"top"},
+		{"id":"eec597d05a036d2e","fromNode":"43ca0592244ac06f","fromSide":"top","toNode":"c3207af33c8bc333","toSide":"bottom"},
+		{"id":"9494b51a6b86ab6f","fromNode":"70f203992648211e","fromSide":"top","toNode":"43ca0592244ac06f","toSide":"bottom"},
+		{"id":"077c53c6f7e5d52e","fromNode":"d720df686ce01bc3","fromSide":"right","toNode":"07e2e5e9d5b86e46","toSide":"left"}
+	]
+}

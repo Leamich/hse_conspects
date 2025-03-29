@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"6cccc6ff0d059563","x":-87,"y":339,"width":475,"height":112,"type":"file","file":"hse/ma/conspects/sem02/par03/Теорема Ламберта.md"},
+		{"id":"d362b7b4ebc9872b","x":-816,"y":114,"width":594,"height":563,"type":"file","file":"hse/ma/conspects/sem02/par03/Остатки для доказательства т Ламберта.md"},
+		{"id":"0cc4c9b7a0563212","x":-816,"y":-277,"width":614,"height":222,"type":"file","file":"hse/ma/conspects/sem02/par03/Интегрирование тригонометрических функций.md"},
+		{"id":"c6d74eee3e1bfee1","x":-66,"y":-290,"width":434,"height":249,"type":"file","file":"hse/ma/conspects/sem02/par03/Формула Валлиса.md"},
+		{"id":"117f101b0272040f","x":-807,"y":857,"width":576,"height":255,"type":"file","file":"hse/ma/conspects/sem02/par03/Формула Тейлора с остатком в интегральной форме.md"}
+	],
+	"edges":[
+		{"id":"6bef0ccb57d917ca","fromNode":"d362b7b4ebc9872b","fromSide":"right","toNode":"6cccc6ff0d059563","toSide":"left"},
+		{"id":"de32267d8afa4d5c","fromNode":"0cc4c9b7a0563212","fromSide":"right","toNode":"c6d74eee3e1bfee1","toSide":"left"},
+		{"id":"87bd0f4038bba4b1","fromNode":"117f101b0272040f","fromSide":"top","toNode":"d362b7b4ebc9872b","toSide":"bottom"}
+	]
+}

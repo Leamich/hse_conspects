@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"d2a3e1593e51f4e9","x":1057,"y":-514,"width":478,"height":136,"type":"file","file":"hse/ma/conspects/sem02/par08/Открытое покрытие.md"},
+		{"id":"4b15417b170bec86","x":1057,"y":-305,"width":478,"height":172,"type":"file","file":"hse/ma/conspects/sem02/par08/Подпокрытие.md"},
+		{"id":"664ca1fe9f2494a6","x":1645,"y":-446,"width":430,"height":200,"type":"file","file":"hse/ma/conspects/sem02/par08/Покрытие множества.md"},
+		{"id":"996e2ac19697ccef","x":491,"y":-446,"width":457,"height":200,"type":"file","file":"hse/ma/conspects/sem02/par08/Компакт.md"},
+		{"id":"e3378835882dd597","x":465,"y":-133,"width":509,"height":247,"type":"file","file":"hse/ma/conspects/sem02/par08/Теорема о свойствах компактов.md"},
+		{"id":"ff6c318cec28e7ce","x":470,"y":197,"width":499,"height":403,"type":"file","file":"hse/ma/conspects/sem02/par08/Теорема о пересечении семейства компактов.md"},
+		{"id":"ad4bf7555415e769","x":-54,"y":-346,"width":448,"height":249,"type":"file","file":"hse/ma/conspects/sem02/par08/Теорема о предельной точке в компакте.md"},
+		{"id":"7ceeef147fe48f14","x":-637,"y":-380,"width":503,"height":317,"type":"file","file":"hse/ma/conspects/sem02/par08/Секвенциональный компакт.md"},
+		{"id":"f71b8800782db53d","x":-54,"y":-569,"width":451,"height":123,"type":"file","file":"hse/ma/conspects/sem02/par08/Теорема о критерии полноты.md"},
+		{"id":"d89bf67b08cd5cc1","x":-732,"y":114,"width":504,"height":348,"type":"file","file":"hse/ma/conspects/sem02/par08/eps-сеть.md"},
+		{"id":"5372902f0cf63784","x":-134,"y":214,"width":489,"height":148,"type":"file","file":"hse/ma/conspects/sem02/par08/Вполне ограниченное множество.md"}
+	],
+	"edges":[
+		{"id":"d06d7ebfe4ba8d00","fromNode":"664ca1fe9f2494a6","fromSide":"left","toNode":"d2a3e1593e51f4e9","toSide":"right"},
+		{"id":"44f599e7f89b4f4f","fromNode":"664ca1fe9f2494a6","fromSide":"left","toNode":"4b15417b170bec86","toSide":"right"},
+		{"id":"b2e8875b5c48f2e2","fromNode":"d2a3e1593e51f4e9","fromSide":"left","toNode":"996e2ac19697ccef","toSide":"right"},
+		{"id":"fc1e18f0a10f6b50","fromNode":"4b15417b170bec86","fromSide":"left","toNode":"996e2ac19697ccef","toSide":"right"},
+		{"id":"2d54023c9c6486fa","fromNode":"996e2ac19697ccef","fromSide":"bottom","toNode":"e3378835882dd597","toSide":"top"},
+		{"id":"6ae8e6d3c0c20f3a","fromNode":"e3378835882dd597","fromSide":"bottom","toNode":"ff6c318cec28e7ce","toSide":"top"},
+		{"id":"ca7d6ca24ee47d4c","fromNode":"996e2ac19697ccef","fromSide":"left","toNode":"ad4bf7555415e769","toSide":"right"},
+		{"id":"7173c69cbef57509","fromNode":"e3378835882dd597","fromSide":"left","toNode":"ad4bf7555415e769","toSide":"right"},
+		{"id":"8d7c3bf370626689","fromNode":"ad4bf7555415e769","fromSide":"left","toNode":"7ceeef147fe48f14","toSide":"right"},
+		{"id":"a2a47a46256195ce","fromNode":"ad4bf7555415e769","fromSide":"top","toNode":"f71b8800782db53d","toSide":"bottom"},
+		{"id":"4ab42065dd82dc6e","fromNode":"d89bf67b08cd5cc1","fromSide":"right","toNode":"5372902f0cf63784","toSide":"left"}
+	]
+}

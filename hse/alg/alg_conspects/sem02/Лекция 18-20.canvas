@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"1201797158702c52","x":-480,"y":-345,"width":600,"height":504,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture18/Определитель.md"},
+		{"id":"9242787f3d746a53","x":243,"y":-69,"width":445,"height":118,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture18/Теорема об однозначности определителя.md"},
+		{"id":"89a88218606b3f25","x":243,"y":-222,"width":445,"height":104,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture18/Теорема о существовании определителя.md"},
+		{"id":"402cce32aa55ed78","x":830,"y":-415,"width":651,"height":490,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture18/Явная формула определителя.md"},
+		{"id":"29cfd6d0c3719129","x":1545,"y":-230,"width":439,"height":120,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture19/Теорема о знаке перестановки.md"},
+		{"id":"a86946fcf91658fd","x":-910,"y":-902,"width":464,"height":400,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture19/Теорема о транспонируемости детерминанта.md"},
+		{"id":"839406aff95ba371","x":-280,"y":-765,"width":445,"height":263,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture19/Лемма об определителе треугольной матрицы.md"},
+		{"id":"5f9afbe0cdd6656c","x":-297,"y":-1102,"width":480,"height":241,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture19/Теорема о элементарных операциях в определителе.md"},
+		{"id":"20d72c212ad2379b","x":322,"y":-998,"width":508,"height":496,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture19/Разложение по столбцам-строкам.md"},
+		{"id":"b0d2ba04cbd426ac","x":929,"y":-824,"width":453,"height":149,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture19/Минор.md"},
+		{"id":"3d50a4d9dcbe028a","x":-1305,"y":203,"width":574,"height":536,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture20/Правило Крамера.md"},
+		{"id":"79540edcbfcba14a","x":-1342,"y":-319,"width":648,"height":452,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture18/Явные формулы линейной алгебры.md"},
+		{"id":"fed6b52f47d686f8","x":-581,"y":251,"width":468,"height":141,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture20/Теорема о явной формуле для обратной матрицы.md"},
+		{"id":"22fb983c900e1dc4","x":-547,"y":471,"width":400,"height":109,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture20/Присоединённая матрица.md"},
+		{"id":"d2292e6fb2cb0ea7","x":-41,"y":254,"width":423,"height":277,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture20/Теорема о гомоморфности определителя.md"},
+		{"id":"7e9c04300f46c5be","x":606,"y":518,"width":493,"height":118,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture20/Общий вид полилин кососимм функция.md"},
+		{"id":"b8c9e276dc0b8eeb","x":-85,"y":636,"width":467,"height":360,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture20/Определитель блочной матрицы.md"}
+	],
+	"edges":[
+		{"id":"2fd13add54ffb50a","fromNode":"1201797158702c52","fromSide":"right","toNode":"89a88218606b3f25","toSide":"left"},
+		{"id":"51bde1faa252de72","fromNode":"1201797158702c52","fromSide":"right","toNode":"9242787f3d746a53","toSide":"left"},
+		{"id":"602b570aa4de3927","fromNode":"89a88218606b3f25","fromSide":"right","toNode":"402cce32aa55ed78","toSide":"left"},
+		{"id":"899186ca1d327a4a","fromNode":"79540edcbfcba14a","fromSide":"right","toNode":"1201797158702c52","toSide":"left"},
+		{"id":"10cfb682489bc1ef","fromNode":"29cfd6d0c3719129","fromSide":"left","toNode":"402cce32aa55ed78","toSide":"right"},
+		{"id":"bd5f8bfa4ad077b8","fromNode":"1201797158702c52","fromSide":"top","toNode":"a86946fcf91658fd","toSide":"bottom"},
+		{"id":"1ff156b75ac33438","fromNode":"1201797158702c52","fromSide":"top","toNode":"839406aff95ba371","toSide":"bottom"},
+		{"id":"5d6af1fec6c5c30a","fromNode":"5f9afbe0cdd6656c","fromSide":"bottom","toNode":"839406aff95ba371","toSide":"top"},
+		{"id":"d0fc22fe9b05bbed","fromNode":"1201797158702c52","fromSide":"top","toNode":"20d72c212ad2379b","toSide":"bottom"},
+		{"id":"b1933ebf1662307c","fromNode":"b0d2ba04cbd426ac","fromSide":"left","toNode":"20d72c212ad2379b","toSide":"right"},
+		{"id":"a92dc4131a7da07a","fromNode":"1201797158702c52","fromSide":"bottom","toNode":"fed6b52f47d686f8","toSide":"top"},
+		{"id":"2ec5873198aa5126","fromNode":"3d50a4d9dcbe028a","fromSide":"top","toNode":"79540edcbfcba14a","toSide":"bottom"},
+		{"id":"5f03918e506c0e6b","fromNode":"fed6b52f47d686f8","fromSide":"left","toNode":"3d50a4d9dcbe028a","toSide":"right"},
+		{"id":"53b572f74d5f8269","fromNode":"22fb983c900e1dc4","fromSide":"top","toNode":"fed6b52f47d686f8","toSide":"bottom"},
+		{"id":"cbb41687d5fa95bf","fromNode":"1201797158702c52","fromSide":"bottom","toNode":"d2292e6fb2cb0ea7","toSide":"top"},
+		{"id":"8835a2b11ca2a885","fromNode":"7e9c04300f46c5be","fromSide":"left","toNode":"b8c9e276dc0b8eeb","toSide":"right"},
+		{"id":"4f63c7896bef875a","fromNode":"7e9c04300f46c5be","fromSide":"left","toNode":"d2292e6fb2cb0ea7","toSide":"right"},
+		{"id":"b2f9a012d3f1088d","fromNode":"9242787f3d746a53","fromSide":"right","toNode":"7e9c04300f46c5be","toSide":"top"}
+	]
+}

@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"31e02478a1bf48cc","type":"file","file":"hse/ma/conspects/sem01/par9/Предел функции.md","x":257,"y":749,"width":525,"height":434},
 		{"id":"8043f55e2a0d9886","type":"file","file":"hse/ma/conspects/sem01/par9/Арифметические действия с пределами (функций).md","x":-1170,"y":1727,"width":400,"height":362},
-		{"id":"860908a214083de7","type":"file","file":"hse/ma/conspects/sem01/par9/Свойства пределов.md","x":-1216,"y":719,"width":568,"height":457},
+		{"id":"860908a214083de7","type":"file","file":"hse/ma/conspects/sem01/par9/Свойства пределов.md","x":-1256,"y":719,"width":568,"height":457},
 		{"id":"d94a61403ad3a106","type":"file","file":"hse/ma/conspects/sem01/par9/Предельный переход в неравенстве (функции).md","x":-1549,"y":1364,"width":454,"height":244},
 		{"id":"37d77fb1337b0295","type":"file","file":"hse/ma/conspects/sem01/par9/Принцип 2 миллиционеров (функции).md","x":-810,"y":1364,"width":400,"height":311},
 		{"id":"8c14b11c066c12f8","type":"file","file":"hse/ma/conspects/sem01/par9/Окрестность точки.md","x":-203,"y":-397,"width":400,"height":256},

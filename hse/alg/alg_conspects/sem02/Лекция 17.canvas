@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"0af6bb07099b72fa","type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Транспозиция.md","x":572,"y":652,"width":571,"height":319},
+		{"id":"ba39333d82c6892d","type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Трансвекция.md","x":-932,"y":652,"width":763,"height":824},
+		{"id":"b2babbb862a26ba7","type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Дилатация.md","x":-67,"y":652,"width":522,"height":600},
+		{"id":"d37abcfafc4e5f3a","type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Системы простых образующих.md","x":-87,"y":255,"width":563,"height":254},
+		{"id":"4b95f6818000e0c1","type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Теорема о методе Гаусса.md","x":-440,"y":1748,"width":543,"height":470},
+		{"id":"9531f20fceebabcf","type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Теорема об обратимых матрицах.md","x":2096,"y":332,"width":434,"height":354},
+		{"id":"e16f86821d25ed11","type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Теорема о св-ве ранга.md","x":2644,"y":683,"width":567,"height":513},
+		{"id":"71ca5539ac0e08a0","type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Ранг линейного отображения.md","x":2664,"y":402,"width":527,"height":215},
+		{"id":"5268038debf0c471","type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Канонический вид матрицы линейного отображения.md","x":2100,"y":765,"width":426,"height":246},
+		{"id":"01f9ebffa4eb4370","type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Обратимая матрица.md","x":1493,"y":421,"width":495,"height":177},
+		{"id":"e69be82f9bfac800","type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Полная линейная группа.md","x":1513,"y":665,"width":455,"height":200},
+		{"id":"d184dd31e48c7f51","type":"file","file":"hse/alg/alg_conspects/sem02/lecture18/Разложение Гаусса.md","x":194,"y":1711,"width":663,"height":544},
+		{"id":"c2283974567e6ad4","x":-936,"y":1919,"width":425,"height":129,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture17/Лемма об обратимости треугольной матрицы.md"}
+	],
+	"edges":[
+		{"id":"8296e2047088d87b","fromNode":"01f9ebffa4eb4370","fromSide":"right","toNode":"9531f20fceebabcf","toSide":"left"},
+		{"id":"7e031c6352751093","fromNode":"d37abcfafc4e5f3a","fromSide":"bottom","toNode":"ba39333d82c6892d","toSide":"top"},
+		{"id":"88a6d2536ce3aff5","fromNode":"71ca5539ac0e08a0","fromSide":"bottom","toNode":"e16f86821d25ed11","toSide":"top"},
+		{"id":"02bb927699fcb1cf","fromNode":"9531f20fceebabcf","fromSide":"right","toNode":"71ca5539ac0e08a0","toSide":"left"},
+		{"id":"532caef8fcd813c9","fromNode":"01f9ebffa4eb4370","fromSide":"bottom","toNode":"e69be82f9bfac800","toSide":"top"},
+		{"id":"de97a6a7de75c663","fromNode":"d37abcfafc4e5f3a","fromSide":"bottom","toNode":"b2babbb862a26ba7","toSide":"top"},
+		{"id":"ebf8a4802d3f3221","fromNode":"d37abcfafc4e5f3a","fromSide":"bottom","toNode":"0af6bb07099b72fa","toSide":"top"},
+		{"id":"4ed5cd953e2c282f","fromNode":"ba39333d82c6892d","fromSide":"bottom","toNode":"4b95f6818000e0c1","toSide":"top"},
+		{"id":"1af93dad4f8faff6","fromNode":"9531f20fceebabcf","fromSide":"bottom","toNode":"5268038debf0c471","toSide":"top"},
+		{"id":"450548c5ed991ecf","fromNode":"b2babbb862a26ba7","fromSide":"bottom","toNode":"4b95f6818000e0c1","toSide":"top"},
+		{"id":"08b0f00a6f7af89b","fromNode":"4b95f6818000e0c1","fromSide":"right","toNode":"d184dd31e48c7f51","toSide":"left"},
+		{"id":"6681c42413982340","fromNode":"c2283974567e6ad4","fromSide":"right","toNode":"4b95f6818000e0c1","toSide":"left"}
+	]
+}

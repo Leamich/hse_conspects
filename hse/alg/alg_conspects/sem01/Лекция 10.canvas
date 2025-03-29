@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"c94fff0604bf5e46","type":"file","file":"hse/alg/alg_conspects/sem01/lecture09/Евклидово кольцо.md","x":909,"y":-566,"width":665,"height":433},
+		{"id":"c3792abe6b6d521c","type":"file","file":"hse/alg/alg_conspects/sem01/lecture10/Теорема о главных идеалах в евкл кольце.md","x":996,"y":-41,"width":492,"height":108},
+		{"id":"652234c41ae78144","type":"file","file":"hse/alg/alg_conspects/sem01/lecture10/Область главных идеалов.md","x":1766,"y":-160,"width":513,"height":346},
+		{"id":"5d5414b08a8208d4","type":"file","file":"hse/alg/alg_conspects/sem01/lecture10/Теорема о признаке факториальной ОЦ.md","x":1766,"y":-440,"width":510,"height":91},
+		{"id":"010e446f16a1b1fa","type":"file","file":"hse/alg/alg_conspects/sem01/lecture10/Факториальная область целостности.md","x":1800,"y":-753,"width":443,"height":187},
+		{"id":"ec7839b4e5f98329","type":"file","file":"hse/alg/alg_conspects/sem01/lecture10/Ассоциированные элементы.md","x":1402,"y":-1310,"width":555,"height":445},
+		{"id":"5092fbfbafd951b6","type":"file","file":"hse/alg/alg_conspects/sem01/lecture10/Неразложимый элемент.md","x":2021,"y":-1179,"width":319,"height":279},
+		{"id":"eb15afe798e805f6","type":"file","file":"hse/alg/alg_conspects/sem01/lecture10/Делимость в кольцах.md","x":909,"y":-1195,"width":426,"height":216}
+	],
+	"edges":[
+		{"id":"e4547a693d2b5fa9","fromNode":"c94fff0604bf5e46","fromSide":"bottom","toNode":"c3792abe6b6d521c","toSide":"top"},
+		{"id":"1ce31ac5d450d887","fromNode":"652234c41ae78144","fromSide":"left","toNode":"c3792abe6b6d521c","toSide":"right"},
+		{"id":"4d3ee296604216c8","fromNode":"010e446f16a1b1fa","fromSide":"bottom","toNode":"5d5414b08a8208d4","toSide":"top"},
+		{"id":"616b307c9ed0b27a","fromNode":"652234c41ae78144","fromSide":"top","toNode":"5d5414b08a8208d4","toSide":"bottom"},
+		{"id":"6305c2f89d9ac6e6","fromNode":"ec7839b4e5f98329","fromSide":"bottom","toNode":"010e446f16a1b1fa","toSide":"top"},
+		{"id":"fa8e7f64b132b8a9","fromNode":"5092fbfbafd951b6","fromSide":"bottom","toNode":"010e446f16a1b1fa","toSide":"top"},
+		{"id":"dabbe19ccf6a17a6","fromNode":"eb15afe798e805f6","fromSide":"right","toNode":"ec7839b4e5f98329","toSide":"left"}
+	]
+}

@@ -10,7 +10,12 @@
 		{"id":"ef88b44c52654ca3","type":"file","file":"hse/ma/conspects/sem02/par02/Теорема о среднем.md","x":-603,"y":1345,"width":400,"height":170},
 		{"id":"5436b71d3fc4c708","type":"file","file":"hse/ma/conspects/sem02/par02/Среднее значение функции.md","x":-638,"y":1584,"width":470,"height":101},
 		{"id":"27dd7c7cbdd75bfe","type":"file","file":"hse/ma/conspects/sem02/par02/Интеграл с переменных верхним (нижним) пределом.md","x":-1445,"y":1362,"width":412,"height":323},
-		{"id":"2aeda21e8d3d4653","type":"file","file":"hse/ma/conspects/sem02/par02/Теорема Барроу.md","x":-1552,"y":854,"width":626,"height":374}
+		{"id":"2aeda21e8d3d4653","type":"file","file":"hse/ma/conspects/sem02/par02/Теорема Барроу.md","x":-1552,"y":854,"width":626,"height":374},
+		{"id":"a54029bb20aa6cf2","type":"file","file":"hse/ma/conspects/sem02/par02/Формула Ньютона-Лейбница.md","x":-2041,"y":937,"width":400,"height":209},
+		{"id":"243e07d141c8b944","type":"file","file":"hse/ma/conspects/sem02/par02/Подстановка.md","x":-2443,"y":965,"width":322,"height":153},
+		{"id":"dd9eea6d9af3f157","type":"file","file":"hse/ma/conspects/sem02/par02/Линейность определённого интеграла.md","x":-2443,"y":1237,"width":520,"height":250},
+		{"id":"32f403d183f52abe","x":-2318,"y":1938,"width":395,"height":215,"type":"file","file":"hse/ma/conspects/sem02/par02/Интегрирование по частям для определённого интеграла.md"},
+		{"id":"93364b97ae950ec6","x":-2405,"y":1567,"width":482,"height":237,"type":"file","file":"hse/ma/conspects/sem02/par02/Замена переменной в определённом интеграле.md"}
 	],
 	"edges":[
 		{"id":"55803951cea215a8","fromNode":"f823551cf608b9ee","fromSide":"right","toNode":"e048a1aa5c158614","toSide":"left"},
@@ -24,6 +29,11 @@
 		{"id":"4578210bf778c708","fromNode":"e0ae98dfe3ab21fb","fromSide":"left","toNode":"2aeda21e8d3d4653","toSide":"right"},
 		{"id":"ae687871b2185f00","fromNode":"4cea2196951e03a6","fromSide":"left","toNode":"2aeda21e8d3d4653","toSide":"right"},
 		{"id":"6306e6329c51a97f","fromNode":"ef88b44c52654ca3","fromSide":"left","toNode":"2aeda21e8d3d4653","toSide":"right"},
-		{"id":"948b5007514e15ef","fromNode":"27dd7c7cbdd75bfe","fromSide":"top","toNode":"2aeda21e8d3d4653","toSide":"bottom"}
+		{"id":"948b5007514e15ef","fromNode":"27dd7c7cbdd75bfe","fromSide":"top","toNode":"2aeda21e8d3d4653","toSide":"bottom"},
+		{"id":"2a2c007bcab2e720","fromNode":"2aeda21e8d3d4653","fromSide":"left","toNode":"a54029bb20aa6cf2","toSide":"right"},
+		{"id":"0b6cdc8d225745ec","fromNode":"243e07d141c8b944","fromSide":"right","toNode":"a54029bb20aa6cf2","toSide":"left"},
+		{"id":"4aac0e8626606a54","fromNode":"a54029bb20aa6cf2","fromSide":"bottom","toNode":"dd9eea6d9af3f157","toSide":"right"},
+		{"id":"39400a3067f81ada","fromNode":"a54029bb20aa6cf2","fromSide":"bottom","toNode":"93364b97ae950ec6","toSide":"right"},
+		{"id":"b5edc3281becf246","fromNode":"a54029bb20aa6cf2","fromSide":"bottom","toNode":"32f403d183f52abe","toSide":"right"}
 	]
 }

@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"391761c1cda529c0","type":"file","file":"hse/ma/conspects/sem02/par04/Равномерная непрерывность.md","x":-756,"y":-1533,"width":608,"height":677},
+		{"id":"95de404c838d9362","type":"file","file":"hse/ma/conspects/sem02/par04/Теорема Кантора.md","x":6,"y":-1292,"width":514,"height":195},
+		{"id":"b4354b12175529af","type":"file","file":"hse/ma/conspects/sem02/par04/Модуль непрерывности функции.md","x":734,"y":-1511,"width":524,"height":633},
+		{"id":"a39b70f3c9bb7cf5","type":"file","file":"hse/ma/conspects/sem02/par04/Дробление отрезка.md","x":-956,"y":-518,"width":400,"height":200},
+		{"id":"34d460a28a14dc2a","type":"file","file":"hse/ma/conspects/sem02/par04/Интегральная сумма (сумма Римана).md","x":-393,"y":-568,"width":516,"height":301},
+		{"id":"2ac36dd7ec591fb7","type":"file","file":"hse/ma/conspects/sem02/par04/Оснащение дробления.md","x":-1274,"y":-205,"width":518,"height":301},
+		{"id":"59f836436702cbc9","type":"file","file":"hse/ma/conspects/sem02/par04/Ранг дробления.md","x":-1195,"y":164,"width":439,"height":163},
+		{"id":"ad1c90558fe20caf","type":"file","file":"hse/ma/conspects/sem02/par04/Теорема об интегральных суммах.md","x":-454,"y":-185,"width":638,"height":407},
+		{"id":"b27a66988fc3b121","type":"file","file":"hse/ma/conspects/sem02/par04/Интеграл Римана.md","x":-416,"y":322,"width":563,"height":655},
+		{"id":"1dcacb61e41a21ad","type":"file","file":"hse/ma/conspects/sem02/par04/Теорема об оценке погрешности в формуле трапеций.md","x":567,"y":-454,"width":655,"height":187},
+		{"id":"c903cf95d191591d","type":"file","file":"hse/ma/conspects/sem02/par04/Лемма об интеграле через вторую производную.md","x":613,"y":-185,"width":564,"height":262},
+		{"id":"7da7c0cb33c311bf","type":"file","file":"hse/ma/conspects/sem02/par04/Формула трапеций.md","x":1318,"y":-680,"width":650,"height":639},
+		{"id":"21c49f7878354ac7","type":"file","file":"hse/ma/conspects/sem02/par04/Формула Эйлера-Маклорена для второй производной.md","x":589,"y":179,"width":610,"height":200},
+		{"id":"01700957551fff0c","type":"file","file":"hse/ma/conspects/sem02/par04/Примеры для формулы Эйлера-Маклорена.md","x":547,"y":461,"width":694,"height":516}
+	],
+	"edges":[
+		{"id":"7eece08b4c31c310","fromNode":"391761c1cda529c0","fromSide":"right","toNode":"95de404c838d9362","toSide":"left"},
+		{"id":"271d023bbadc11a6","fromNode":"a39b70f3c9bb7cf5","fromSide":"bottom","toNode":"2ac36dd7ec591fb7","toSide":"right"},
+		{"id":"afce666b99a53b82","fromNode":"a39b70f3c9bb7cf5","fromSide":"bottom","toNode":"59f836436702cbc9","toSide":"right"},
+		{"id":"95f84839b033af62","fromNode":"a39b70f3c9bb7cf5","fromSide":"right","toNode":"34d460a28a14dc2a","toSide":"left"},
+		{"id":"718a5de630257c77","fromNode":"34d460a28a14dc2a","fromSide":"bottom","toNode":"ad1c90558fe20caf","toSide":"top"},
+		{"id":"5e3179b1f513248a","fromNode":"ad1c90558fe20caf","fromSide":"bottom","toNode":"b27a66988fc3b121","toSide":"top"},
+		{"id":"47d6547c42761403","fromNode":"c903cf95d191591d","fromSide":"top","toNode":"1dcacb61e41a21ad","toSide":"bottom"},
+		{"id":"c45e6cd62eeaffb0","fromNode":"7da7c0cb33c311bf","fromSide":"left","toNode":"1dcacb61e41a21ad","toSide":"right"},
+		{"id":"391e0d4f92d33e63","fromNode":"c903cf95d191591d","fromSide":"bottom","toNode":"21c49f7878354ac7","toSide":"top"},
+		{"id":"a6e8262b33c925f5","fromNode":"21c49f7878354ac7","fromSide":"bottom","toNode":"01700957551fff0c","toSide":"top"}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"464cc955316340bd","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Кольцо формальных степенных рядов.md","x":-255,"y":-249,"width":489,"height":608},
+		{"id":"21a81d5b31ce3efb","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Теорема о свойствах кольца ФСР.md","x":-766,"y":3,"width":400,"height":104},
+		{"id":"7febcd9d37b14a46","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Многочлен.md","x":-246,"y":664,"width":472,"height":235},
+		{"id":"499b83fbb37c53fe","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Лемма о подкольце многочленов.md","x":-241,"y":468,"width":462,"height":122},
+		{"id":"81f1fc65b67cea6f","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Теорема о гомоморфизме эвалюации.md","x":369,"y":626,"width":477,"height":312},
+		{"id":"9f7f2fc6a0297587","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Значения многочлена в точке.md","x":408,"y":1033,"width":400,"height":172},
+		{"id":"7cfb570291bacf8d","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Полиномиальная функция.md","x":-292,"y":961,"width":564,"height":316},
+		{"id":"397383759eef3a2f","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Степень многочлена.md","x":-928,"y":714,"width":400,"height":135},
+		{"id":"d3f13123d3f54121","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Свойства степени.md","x":-975,"y":938,"width":495,"height":244},
+		{"id":"bfc7bf0c8440c713","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Теорема о делении многочленов с остатком.md","x":-1644,"y":687,"width":538,"height":191},
+		{"id":"2bdaca721e1ac8d3","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Теорема Безу.md","x":-1620,"y":961,"width":491,"height":130},
+		{"id":"d60b258ac213cb51","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Корень многочлена.md","x":-1538,"y":1182,"width":327,"height":130},
+		{"id":"142beed444593017","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Лемма о кольце многочленов над областью целостности.md","x":-972,"y":1277,"width":488,"height":179},
+		{"id":"820ab9662ed812ec","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Лемма о гомоморфизме между кольцом ФСР и кольцом.md","x":950,"y":673,"width":375,"height":217},
+		{"id":"6bf442f8563c9229","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Определение 'икса'.md","x":369,"y":-14,"width":273,"height":138},
+		{"id":"ed598c3b777513de","type":"file","file":"hse/alg/alg_conspects/sem01/lecture08/Лемма о свойствах 'икса'.md","x":808,"y":-123,"width":418,"height":356}
+	],
+	"edges":[
+		{"id":"bccbd545876625da","fromNode":"464cc955316340bd","fromSide":"left","toNode":"21a81d5b31ce3efb","toSide":"right"},
+		{"id":"83cd4032ef548563","fromNode":"464cc955316340bd","fromSide":"right","toNode":"6bf442f8563c9229","toSide":"left"},
+		{"id":"c8ae22663c445912","fromNode":"6bf442f8563c9229","fromSide":"right","toNode":"ed598c3b777513de","toSide":"left"},
+		{"id":"29a65319da54b5e6","fromNode":"464cc955316340bd","fromSide":"bottom","toNode":"499b83fbb37c53fe","toSide":"top"},
+		{"id":"6777b62ba642376b","fromNode":"7febcd9d37b14a46","fromSide":"right","toNode":"81f1fc65b67cea6f","toSide":"left"},
+		{"id":"f69f171ea09c8101","fromNode":"499b83fbb37c53fe","fromSide":"bottom","toNode":"7febcd9d37b14a46","toSide":"top"},
+		{"id":"2347af3b7778052f","fromNode":"81f1fc65b67cea6f","fromSide":"bottom","toNode":"9f7f2fc6a0297587","toSide":"top"},
+		{"id":"b32387501de2b455","fromNode":"7febcd9d37b14a46","fromSide":"bottom","toNode":"7cfb570291bacf8d","toSide":"top"},
+		{"id":"d597540e01837fed","fromNode":"7febcd9d37b14a46","fromSide":"left","toNode":"397383759eef3a2f","toSide":"right"},
+		{"id":"9d1f287178a44705","fromNode":"397383759eef3a2f","fromSide":"bottom","toNode":"d3f13123d3f54121","toSide":"top"},
+		{"id":"2903428a34586023","fromNode":"397383759eef3a2f","fromSide":"left","toNode":"bfc7bf0c8440c713","toSide":"right"},
+		{"id":"3e32ca1a349fc692","fromNode":"d60b258ac213cb51","fromSide":"top","toNode":"2bdaca721e1ac8d3","toSide":"bottom"},
+		{"id":"4f1903c37e4f8d39","fromNode":"d3f13123d3f54121","fromSide":"bottom","toNode":"142beed444593017","toSide":"top"},
+		{"id":"2df35f937ed478a8","fromNode":"820ab9662ed812ec","fromSide":"left","toNode":"81f1fc65b67cea6f","toSide":"right"},
+		{"id":"16751158c8c53ff0","fromNode":"bfc7bf0c8440c713","fromSide":"bottom","toNode":"2bdaca721e1ac8d3","toSide":"top"}
+	]
+}

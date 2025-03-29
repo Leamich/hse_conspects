@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"046a3d9ee0e4dc21","type":"file","file":"hse/alg/alg_conspects/sem02/lecture16/Умножение матриц.md","x":1450,"y":-81,"width":870,"height":865},
+		{"id":"2784a84586c7b7eb","type":"file","file":"hse/alg/alg_conspects/sem02/lecture16/Матрица перехода.md","x":2506,"y":46,"width":600,"height":612},
+		{"id":"48641ed5f0b11149","type":"file","file":"hse/alg/alg_conspects/sem02/lecture16/Линейный оператор.md","x":2574,"y":-258,"width":465,"height":224},
+		{"id":"e85e1057b122f97a","type":"file","file":"hse/alg/alg_conspects/sem02/lecture16/Теорема о поведении матрицы отображения при замене базиса.md","x":3274,"y":173,"width":490,"height":358},
+		{"id":"c5c902b9732a1bf0","type":"file","file":"hse/alg/alg_conspects/sem02/lecture16/Теорема о ядре и образе в матричной форме.md","x":3172,"y":733,"width":695,"height":470},
+		{"id":"671a29ecb74ceb66","type":"file","file":"hse/alg/alg_conspects/sem02/lecture16/Подобные матрицы.md","x":3973,"y":825,"width":332,"height":286},
+		{"id":"f8df5b2ef64e1ba2","type":"file","file":"hse/alg/alg_conspects/sem02/lecture16/Отображение умножения на матрицу.md","x":1602,"y":-420,"width":567,"height":163},
+		{"id":"a2a86204a654311b","type":"file","file":"hse/alg/alg_conspects/sem02/lecture16/Ранг матрицы.md","x":1016,"y":-439,"width":434,"height":200},
+		{"id":"9e9c2c8233d99671","type":"file","file":"hse/alg/alg_conspects/sem02/lecture16/Транспонированная матрица.md","x":2633,"y":733,"width":347,"height":385}
+	],
+	"edges":[
+		{"id":"853c0244159b284a","fromNode":"046a3d9ee0e4dc21","fromSide":"right","toNode":"2784a84586c7b7eb","toSide":"left"},
+		{"id":"7fd0a5cb249f5046","fromNode":"2784a84586c7b7eb","fromSide":"right","toNode":"e85e1057b122f97a","toSide":"left"},
+		{"id":"798db53f2c20154b","fromNode":"2784a84586c7b7eb","fromSide":"top","toNode":"48641ed5f0b11149","toSide":"bottom"},
+		{"id":"c790362cfa6d5aa6","fromNode":"e85e1057b122f97a","fromSide":"bottom","toNode":"c5c902b9732a1bf0","toSide":"top"},
+		{"id":"15ea1cd13969cbca","fromNode":"c5c902b9732a1bf0","fromSide":"right","toNode":"671a29ecb74ceb66","toSide":"left"},
+		{"id":"cf627a23ac6c22d3","fromNode":"f8df5b2ef64e1ba2","fromSide":"bottom","toNode":"046a3d9ee0e4dc21","toSide":"top"},
+		{"id":"9bf464a3ca985dca","fromNode":"f8df5b2ef64e1ba2","fromSide":"left","toNode":"a2a86204a654311b","toSide":"right"}
+	]
+}

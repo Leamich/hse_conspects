@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"d22458a46e581a48","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Изоморфизм ВП.md","x":-677,"y":-225,"width":400,"height":189},
+		{"id":"1b6eee7e2ed62b5c","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Линейное отображение.md","x":-180,"y":-255,"width":402,"height":249},
+		{"id":"c3c9b925ac9e8ad4","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Главный пример ВП.md","x":-729,"y":-710,"width":505,"height":386},
+		{"id":"ab7b7706aa8907a1","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Лемма о свойствах ВП.md","x":-1415,"y":-1226,"width":512,"height":228},
+		{"id":"a68776697b70fdc0","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Векторное пространство.md","x":-729,"y":-1393,"width":512,"height":562},
+		{"id":"5878ce4ba1baeccf","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Базис векторного пространства.md","x":1885,"y":-1702,"width":473,"height":200},
+		{"id":"01ae95199e86e76a","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Теорема о единственности и существовании базиса.md","x":1898,"y":-1417,"width":446,"height":228},
+		{"id":"424c9abf3dd5e6fa","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Размерность ВП.md","x":1904,"y":-1049,"width":434,"height":200},
+		{"id":"61afaaadda91578b","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Порождающая система.md","x":2448,"y":-1665,"width":464,"height":125},
+		{"id":"3fad19f3ec49520e","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Конечномерное ВП.md","x":2459,"y":-1380,"width":441,"height":155},
+		{"id":"38776c0dd9951c8c","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Утверждение о признаке ЛЗ.md","x":1310,"y":-1626,"width":493,"height":322},
+		{"id":"f48b77a138b2fa6c","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Лемма об операциях над линейными оболочками.md","x":1310,"y":-1189,"width":493,"height":154},
+		{"id":"47de2de31e9f0013","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Линейная независимость.md","x":2453,"y":-1996,"width":455,"height":243},
+		{"id":"ebf082fa7c0d9bc0","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Линейная комбинация.md","x":4,"y":-1251,"width":437,"height":278},
+		{"id":"eda2ccaaaa2f24eb","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Линейная оболочка.md","x":559,"y":-1413,"width":627,"height":602},
+		{"id":"41ce097b8262b158","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Подпространство ВП.md","x":617,"y":-700,"width":512,"height":300}
+	],
+	"edges":[
+		{"id":"5473bf047947bc4a","fromNode":"d22458a46e581a48","fromSide":"top","toNode":"c3c9b925ac9e8ad4","toSide":"bottom"},
+		{"id":"a9853b6d41e44f79","fromNode":"1b6eee7e2ed62b5c","fromSide":"left","toNode":"d22458a46e581a48","toSide":"right","fromEnd":"arrow"},
+		{"id":"d76f2d76567a12da","fromNode":"01ae95199e86e76a","fromSide":"bottom","toNode":"424c9abf3dd5e6fa","toSide":"top"},
+		{"id":"7f5112e73e9876b0","fromNode":"3fad19f3ec49520e","fromSide":"left","toNode":"01ae95199e86e76a","toSide":"right"},
+		{"id":"fb268553b5b8f4e1","fromNode":"61afaaadda91578b","fromSide":"bottom","toNode":"3fad19f3ec49520e","toSide":"top"},
+		{"id":"096e42f89c3e2d9e","fromNode":"61afaaadda91578b","fromSide":"left","toNode":"5878ce4ba1baeccf","toSide":"right"},
+		{"id":"c5a6b898c394b9fe","fromNode":"5878ce4ba1baeccf","fromSide":"bottom","toNode":"01ae95199e86e76a","toSide":"top"},
+		{"id":"2588aada30527e08","fromNode":"38776c0dd9951c8c","fromSide":"right","toNode":"01ae95199e86e76a","toSide":"left"},
+		{"id":"83e20b989ab06fdf","fromNode":"f48b77a138b2fa6c","fromSide":"right","toNode":"01ae95199e86e76a","toSide":"left"},
+		{"id":"b60aae5cb84d7ecc","fromNode":"eda2ccaaaa2f24eb","fromSide":"right","toNode":"f48b77a138b2fa6c","toSide":"left"},
+		{"id":"936a3365ee1e0cf1","fromNode":"41ce097b8262b158","fromSide":"top","toNode":"eda2ccaaaa2f24eb","toSide":"bottom"},
+		{"id":"884b1c6268a902fd","fromNode":"ebf082fa7c0d9bc0","fromSide":"right","toNode":"eda2ccaaaa2f24eb","toSide":"left"},
+		{"id":"44d03271f00e0777","fromNode":"47de2de31e9f0013","fromSide":"bottom","toNode":"61afaaadda91578b","toSide":"top"},
+		{"id":"7d6485be664c8188","fromNode":"a68776697b70fdc0","fromSide":"left","toNode":"ab7b7706aa8907a1","toSide":"right"},
+		{"id":"d16b2cbd63b411f3","fromNode":"a68776697b70fdc0","fromSide":"bottom","toNode":"c3c9b925ac9e8ad4","toSide":"top"},
+		{"id":"872692bc748f82d6","fromNode":"a68776697b70fdc0","fromSide":"right","toNode":"ebf082fa7c0d9bc0","toSide":"left"}
+	]
+}

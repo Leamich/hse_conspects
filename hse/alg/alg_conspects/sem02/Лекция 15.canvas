@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"068d4cf8a8852c87","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Теорема о равносильности для базиса.md","x":464,"y":-599,"width":421,"height":259},
+		{"id":"b7ba4ff320c62ca7","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о линейной зависимости линейных комбинаций (ЛЗЛК).md","x":420,"y":-209,"width":509,"height":416},
+		{"id":"2ee3996a0eb52c8b","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Системы линейный уравнений.md","x":-296,"y":-707,"width":645,"height":534},
+		{"id":"35b70790dd046554","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Теорема о  решениях однородной СЛУ.md","x":-198,"y":-71,"width":450,"height":140},
+		{"id":"d17d8f2b149d7526","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о дополнении до базиса.md","x":418,"y":315,"width":511,"height":430},
+		{"id":"44d388494cf72052","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Пример базисов для фиббоначиевых последовательностей.md","x":974,"y":-80,"width":553,"height":567},
+		{"id":"f346dfc53d8a0538","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Теорема об изоморфизме в пространство столбцов.md","x":1033,"y":-284,"width":435,"height":150},
+		{"id":"7620832bed670090","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Координаты вектора.md","x":1028,"y":-544,"width":445,"height":150},
+		{"id":"b7e51fa8e3ed28b2","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о природе ядра и образа.md","x":-907,"y":-94,"width":540,"height":187},
+		{"id":"d0249f2eb668cee2","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Ядро и образ отображения.md","x":-853,"y":-540,"width":433,"height":201},
+		{"id":"ec4075ddd46e5223","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Теорема о ядре и образе.md","x":-877,"y":199,"width":480,"height":233},
+		{"id":"b1ca5611d8a7c996","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о пересечении подпространств.md","x":-238,"y":568,"width":471,"height":202},
+		{"id":"20d8ee35aa340c84","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Формула Грассмана.md","x":-873,"y":581,"width":473,"height":176},
+		{"id":"a7baeea36a7e7a71","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о прямой сумме.md","x":-1695,"y":514,"width":636,"height":310},
+		{"id":"a20af58fc269c157","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о сумме подпространств.md","x":-927,"y":881,"width":581,"height":155},
+		{"id":"0f288a3232af0a2b","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Сумма подпространств (сумма по Минковскому).md","x":-859,"y":1167,"width":445,"height":203},
+		{"id":"bdce5c2ec2965dbf","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Внешняя (прямая) сумма.md","x":-1620,"y":215,"width":486,"height":202}
+	],
+	"edges":[
+		{"id":"0a2d8edb82d01b22","fromNode":"068d4cf8a8852c87","fromSide":"right","toNode":"7620832bed670090","toSide":"left"},
+		{"id":"5ba31205b6497540","fromNode":"068d4cf8a8852c87","fromSide":"bottom","toNode":"b7ba4ff320c62ca7","toSide":"top"},
+		{"id":"b3705cb7426b47d7","fromNode":"d0249f2eb668cee2","fromSide":"bottom","toNode":"b7e51fa8e3ed28b2","toSide":"top"},
+		{"id":"2100997c4bbbde93","fromNode":"2ee3996a0eb52c8b","fromSide":"bottom","toNode":"35b70790dd046554","toSide":"top"},
+		{"id":"4cb948320156a610","fromNode":"b7e51fa8e3ed28b2","fromSide":"right","toNode":"35b70790dd046554","toSide":"left"},
+		{"id":"308e4e2117edc3e7","fromNode":"d0249f2eb668cee2","fromSide":"right","toNode":"2ee3996a0eb52c8b","toSide":"left"},
+		{"id":"a5338e38e8daa7a9","fromNode":"b7ba4ff320c62ca7","fromSide":"left","toNode":"35b70790dd046554","toSide":"right"},
+		{"id":"a7cdc95a1af20ea3","fromNode":"f346dfc53d8a0538","fromSide":"bottom","toNode":"44d388494cf72052","toSide":"top"},
+		{"id":"f45507a34db09487","fromNode":"b7ba4ff320c62ca7","fromSide":"bottom","toNode":"d17d8f2b149d7526","toSide":"top"},
+		{"id":"4f5044619854f151","fromNode":"7620832bed670090","fromSide":"bottom","toNode":"f346dfc53d8a0538","toSide":"top"},
+		{"id":"8f804ec92c56f9b2","fromNode":"bdce5c2ec2965dbf","fromSide":"bottom","toNode":"a7baeea36a7e7a71","toSide":"top"},
+		{"id":"9a8e6f399c345397","fromNode":"b7e51fa8e3ed28b2","fromSide":"bottom","toNode":"ec4075ddd46e5223","toSide":"top"},
+		{"id":"1240ea728b26cfaa","fromNode":"0f288a3232af0a2b","fromSide":"top","toNode":"a20af58fc269c157","toSide":"bottom"},
+		{"id":"2c97114c397a2212","fromNode":"a7baeea36a7e7a71","fromSide":"right","toNode":"20d8ee35aa340c84","toSide":"left"},
+		{"id":"a0a3997263537d02","fromNode":"b1ca5611d8a7c996","fromSide":"left","toNode":"20d8ee35aa340c84","toSide":"right"},
+		{"id":"885677706f25c607","fromNode":"a20af58fc269c157","fromSide":"top","toNode":"20d8ee35aa340c84","toSide":"bottom"},
+		{"id":"168202104d85538d","fromNode":"ec4075ddd46e5223","fromSide":"bottom","toNode":"20d8ee35aa340c84","toSide":"top"}
+	]
+}

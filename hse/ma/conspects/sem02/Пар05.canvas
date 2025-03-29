@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"863d429130b2eb9a","type":"file","file":"hse/ma/conspects/sem02/par05/Признак сравнения.md","x":265,"y":-1047,"width":602,"height":775},
+		{"id":"55d08113fe51d937","type":"file","file":"hse/ma/conspects/sem02/par05/Замечание про точки разрыва.md","x":337,"y":-1327,"width":459,"height":217},
+		{"id":"02dc306de9840a46","type":"file","file":"hse/ma/conspects/sem02/par05/Теорема об абсолютной сходимости интеграла.md","x":1096,"y":-1110,"width":445,"height":303},
+		{"id":"e777c0c948ae9226","type":"file","file":"hse/ma/conspects/sem02/par05/Признак Дирихле.md","x":1096,"y":-736,"width":445,"height":348},
+		{"id":"06cd08b21f087dc6","type":"file","file":"hse/ma/conspects/sem02/par05/Признак Абеля.md","x":1808,"y":-833,"width":555,"height":542},
+		{"id":"e99936b6ebc16ea6","type":"file","file":"hse/ma/conspects/sem02/par05/Замечание про необходимое условие признаков Дирихле и Абеля.md","x":1628,"y":-27,"width":551,"height":449},
+		{"id":"53723f9cb5c000e3","type":"file","file":"hse/ma/conspects/sem02/par05/Примеры для признаков Дирихле-Абеля.md","x":2562,"y":-677,"width":528,"height":231},
+		{"id":"dc81aa9a044a8fd4","type":"file","file":"hse/ma/conspects/sem02/par05/Абсолютная сходимость интеграла.md","x":1119,"y":-1415,"width":400,"height":197},
+		{"id":"90e28e90aafcfe5d","x":-1495,"y":-858,"width":438,"height":444,"type":"file","file":"hse/ma/conspects/sem02/par05/Несобственный интеграл.md"},
+		{"id":"9509761a4bf17527","x":-1571,"y":-326,"width":591,"height":535,"type":"file","file":"hse/ma/conspects/sem02/par05/Примеры для несобственных интегралов.md"},
+		{"id":"d1e3a078df1a521f","x":-2421,"y":-1108,"width":765,"height":968,"type":"file","file":"hse/ma/conspects/sem02/par05/Свойства несобственных интегралов.md"},
+		{"id":"2a3e02ec469da23d","x":-916,"y":-736,"width":473,"height":200,"type":"file","file":"hse/ma/conspects/sem02/par05/Сходимость несобственного интеграла.md"},
+		{"id":"b17233ea6a62f456","type":"file","file":"hse/ma/conspects/sem02/par05/Критерий Коши для сходимости несобственного интеграла.md","x":-949,"y":-469,"width":539,"height":452},
+		{"id":"ea7fa425e49cf4d4","x":-339,"y":-740,"width":500,"height":204,"type":"file","file":"hse/ma/conspects/sem02/par05/Теорема о признаке сходимости через ограниченность.md"},
+		{"id":"1e4b8092bf7a4312","type":"file","file":"hse/ma/conspects/sem02/par05/Замена переменной в несобственном интеграле.md","x":-1561,"y":-1352,"width":570,"height":426}
+	],
+	"edges":[
+		{"id":"f47650b590342da3","fromNode":"863d429130b2eb9a","fromSide":"right","toNode":"02dc306de9840a46","toSide":"left"},
+		{"id":"160d640587de7b62","fromNode":"863d429130b2eb9a","fromSide":"right","toNode":"e777c0c948ae9226","toSide":"left"},
+		{"id":"7b6592092a2021d0","fromNode":"e777c0c948ae9226","fromSide":"right","toNode":"06cd08b21f087dc6","toSide":"left"},
+		{"id":"609588b7c1422ae2","fromNode":"e777c0c948ae9226","fromSide":"bottom","toNode":"e99936b6ebc16ea6","toSide":"top"},
+		{"id":"7dc59d267fb2642c","fromNode":"06cd08b21f087dc6","fromSide":"bottom","toNode":"e99936b6ebc16ea6","toSide":"top"},
+		{"id":"84c29e263b424c28","fromNode":"06cd08b21f087dc6","fromSide":"right","toNode":"53723f9cb5c000e3","toSide":"left"},
+		{"id":"2f0c3466cdc20ef0","fromNode":"dc81aa9a044a8fd4","fromSide":"bottom","toNode":"02dc306de9840a46","toSide":"top"},
+		{"id":"87d9be8375cc3d23","fromNode":"90e28e90aafcfe5d","fromSide":"right","toNode":"2a3e02ec469da23d","toSide":"left"},
+		{"id":"989a3c5cf129b30b","fromNode":"90e28e90aafcfe5d","fromSide":"bottom","toNode":"9509761a4bf17527","toSide":"top"},
+		{"id":"dfd19a4dff1f4631","fromNode":"90e28e90aafcfe5d","fromSide":"left","toNode":"d1e3a078df1a521f","toSide":"right"},
+		{"id":"e71278d189799a30","fromNode":"2a3e02ec469da23d","fromSide":"bottom","toNode":"b17233ea6a62f456","toSide":"top"},
+		{"id":"75756add59ff0f86","fromNode":"1e4b8092bf7a4312","fromSide":"bottom","toNode":"90e28e90aafcfe5d","toSide":"top"},
+		{"id":"74a57607a40eae71","fromNode":"2a3e02ec469da23d","fromSide":"right","toNode":"ea7fa425e49cf4d4","toSide":"left"},
+		{"id":"92fb388bd01cebb2","fromNode":"ea7fa425e49cf4d4","fromSide":"right","toNode":"863d429130b2eb9a","toSide":"left"}
+	]
+}

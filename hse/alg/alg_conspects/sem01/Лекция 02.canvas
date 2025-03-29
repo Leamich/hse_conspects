@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"b46325ff4ecc1fca","type":"file","file":"hse/alg/alg_conspects/sem01/lecture02/Основная теорема арифметики.md","x":1371,"y":206,"width":442,"height":271},
+		{"id":"1d1f2aa03c9910cc","type":"file","file":"hse/alg/alg_conspects/sem01/lecture02/Следствия из ОТА.md","x":1318,"y":583,"width":548,"height":368},
+		{"id":"e5ad082a2b9cce10","type":"file","file":"hse/alg/alg_conspects/sem01/lecture02/НОД и НОК через ОТА.md","x":1993,"y":242,"width":258,"height":200},
+		{"id":"2afcfdd01cbfe2e8","type":"file","file":"hse/alg/alg_conspects/sem01/lecture02/НОК.md","x":1950,"y":-84,"width":345,"height":240},
+		{"id":"43ea54848a775234","type":"file","file":"hse/alg/alg_conspects/sem01/lecture02/Степень вхождения.md","x":1426,"y":-282,"width":332,"height":397},
+		{"id":"45bd66aaf61e4524","type":"file","file":"hse/alg/alg_conspects/sem01/lecture02/Простое число.md","x":690,"y":182,"width":460,"height":320},
+		{"id":"4d6f3363d563c921","type":"file","file":"hse/alg/alg_conspects/sem01/lecture02/Лемма о характеристике простоты.md","x":739,"y":575,"width":362,"height":146},
+		{"id":"44d7c14b5a16da0b","type":"file","file":"hse/alg/alg_conspects/sem01/lecture02/Взаимнопростые числа.md","x":720,"y":-457,"width":400,"height":144},
+		{"id":"867ac95f90345ef5","type":"file","file":"hse/alg/alg_conspects/sem01/lecture02/Лемма об отбрасывании вз.прост. множителей.md","x":710,"y":-193,"width":421,"height":219},
+		{"id":"8ec57e65a28542a9","type":"file","file":"hse/alg/alg_conspects/sem01/lecture02/Лемма о характеристике взаимной простоты.md","x":108,"y":-447,"width":463,"height":125}
+	],
+	"edges":[
+		{"id":"21f6013cdead746a","fromNode":"44d7c14b5a16da0b","fromSide":"bottom","toNode":"867ac95f90345ef5","toSide":"top"},
+		{"id":"1d6e5b189928b930","fromNode":"45bd66aaf61e4524","fromSide":"bottom","toNode":"4d6f3363d563c921","toSide":"top","fromEnd":"arrow"},
+		{"id":"4a44be5ddd623304","fromNode":"b46325ff4ecc1fca","fromSide":"bottom","toNode":"1d1f2aa03c9910cc","toSide":"top"},
+		{"id":"8fba15386744e6d7","fromNode":"b46325ff4ecc1fca","fromSide":"right","toNode":"e5ad082a2b9cce10","toSide":"left"},
+		{"id":"7d4dacc8f5dc06ff","fromNode":"2afcfdd01cbfe2e8","fromSide":"bottom","toNode":"e5ad082a2b9cce10","toSide":"top"},
+		{"id":"c11e91b46c736210","fromNode":"b46325ff4ecc1fca","fromSide":"top","toNode":"43ea54848a775234","toSide":"bottom"},
+		{"id":"5b4a5df98fe7e623","fromNode":"45bd66aaf61e4524","fromSide":"right","toNode":"b46325ff4ecc1fca","toSide":"left"},
+		{"id":"17582b3212695d3a","fromNode":"8ec57e65a28542a9","fromSide":"right","toNode":"44d7c14b5a16da0b","toSide":"left","fromEnd":"arrow"}
+	]
+}
