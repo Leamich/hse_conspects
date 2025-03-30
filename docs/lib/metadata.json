@@ -1,6 +1,6 @@
 {
   "vaultName": "conspects",
-  "lastExport": 1743323824068,
+  "lastExport": 1743344351760,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -239,10 +239,17 @@
     "hse/alg/alg_conspects/sem02/lecture21/Теорема о критерии диагонализуемости.md",
     "hse/alg/alg_conspects/sem02/lecture21/Характеристический многочлен.md",
     "hse/alg/alg_conspects/sem02/lecture22/Жорданова цепочка.md",
+    "hse/alg/alg_conspects/sem02/lecture22/Замечание про операторы с одним собственным числом.md",
+    "hse/alg/alg_conspects/sem02/lecture22/Инвариантные подпространства.md",
+    "hse/alg/alg_conspects/sem02/lecture22/Лемма об инвариантных подпространствах.md",
     "hse/alg/alg_conspects/sem02/lecture22/Нильпотентные операторы.md",
+    "hse/alg/alg_conspects/sem02/lecture22/Примеры инвариантных подпространств.md",
+    "hse/alg/alg_conspects/sem02/lecture22/След матрицы.md",
     "hse/alg/alg_conspects/sem02/lecture22/Теорема Гамильтона-Кэли.md",
+    "hse/alg/alg_conspects/sem02/lecture22/Теорема о внутренней прямой сумме.md",
     "hse/alg/alg_conspects/sem02/lecture22/Теорема о жордановых цепочках.md",
     "hse/alg/alg_conspects/sem02/lecture22/Untitled.md",
+    "hse/alg/alg_conspects/sem02/Лекции 21-22.canvas",
     "hse/alg/alg_conspects/sem02/Лекция 14.canvas",
     "hse/alg/alg_conspects/sem02/Лекция 15.canvas",
     "hse/alg/alg_conspects/sem02/Лекция 16.canvas",
@@ -620,25 +627,6 @@
     "images/Pasted image 20250329165710.png",
     "images/Pasted image 20250329165908.png",
     "index.md",
-    "lib/media/pasted-image-20241030164713.png",
-    "lib/media/pasted-image-20241030175329.png",
-    "lib/media/pasted-image-20241030175734.png",
-    "lib/media/pasted-image-20241030163134.png",
-    "lib/media/pasted-image-20241030163326.png",
-    "lib/media/pasted-image-20241030163336.png",
-    "lib/media/pasted-image-20241029162419.png",
-    "lib/media/pasted-image-20241029162450.png",
-    "lib/media/pasted-image-20241029162504.png",
-    "lib/media/pasted-image-20241029163244.png",
-    "lib/media/pasted-image-20241029163518.png",
-    "lib/media/pasted-image-20241029164021.png",
-    "lib/media/pasted-image-20241029164034.png",
-    "lib/media/pasted-image-20241029164204.png",
-    "lib/media/pasted-image-20241029164307.png",
-    "lib/media/pasted-image-20241029164436.png",
-    "lib/media/pasted-image-20241029164617.png",
-    "lib/media/pasted-image-20241029164640.png",
-    "lib/media/pasted-image-20241029164713.png",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -682,11 +670,30 @@
     "lib/styles/obsidian.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css",
+    "lib/media/pasted-image-20241030164713.png",
+    "lib/media/pasted-image-20241030175329.png",
+    "lib/media/pasted-image-20241030175734.png",
+    "lib/media/pasted-image-20241030163134.png",
+    "lib/media/pasted-image-20241030163326.png",
+    "lib/media/pasted-image-20241030163336.png",
     "lib/media/pasted-image-20250328232445.png",
     "lib/media/pasted-image-20250329154530.png",
     "lib/media/pasted-image-20250329160058.png",
     "lib/media/pasted-image-20250329165710.png",
-    "lib/media/pasted-image-20250329165908.png"
+    "lib/media/pasted-image-20250329165908.png",
+    "lib/media/pasted-image-20241029162419.png",
+    "lib/media/pasted-image-20241029162450.png",
+    "lib/media/pasted-image-20241029162504.png",
+    "lib/media/pasted-image-20241029163244.png",
+    "lib/media/pasted-image-20241029163518.png",
+    "lib/media/pasted-image-20241029164021.png",
+    "lib/media/pasted-image-20241029164034.png",
+    "lib/media/pasted-image-20241029164204.png",
+    "lib/media/pasted-image-20241029164307.png",
+    "lib/media/pasted-image-20241029164436.png",
+    "lib/media/pasted-image-20241029164617.png",
+    "lib/media/pasted-image-20241029164640.png",
+    "lib/media/pasted-image-20241029164713.png"
   ],
   "mainDependencies": [
     "lib/fonts/94f2f163d4b698242fef.otf",
@@ -735,85 +742,85 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
@@ -963,145 +970,145 @@
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 270113,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 272867,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
@@ -1137,13 +1144,13 @@
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
@@ -1155,19 +1162,19 @@
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 137466,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -3092,7 +3099,7 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Лемма о свойствах ВП.md": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 446,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/лемма-о-свойствах-вп.html",
       "dependencies": []
@@ -3116,8 +3123,8 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Линейная оболочка.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 827,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 835,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/линейная-оболочка.html",
       "dependencies": []
     },
@@ -3128,8 +3135,8 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Подпространство ВП.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 268,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 272,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/подпространство-вп.html",
       "dependencies": []
     },
@@ -3170,14 +3177,14 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Лемма о дополнении до базиса.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 866,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 870,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/лемма-о-дополнении-до-базиса.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Лемма о линейной зависимости линейных комбинаций (ЛЗЛК).md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 1816,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 1814,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/лемма-о-линейной-зависимости-линейных-комбинаций-(лзлк).html",
       "dependencies": []
     },
@@ -3188,14 +3195,14 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Лемма о природе ядра и образа.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 480,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 533,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/лемма-о-природе-ядра-и-образа.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Лемма о прямой сумме.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 463,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 490,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/лемма-о-прямой-сумме.html",
       "dependencies": []
     },
@@ -3236,8 +3243,8 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Теорема о ядре и образе.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 1417,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 1419,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/теорема-о-ядре-и-образе.html",
       "dependencies": []
     },
@@ -3248,8 +3255,8 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Формула Грассмана.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 713,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 721,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/формула-грассмана.html",
       "dependencies": []
     },
@@ -3308,7 +3315,7 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture16/Умножение матриц.md": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 1826,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture16/умножение-матриц.html",
       "dependencies": []
@@ -3326,8 +3333,8 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Лемма об обратимости треугольной матрицы.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 496,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 494,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/лемма-об-обратимости-треугольной-матрицы.html",
       "dependencies": []
     },
@@ -3368,8 +3375,8 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Теорема об обратимых матрицах.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 841,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 830,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/теорема-об-обратимых-матрицах.html",
       "dependencies": []
     },
@@ -3386,8 +3393,8 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture18/Определитель.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 924,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 926,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture18/определитель.html",
       "dependencies": []
     },
@@ -3488,7 +3495,7 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture20/Теорема о явной формуле для обратной матрицы.md": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 499,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture20/теорема-о-явной-формуле-для-обратной-матрицы.html",
       "dependencies": []
@@ -3560,14 +3567,14 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Теорема Гамильтона-Кэли.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 419,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 2250,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/теорема-гамильтона-кэли.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Теорема о жордановых цепочках.md": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 1675,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 3341,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/теорема-о-жордановых-цепочках.html",
       "dependencies": []
     },
@@ -3578,13 +3585,13 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/Лекция 14.canvas": {
-      "modifiedTime": 1743323824068,
-      "sourceSize": 4892,
+      "modifiedTime": 1743344351760,
+      "sourceSize": 5248,
       "exportedPath": "hse/alg/alg_conspects/sem02/лекция-14.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/Лекция 15.canvas": {
-      "modifiedTime": 1743323824068,
+      "modifiedTime": 1743344351760,
       "sourceSize": 5424,
       "exportedPath": "hse/alg/alg_conspects/sem02/лекция-15.html",
       "dependencies": []
@@ -5041,6 +5048,48 @@
       "modifiedTime": 1743323824068,
       "sourceSize": 302091,
       "exportedPath": "lib/media/pasted-image-20241029164713.png",
+      "dependencies": []
+    },
+    "hse/alg/alg_conspects/sem02/lecture22/Замечание про операторы с одним собственным числом.md": {
+      "modifiedTime": 1743344351760,
+      "sourceSize": 860,
+      "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/замечание-про-операторы-с-одним-собственным-числом.html",
+      "dependencies": []
+    },
+    "hse/alg/alg_conspects/sem02/lecture22/Инвариантные подпространства.md": {
+      "modifiedTime": 1743344351760,
+      "sourceSize": 255,
+      "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/инвариантные-подпространства.html",
+      "dependencies": []
+    },
+    "hse/alg/alg_conspects/sem02/lecture22/Лемма об инвариантных подпространствах.md": {
+      "modifiedTime": 1743344351760,
+      "sourceSize": 763,
+      "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/лемма-об-инвариантных-подпространствах.html",
+      "dependencies": []
+    },
+    "hse/alg/alg_conspects/sem02/lecture22/Примеры инвариантных подпространств.md": {
+      "modifiedTime": 1743344351760,
+      "sourceSize": 230,
+      "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/примеры-инвариантных-подпространств.html",
+      "dependencies": []
+    },
+    "hse/alg/alg_conspects/sem02/lecture22/След матрицы.md": {
+      "modifiedTime": 1743344351760,
+      "sourceSize": 355,
+      "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/след-матрицы.html",
+      "dependencies": []
+    },
+    "hse/alg/alg_conspects/sem02/lecture22/Теорема о внутренней прямой сумме.md": {
+      "modifiedTime": 1743344351760,
+      "sourceSize": 733,
+      "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/теорема-о-внутренней-прямой-сумме.html",
+      "dependencies": []
+    },
+    "hse/alg/alg_conspects/sem02/Лекции 21-22.canvas": {
+      "modifiedTime": 1743344351760,
+      "sourceSize": 5656,
+      "exportedPath": "hse/alg/alg_conspects/sem02/лекции-21-22.html",
       "dependencies": []
     }
   }
