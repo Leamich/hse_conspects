@@ -8,7 +8,7 @@ A \subset B \subset \mathbb{R}\\
 B\text{ — огр. сверху (снизу)}
 \end{gathered}\right|\implies \sup A \leq \sup B\ (\inf A \geq \inf B)
 $$
-# Д-во
+## Д-во
 
 $$
 \left.\begin{gathered}

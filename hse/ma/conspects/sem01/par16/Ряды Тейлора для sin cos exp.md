@@ -1,4 +1,4 @@
-# $\sin x / \cos x$
+## $\sin x / \cos x$
 
 $\forall x \in \mathbb{R},\ \forall n:|\sin ^{(n)}(x)|=|\sin \left( x+\frac{\pi}{2}n \right)|\leq 1\stackrel{\text{Сл}}{\implies}\lim\limits_{ n \to +\infty }(T_{n,0}f(x))=\sin x\ \forall x$
 
@@ -8,7 +8,7 @@ $$
 $$
 \cos x=\sum\limits_{n=0}^{+\infty} \frac{(-1)^{n}x^{2n}}{(2n)!}
 $$
-# exp
+## exp
 
 $f(x)=e^{x}$
 
