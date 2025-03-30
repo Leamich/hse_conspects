@@ -8,7 +8,6 @@
 		{"id":"44d388494cf72052","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Пример базисов для фиббоначиевых последовательностей.md","x":974,"y":-80,"width":553,"height":567},
 		{"id":"f346dfc53d8a0538","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Теорема об изоморфизме в пространство столбцов.md","x":1033,"y":-284,"width":435,"height":150},
 		{"id":"7620832bed670090","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Координаты вектора.md","x":1028,"y":-544,"width":445,"height":150},
-		{"id":"b7e51fa8e3ed28b2","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о природе ядра и образа.md","x":-907,"y":-94,"width":540,"height":187},
 		{"id":"d0249f2eb668cee2","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Ядро и образ отображения.md","x":-853,"y":-540,"width":433,"height":201},
 		{"id":"ec4075ddd46e5223","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Теорема о ядре и образе.md","x":-877,"y":199,"width":480,"height":233},
 		{"id":"b1ca5611d8a7c996","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о пересечении подпространств.md","x":-238,"y":568,"width":471,"height":202},
@@ -16,7 +15,8 @@
 		{"id":"a7baeea36a7e7a71","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о прямой сумме.md","x":-1695,"y":514,"width":636,"height":310},
 		{"id":"a20af58fc269c157","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о сумме подпространств.md","x":-927,"y":881,"width":581,"height":155},
 		{"id":"0f288a3232af0a2b","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Сумма подпространств (сумма по Минковскому).md","x":-859,"y":1167,"width":445,"height":203},
-		{"id":"bdce5c2ec2965dbf","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Внешняя (прямая) сумма.md","x":-1620,"y":215,"width":486,"height":202}
+		{"id":"bdce5c2ec2965dbf","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Внешняя (прямая) сумма.md","x":-1620,"y":215,"width":486,"height":202},
+		{"id":"b7e51fa8e3ed28b2","type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о природе ядра и образа.md","x":-929,"y":-94,"width":585,"height":187}
 	],
 	"edges":[
 		{"id":"0a2d8edb82d01b22","fromNode":"068d4cf8a8852c87","fromSide":"right","toNode":"7620832bed670090","toSide":"left"},

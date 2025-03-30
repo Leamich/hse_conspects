@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"6b295338cf15ff55","x":1873,"y":-1324,"width":522,"height":324,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture21/Собственное подпространство.md"},
+		{"id":"8b2fc5c540c2d1c1","x":1116,"y":-1990,"width":661,"height":565,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture21/Операторы.md"},
+		{"id":"19405211b946e1ee","x":1201,"y":-1304,"width":491,"height":283,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture21/Собственное число и вектор.md"},
+		{"id":"f5374af31ba5b119","x":1194,"y":-945,"width":506,"height":419,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture21/Характеристический многочлен.md"},
+		{"id":"42ca247046447f83","x":1946,"y":-890,"width":488,"height":310,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture21/Замечание об однозначности характеристич многочлена.md"},
+		{"id":"e712466a95684956","x":2488,"y":-1337,"width":501,"height":359,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture21/Алг и геом кратность собственного числа.md"},
+		{"id":"88b6d61d5bc551df","x":1831,"y":-2419,"width":606,"height":525,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture21/Диагонализуемый оператор.md"},
+		{"id":"6d29046b793d701f","x":1867,"y":-1793,"width":535,"height":368,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture21/Лемма о ЛНЗ собственных векторов.md"},
+		{"id":"b5793847d81905fa","x":2444,"y":-1571,"width":589,"height":146,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture21/Теорема о критерии диагонализуемости.md"},
+		{"id":"f84a039c2bb90307","x":1033,"y":-180,"width":577,"height":398,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture22/Нильпотентные операторы.md"},
+		{"id":"4adb7e6d7ed74235","x":1099,"y":283,"width":445,"height":200,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture22/Жорданова цепочка.md"},
+		{"id":"5bd7f8063b0de9fc","x":1674,"y":33,"width":663,"height":700,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture22/Теорема о жордановых цепочках.md"},
+		{"id":"2fa892a7710c95e6","x":2434,"y":58,"width":591,"height":650,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture22/Замечание про операторы с одним собственным числом.md"},
+		{"id":"2016136f1f6a0ac4","x":2404,"y":775,"width":652,"height":884,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture22/Теорема Гамильтона-Кэли.md"},
+		{"id":"d69a20c35437fb49","x":1820,"y":1075,"width":517,"height":284,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture22/След матрицы.md"},
+		{"id":"d076c1a4567ab414","x":711,"y":1133,"width":483,"height":300,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture22/Инвариантные подпространства.md"},
+		{"id":"349a08c181263e26","x":631,"y":1520,"width":642,"height":465,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture22/Лемма об инвариантных подпространствах.md"},
+		{"id":"ad11cdf93c88ae6b","x":137,"y":1168,"width":494,"height":231,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture22/Примеры инвариантных подпространств.md"},
+		{"id":"7b9ab76453d19fd1","x":1659,"y":1792,"width":694,"height":387,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture22/Теорема о внутренней прямой сумме.md"}
+	],
+	"edges":[
+		{"id":"fc7ee966a1b62ab4","fromNode":"19405211b946e1ee","fromSide":"right","toNode":"6b295338cf15ff55","toSide":"left"},
+		{"id":"3fa1c9bff7d83200","fromNode":"8b2fc5c540c2d1c1","fromSide":"bottom","toNode":"19405211b946e1ee","toSide":"top"},
+		{"id":"4371de0eb3048e4a","fromNode":"19405211b946e1ee","fromSide":"bottom","toNode":"f5374af31ba5b119","toSide":"top"},
+		{"id":"7e4c152bf1a8ae91","fromNode":"f5374af31ba5b119","fromSide":"right","toNode":"42ca247046447f83","toSide":"left"},
+		{"id":"29fe0c5d1d5b54f3","fromNode":"6b295338cf15ff55","fromSide":"right","toNode":"e712466a95684956","toSide":"left"},
+		{"id":"95cfff029735abdc","fromNode":"6d29046b793d701f","fromSide":"top","toNode":"88b6d61d5bc551df","toSide":"bottom"},
+		{"id":"4d7ed37d984cca9c","fromNode":"6b295338cf15ff55","fromSide":"top","toNode":"6d29046b793d701f","toSide":"bottom"},
+		{"id":"17182058a331637b","fromNode":"e712466a95684956","fromSide":"top","toNode":"b5793847d81905fa","toSide":"bottom"},
+		{"id":"a13dadd9ca0ad111","fromNode":"88b6d61d5bc551df","fromSide":"right","toNode":"b5793847d81905fa","toSide":"top"},
+		{"id":"c426a668169f9ae2","fromNode":"f84a039c2bb90307","fromSide":"bottom","toNode":"4adb7e6d7ed74235","toSide":"top"},
+		{"id":"32e2891967f42c9c","fromNode":"4adb7e6d7ed74235","fromSide":"right","toNode":"5bd7f8063b0de9fc","toSide":"left"},
+		{"id":"9356343998c5d3c2","fromNode":"5bd7f8063b0de9fc","fromSide":"right","toNode":"2fa892a7710c95e6","toSide":"left"},
+		{"id":"d13812d846df92a2","fromNode":"2fa892a7710c95e6","fromSide":"bottom","toNode":"2016136f1f6a0ac4","toSide":"top"},
+		{"id":"4a30675fd268ddc0","fromNode":"2016136f1f6a0ac4","fromSide":"left","toNode":"d69a20c35437fb49","toSide":"right"},
+		{"id":"5cda22cbfac457a9","fromNode":"d076c1a4567ab414","fromSide":"bottom","toNode":"349a08c181263e26","toSide":"top"},
+		{"id":"57cabb2f5e7d3fc0","fromNode":"d076c1a4567ab414","fromSide":"left","toNode":"ad11cdf93c88ae6b","toSide":"right"}
+	]
+}

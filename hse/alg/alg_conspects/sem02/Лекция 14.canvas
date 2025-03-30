@@ -1,21 +1,22 @@
 {
 	"nodes":[
-		{"id":"d22458a46e581a48","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Изоморфизм ВП.md","x":-677,"y":-225,"width":400,"height":189},
-		{"id":"1b6eee7e2ed62b5c","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Линейное отображение.md","x":-180,"y":-255,"width":402,"height":249},
-		{"id":"c3c9b925ac9e8ad4","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Главный пример ВП.md","x":-729,"y":-710,"width":505,"height":386},
-		{"id":"ab7b7706aa8907a1","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Лемма о свойствах ВП.md","x":-1415,"y":-1226,"width":512,"height":228},
-		{"id":"a68776697b70fdc0","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Векторное пространство.md","x":-729,"y":-1393,"width":512,"height":562},
+		{"id":"d22458a46e581a48","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Изоморфизм ВП.md","x":-677,"y":175,"width":400,"height":189},
+		{"id":"1b6eee7e2ed62b5c","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Линейное отображение.md","x":-180,"y":145,"width":402,"height":249},
+		{"id":"c3c9b925ac9e8ad4","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Главный пример ВП.md","x":-729,"y":-310,"width":505,"height":386},
+		{"id":"ab7b7706aa8907a1","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Лемма о свойствах ВП.md","x":-1415,"y":-826,"width":512,"height":228},
+		{"id":"a68776697b70fdc0","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Векторное пространство.md","x":-729,"y":-993,"width":512,"height":562},
 		{"id":"5878ce4ba1baeccf","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Базис векторного пространства.md","x":1885,"y":-1702,"width":473,"height":200},
 		{"id":"01ae95199e86e76a","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Теорема о единственности и существовании базиса.md","x":1898,"y":-1417,"width":446,"height":228},
 		{"id":"424c9abf3dd5e6fa","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Размерность ВП.md","x":1904,"y":-1049,"width":434,"height":200},
 		{"id":"61afaaadda91578b","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Порождающая система.md","x":2448,"y":-1665,"width":464,"height":125},
 		{"id":"3fad19f3ec49520e","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Конечномерное ВП.md","x":2459,"y":-1380,"width":441,"height":155},
-		{"id":"38776c0dd9951c8c","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Утверждение о признаке ЛЗ.md","x":1310,"y":-1626,"width":493,"height":322},
-		{"id":"f48b77a138b2fa6c","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Лемма об операциях над линейными оболочками.md","x":1310,"y":-1189,"width":493,"height":154},
 		{"id":"47de2de31e9f0013","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Линейная независимость.md","x":2453,"y":-1996,"width":455,"height":243},
-		{"id":"ebf082fa7c0d9bc0","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Линейная комбинация.md","x":4,"y":-1251,"width":437,"height":278},
-		{"id":"eda2ccaaaa2f24eb","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Линейная оболочка.md","x":559,"y":-1413,"width":627,"height":602},
-		{"id":"41ce097b8262b158","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Подпространство ВП.md","x":617,"y":-700,"width":512,"height":300}
+		{"id":"ebf082fa7c0d9bc0","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Линейная комбинация.md","x":4,"y":-851,"width":437,"height":278},
+		{"id":"eda2ccaaaa2f24eb","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Линейная оболочка.md","x":559,"y":-1013,"width":627,"height":602},
+		{"id":"41ce097b8262b158","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Подпространство ВП.md","x":617,"y":-300,"width":512,"height":300},
+		{"id":"38776c0dd9951c8c","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Утверждение о признаке ЛЗ.md","x":1297,"y":-1248,"width":493,"height":322},
+		{"id":"f48b77a138b2fa6c","type":"file","file":"hse/alg/alg_conspects/sem02/lecture14/Лемма об операциях над линейными оболочками.md","x":1297,"y":-811,"width":493,"height":154},
+		{"id":"faf7978769db9bef","x":1330,"y":-1698,"width":460,"height":404,"type":"file","file":"hse/alg/alg_conspects/sem02/lecture15/Лемма о линейной зависимости линейных комбинаций (ЛЗЛК).md"}
 	],
 	"edges":[
 		{"id":"5473bf047947bc4a","fromNode":"d22458a46e581a48","fromSide":"top","toNode":"c3c9b925ac9e8ad4","toSide":"bottom"},
@@ -33,6 +34,7 @@
 		{"id":"44d03271f00e0777","fromNode":"47de2de31e9f0013","fromSide":"bottom","toNode":"61afaaadda91578b","toSide":"top"},
 		{"id":"7d6485be664c8188","fromNode":"a68776697b70fdc0","fromSide":"left","toNode":"ab7b7706aa8907a1","toSide":"right"},
 		{"id":"d16b2cbd63b411f3","fromNode":"a68776697b70fdc0","fromSide":"bottom","toNode":"c3c9b925ac9e8ad4","toSide":"top"},
-		{"id":"872692bc748f82d6","fromNode":"a68776697b70fdc0","fromSide":"right","toNode":"ebf082fa7c0d9bc0","toSide":"left"}
+		{"id":"872692bc748f82d6","fromNode":"a68776697b70fdc0","fromSide":"right","toNode":"ebf082fa7c0d9bc0","toSide":"left"},
+		{"id":"0cf2ee7f3f6de89a","fromNode":"faf7978769db9bef","fromSide":"right","toNode":"01ae95199e86e76a","toSide":"left"}
 	]
 }
