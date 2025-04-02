@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"242df1687d2b16d8","type":"file","file":"hse/ma/conspects/sem02/par11/Линейный оператор.md","x":778,"y":-710,"width":400,"height":351},
+		{"id":"2635a5af1e8516e6","type":"file","file":"hse/ma/conspects/sem02/par11/Матричное представление лин операторов.md","x":1121,"y":-1436,"width":400,"height":468},
+		{"id":"9448bc39966c98a6","type":"file","file":"hse/ma/conspects/sem02/par11/Норма линейного оператора.md","x":668,"y":-274,"width":620,"height":416},
+		{"id":"d059fc5b29dc082b","type":"file","file":"hse/ma/conspects/sem02/par11/Обратный оператор.md","x":1584,"y":-1417,"width":525,"height":449},
+		{"id":"5dcab26fdbd1a81b","type":"file","file":"hse/ma/conspects/sem02/par11/Сложение линейных операторов.md","x":675,"y":-1272,"width":382,"height":304},
+		{"id":"44b6c1ee8ccb0821","type":"file","file":"hse/ma/conspects/sem02/par11/Композиция линейных операторов.md","x":223,"y":-1160,"width":400,"height":192},
+		{"id":"7350fe23126a24f6","type":"file","file":"hse/ma/conspects/sem02/par11/Ограниченный оператор.md","x":-74,"y":-838,"width":611,"height":607},
+		{"id":"b58b2e738c950a2a","type":"file","file":"hse/ma/conspects/sem02/par11/Теорема о формулах для нормы оператора.md","x":615,"y":279,"width":727,"height":451},
+		{"id":"cef254588bbbb35a","type":"file","file":"hse/ma/conspects/sem02/par11/Теорема о норме оператора в Rd.md","x":1394,"y":348,"width":493,"height":313},
+		{"id":"dd2a3256879eb354","type":"file","file":"hse/ma/conspects/sem02/par11/Теорема о равносильностях для операторов.md","x":9,"y":-66,"width":445,"height":317}
+	],
+	"edges":[
+		{"id":"99041a5474089a3b","fromNode":"242df1687d2b16d8","fromSide":"top","toNode":"2635a5af1e8516e6","toSide":"bottom"},
+		{"id":"355e1f22fefc7bcd","fromNode":"242df1687d2b16d8","fromSide":"bottom","toNode":"9448bc39966c98a6","toSide":"top"},
+		{"id":"9b3678316d16a930","fromNode":"242df1687d2b16d8","fromSide":"top","toNode":"d059fc5b29dc082b","toSide":"bottom"},
+		{"id":"ff8b2aadce7aa3ae","fromNode":"9448bc39966c98a6","fromSide":"bottom","toNode":"b58b2e738c950a2a","toSide":"top"},
+		{"id":"f3dfb26b2307796b","fromNode":"242df1687d2b16d8","fromSide":"top","toNode":"5dcab26fdbd1a81b","toSide":"bottom"},
+		{"id":"184d159d39fc4e77","fromNode":"242df1687d2b16d8","fromSide":"top","toNode":"44b6c1ee8ccb0821","toSide":"bottom"},
+		{"id":"6400d74dc6b053ed","fromNode":"242df1687d2b16d8","fromSide":"left","toNode":"7350fe23126a24f6","toSide":"right"},
+		{"id":"46082449e21dfc3a","fromNode":"9448bc39966c98a6","fromSide":"left","toNode":"7350fe23126a24f6","toSide":"right"},
+		{"id":"dd4addec3f445251","fromNode":"b58b2e738c950a2a","fromSide":"right","toNode":"cef254588bbbb35a","toSide":"left"},
+		{"id":"c4e020e11cb84450","fromNode":"7350fe23126a24f6","fromSide":"bottom","toNode":"dd2a3256879eb354","toSide":"top"},
+		{"id":"850c31e5804672e4","fromNode":"b58b2e738c950a2a","fromSide":"left","toNode":"dd2a3256879eb354","toSide":"right"}
+	]
+}

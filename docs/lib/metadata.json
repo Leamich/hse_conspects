@@ -1,6 +1,6 @@
 {
   "vaultName": "conspects",
-  "lastExport": 1743345058571,
+  "lastExport": 1743596876215,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -511,6 +511,7 @@
     "hse/ma/conspects/sem02/par04/Теорема Кантора.md",
     "hse/ma/conspects/sem02/par04/Теорема об интегральных суммах.md",
     "hse/ma/conspects/sem02/par04/Теорема об оценке погрешности в формуле трапеций.md",
+    "hse/ma/conspects/sem02/par04/Формула Стирлинга.md",
     "hse/ma/conspects/sem02/par04/Формула трапеций.md",
     "hse/ma/conspects/sem02/par04/Формула Эйлера-Маклорена для второй производной.md",
     "hse/ma/conspects/sem02/par05/Абсолютная сходимость интеграла.md",
@@ -563,15 +564,65 @@
     "hse/ma/conspects/sem02/par07/Фундаментальная последовательность в метр пр-ве.md",
     "hse/ma/conspects/sem02/par08/Вполне ограниченное множество.md",
     "hse/ma/conspects/sem02/par08/Компакт.md",
+    "hse/ma/conspects/sem02/par08/Лемма Лебега.md",
+    "hse/ma/conspects/sem02/par08/Обобщение равносильностей для компакта.md",
     "hse/ma/conspects/sem02/par08/Открытое покрытие.md",
     "hse/ma/conspects/sem02/par08/Подпокрытие.md",
     "hse/ma/conspects/sem02/par08/Покрытие множества.md",
+    "hse/ma/conspects/sem02/par08/Признак полной ограниченности.md",
     "hse/ma/conspects/sem02/par08/Секвенциональный компакт.md",
     "hse/ma/conspects/sem02/par08/Теорема о критерии полноты.md",
     "hse/ma/conspects/sem02/par08/Теорема о пересечении семейства компактов.md",
     "hse/ma/conspects/sem02/par08/Теорема о предельной точке в компакте.md",
     "hse/ma/conspects/sem02/par08/Теорема о свойствах компактов.md",
+    "hse/ma/conspects/sem02/par08/Теорема Хаусдорфа.md",
+    "hse/ma/conspects/sem02/par08/Характеристика компактов в Rd.md",
     "hse/ma/conspects/sem02/par08/eps-сеть.md",
+    "hse/ma/conspects/sem02/par09/Критерий Коши в метр пр-ве.md",
+    "hse/ma/conspects/sem02/par09/Непрерывность отображения в метр пр-ве.md",
+    "hse/ma/conspects/sem02/par09/Ограниченная функция в метр пр-ве.md",
+    "hse/ma/conspects/sem02/par09/Равномерная непрерывность отображения.md",
+    "hse/ma/conspects/sem02/par09/Теорема Кантора в метрических пространствах.md",
+    "hse/ma/conspects/sem02/par09/Теорема о непрерывном образе компакта.md",
+    "hse/ma/conspects/sem02/par09/Теорема о непрерывности композиции в метр пр-ве.md",
+    "hse/ma/conspects/sem02/par09/Теорема о непрерывности обратной функции.md",
+    "hse/ma/conspects/sem02/par09/Теорема о характеристики непрерывности в терминах открытых множеств.md",
+    "hse/ma/conspects/sem02/par09/Теорема об арифм действиях с пределами в метр пр-ве.md",
+    "hse/ma/conspects/sem02/par09/Теорема об эквивалентности норм.md",
+    "hse/ma/conspects/sem02/par09/Эквивалентность норм.md",
+    "hse/ma/conspects/sem02/par10/Гладкий путь.md",
+    "hse/ma/conspects/sem02/par10/Длина кривой.md",
+    "hse/ma/conspects/sem02/par10/Длина пути.md",
+    "hse/ma/conspects/sem02/par10/Кривая.md",
+    "hse/ma/conspects/sem02/par10/Лемма о длине гладкого пути.md",
+    "hse/ma/conspects/sem02/par10/Линейно связное множество.md",
+    "hse/ma/conspects/sem02/par10/Носитель пути.md",
+    "hse/ma/conspects/sem02/par10/Противоположный путь.md",
+    "hse/ma/conspects/sem02/par10/Путь.md",
+    "hse/ma/conspects/sem02/par10/Теорема Больцано-Коши в лин. св. мн-вах.md",
+    "hse/ma/conspects/sem02/par10/Теорема о длине гладкого пути.md",
+    "hse/ma/conspects/sem02/par10/Теорема о линейности длины пути.md",
+    "hse/ma/conspects/sem02/par10/Теорема об аддитивности длины пути.md",
+    "hse/ma/conspects/sem02/par10/Эквивалентные пути.md",
+    "hse/ma/conspects/sem02/par11/Композиция линейных операторов.md",
+    "hse/ma/conspects/sem02/par11/Линейный оператор.md",
+    "hse/ma/conspects/sem02/par11/Матричное представление лин операторов.md",
+    "hse/ma/conspects/sem02/par11/Норма линейного оператора.md",
+    "hse/ma/conspects/sem02/par11/Обратный оператор.md",
+    "hse/ma/conspects/sem02/par11/Ограниченный оператор.md",
+    "hse/ma/conspects/sem02/par11/Сложение линейных операторов.md",
+    "hse/ma/conspects/sem02/par11/Теорема о норме оператора в Rd.md",
+    "hse/ma/conspects/sem02/par11/Теорема о равносильностях для операторов.md",
+    "hse/ma/conspects/sem02/par11/Теорема о формулах для нормы оператора.md",
+    "hse/ma/conspects/sem02/par12/Абсолютная сходимость ряда.md",
+    "hse/ma/conspects/sem02/par12/Критерий Коши.md",
+    "hse/ma/conspects/sem02/par12/Необходимое условие сходимости ряда в метр пр-ве.md",
+    "hse/ma/conspects/sem02/par12/Ряд в нормированном пространстве.md",
+    "hse/ma/conspects/sem02/par12/Свойства ряда в метр пр-ве.md",
+    "hse/ma/conspects/sem02/par12/Теорема о сходимости сгруппированного ряда.md",
+    "hse/ma/conspects/sem02/par12/Теорема об абсолютной сходимости.md",
+    "hse/ma/conspects/sem02/par13/Критерий сходимости для знакопостоянных рядов.md",
+    "hse/ma/conspects/sem02/par13/Признак сравнения для рядов.md",
     "hse/ma/conspects/sem02/par13/Равномерная непрерывность отображения.md",
     "hse/ma/conspects/sem02/par13/Теорема Кантора в метрических пространствах.md",
     "hse/ma/conspects/sem02/par13/Теорема о непрерывности обратной функции.md",
@@ -598,6 +649,9 @@
     "hse/ma/conspects/sem02/Пар06.canvas",
     "hse/ma/conspects/sem02/Пар07.canvas",
     "hse/ma/conspects/sem02/Пар08.canvas",
+    "hse/ma/conspects/sem02/Пар09.canvas",
+    "hse/ma/conspects/sem02/Пар10.canvas",
+    "hse/ma/conspects/sem02/Пар11.canvas",
     "hse/ma/Матан экз01 билеты.md",
     "hse/ma/Матан экз03.md",
     "images/matan3hse.pdf",
@@ -626,6 +680,13 @@
     "images/Pasted image 20250329160058.png",
     "images/Pasted image 20250329165710.png",
     "images/Pasted image 20250329165908.png",
+    "images/Pasted image 20250331180643.png",
+    "images/Pasted image 20250331181947.png",
+    "images/Pasted image 20250331182014.png",
+    "images/Pasted image 20250331182037.png",
+    "images/Pasted image 20250331184223.png",
+    "images/Pasted image 20250331184226.png",
+    "images/Pasted image 20250331191014.png",
     "index.md",
     "lib/media/pasted-image-20241030164713.png",
     "lib/media/pasted-image-20241030175329.png",
@@ -634,10 +695,11 @@
     "lib/media/pasted-image-20241030163326.png",
     "lib/media/pasted-image-20241030163336.png",
     "lib/media/pasted-image-20250328232445.png",
-    "lib/media/pasted-image-20250329154530.png",
     "lib/media/pasted-image-20250329160058.png",
-    "lib/media/pasted-image-20250329165710.png",
-    "lib/media/pasted-image-20250329165908.png",
+    "lib/media/pasted-image-20250331180643.png",
+    "lib/media/pasted-image-20250331182037.png",
+    "lib/media/pasted-image-20250331184226.png",
+    "lib/media/pasted-image-20250331191014.png",
     "lib/media/pasted-image-20241029162419.png",
     "lib/media/pasted-image-20241029162450.png",
     "lib/media/pasted-image-20241029162504.png",
@@ -693,7 +755,10 @@
     "lib/media/favicon.png",
     "lib/styles/obsidian.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "lib/media/pasted-image-20250329154530.png",
+    "lib/media/pasted-image-20250329165710.png",
+    "lib/media/pasted-image-20250329165908.png"
   ],
   "mainDependencies": [
     "lib/fonts/94f2f163d4b698242fef.otf",
@@ -742,85 +807,85 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
@@ -958,8 +1023,8 @@
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 1216,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1205,
       "exportedPath": "index.html",
       "dependencies": []
     },
@@ -970,145 +1035,145 @@
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 272867,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 298502,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
@@ -1144,13 +1209,13 @@
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
@@ -1162,19 +1227,19 @@
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 137466,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -1186,19 +1251,19 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par01/Замена переменной.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1280,
       "exportedPath": "hse/ma/conspects/sem02/par01/замена-переменной.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par01/Интегрирование по частям.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 905,
       "exportedPath": "hse/ma/conspects/sem02/par01/интегрирование-по-частям.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par01/Линейность интеграла.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 440,
       "exportedPath": "hse/ma/conspects/sem02/par01/линейность-интеграла.html",
       "dependencies": []
@@ -1222,7 +1287,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par01/Теорема об общем виде первообразных.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 363,
       "exportedPath": "hse/ma/conspects/sem02/par01/теорема-об-общем-виде-первообразных.html",
       "dependencies": []
@@ -1234,7 +1299,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par02/Замена переменной в определённом интеграле.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 534,
       "exportedPath": "hse/ma/conspects/sem02/par02/замена-переменной-в-определённом-интеграле.html",
       "dependencies": []
@@ -1246,7 +1311,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par02/Интегрирование по частям для определённого интеграла.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 378,
       "exportedPath": "hse/ma/conspects/sem02/par02/интегрирование-по-частям-для-определённого-интеграла.html",
       "dependencies": []
@@ -1258,26 +1323,26 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par02/Линейность определённого интеграла.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 470,
       "exportedPath": "hse/ma/conspects/sem02/par02/линейность-определённого-интеграла.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par02/Монотонность интеграла.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 996,
       "exportedPath": "hse/ma/conspects/sem02/par02/монотонность-интеграла.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par02/Определённый интеграл.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 1306,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1296,
       "exportedPath": "hse/ma/conspects/sem02/par02/определённый-интеграл.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par02/Подграфик функции.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 151,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 152,
       "exportedPath": "hse/ma/conspects/sem02/par02/подграфик-функции.html",
       "dependencies": []
     },
@@ -1288,7 +1353,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par02/Положительная и отрицательная состявляющие функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 255,
       "exportedPath": "hse/ma/conspects/sem02/par02/положительная-и-отрицательная-состявляющие-функции.html",
       "dependencies": []
@@ -1300,8 +1365,8 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par02/Теорема Барроу.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 1042,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1313,
       "exportedPath": "hse/ma/conspects/sem02/par02/теорема-барроу.html",
       "dependencies": []
     },
@@ -1312,20 +1377,20 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par02/Теорема о среднем.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 382,
       "exportedPath": "hse/ma/conspects/sem02/par02/теорема-о-среднем.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par02/Теорема об аддитивности интеграла.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 805,
       "exportedPath": "hse/ma/conspects/sem02/par02/теорема-об-аддитивности-интеграла.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par02/Формула Ньютона-Лейбница.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 334,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 336,
       "exportedPath": "hse/ma/conspects/sem02/par02/формула-ньютона-лейбница.html",
       "dependencies": []
     },
@@ -1336,26 +1401,26 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par03/Остатки для доказательства т Ламберта.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 910,
       "exportedPath": "hse/ma/conspects/sem02/par03/остатки-для-доказательства-т-ламберта.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par03/Теорема Ламберта.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 666,
       "exportedPath": "hse/ma/conspects/sem02/par03/теорема-ламберта.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par03/Формула Валлиса.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1217,
       "exportedPath": "hse/ma/conspects/sem02/par03/формула-валлиса.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par03/Формула Тейлора с остатком в интегральной форме.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 1025,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1261,
       "exportedPath": "hse/ma/conspects/sem02/par03/формула-тейлора-с-остатком-в-интегральной-форме.html",
       "dependencies": []
     },
@@ -1366,7 +1431,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par04/Интеграл Римана.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 854,
       "exportedPath": "hse/ma/conspects/sem02/par04/интеграл-римана.html",
       "dependencies": []
@@ -1378,13 +1443,13 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par04/Лемма об интеграле через вторую производную.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 982,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 995,
       "exportedPath": "hse/ma/conspects/sem02/par04/лемма-об-интеграле-через-вторую-производную.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par04/Модуль непрерывности функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1569,
       "exportedPath": "hse/ma/conspects/sem02/par04/модуль-непрерывности-функции.html",
       "dependencies": []
@@ -1396,13 +1461,13 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par04/Примеры для формулы Эйлера-Маклорена.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 1958,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1959,
       "exportedPath": "hse/ma/conspects/sem02/par04/примеры-для-формулы-эйлера-маклорена.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par04/Равномерная непрерывность.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1129,
       "exportedPath": "hse/ma/conspects/sem02/par04/равномерная-непрерывность.html",
       "dependencies": []
@@ -1414,19 +1479,19 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par04/Теорема Кантора.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2390,
       "exportedPath": "hse/ma/conspects/sem02/par04/теорема-кантора.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par04/Теорема об интегральных суммах.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1216,
       "exportedPath": "hse/ma/conspects/sem02/par04/теорема-об-интегральных-суммах.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par04/Теорема об оценке погрешности в формуле трапеций.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1354,
       "exportedPath": "hse/ma/conspects/sem02/par04/теорема-об-оценке-погрешности-в-формуле-трапеций.html",
       "dependencies": []
@@ -1438,7 +1503,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par04/Формула Эйлера-Маклорена для второй производной.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1085,
       "exportedPath": "hse/ma/conspects/sem02/par04/формула-эйлера-маклорена-для-второй-производной.html",
       "dependencies": []
@@ -1450,7 +1515,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par05/Замена переменной в несобственном интеграле.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2100,
       "exportedPath": "hse/ma/conspects/sem02/par05/замена-переменной-в-несобственном-интеграле.html",
       "dependencies": []
@@ -1468,31 +1533,31 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par05/Критерий Коши для сходимости несобственного интеграла.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1860,
       "exportedPath": "hse/ma/conspects/sem02/par05/критерий-коши-для-сходимости-несобственного-интеграла.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par05/Несобственный интеграл.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 690,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 693,
       "exportedPath": "hse/ma/conspects/sem02/par05/несобственный-интеграл.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par05/Признак Абеля.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2492,
       "exportedPath": "hse/ma/conspects/sem02/par05/признак-абеля.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par05/Признак Дирихле.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1417,
       "exportedPath": "hse/ma/conspects/sem02/par05/признак-дирихле.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par05/Признак сравнения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1435,
       "exportedPath": "hse/ma/conspects/sem02/par05/признак-сравнения.html",
       "dependencies": [
@@ -1506,7 +1571,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par05/Примеры для признаков Дирихле-Абеля.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1613,
       "exportedPath": "hse/ma/conspects/sem02/par05/примеры-для-признаков-дирихле-абеля.html",
       "dependencies": []
@@ -1524,13 +1589,13 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par05/Теорема о признаке сходимости через ограниченность.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 477,
       "exportedPath": "hse/ma/conspects/sem02/par05/теорема-о-признаке-сходимости-через-ограниченность.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par05/Теорема об абсолютной сходимости интеграла.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 522,
       "exportedPath": "hse/ma/conspects/sem02/par05/теорема-об-абсолютной-сходимости-интеграла.html",
       "dependencies": []
@@ -1566,7 +1631,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par06/Норма.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 650,
       "exportedPath": "hse/ma/conspects/sem02/par06/норма.html",
       "dependencies": []
@@ -1584,7 +1649,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par06/Открытые и замкнутые множества в пространстве и в подпространстве.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1338,
       "exportedPath": "hse/ma/conspects/sem02/par06/открытые-и-замкнутые-множества-в-пространстве-и-в-подпространстве.html",
       "dependencies": []
@@ -1616,7 +1681,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par06/Свойства замкнутых множеств.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1496,
       "exportedPath": "hse/ma/conspects/sem02/par06/свойства-замкнутых-множеств.html",
       "dependencies": [
@@ -1642,37 +1707,37 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par06/Скалярное произведение.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 713,
       "exportedPath": "hse/ma/conspects/sem02/par06/скалярное-произведение.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par06/Теорема о замыкании.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 810,
       "exportedPath": "hse/ma/conspects/sem02/par06/теорема-о-замыкании.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par06/Теорема о свойствах открытого множества.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1801,
       "exportedPath": "hse/ma/conspects/sem02/par06/теорема-о-свойствах-открытого-множества.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par06/Характеристика предельных точек.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1277,
       "exportedPath": "hse/ma/conspects/sem02/par06/характеристика-предельных-точек.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par06/Характеристика точек замыкания.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 293,
       "exportedPath": "hse/ma/conspects/sem02/par06/характеристика-точек-замыкания.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par06/Шар.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 774,
       "exportedPath": "hse/ma/conspects/sem02/par06/шар.html",
       "dependencies": []
@@ -1696,7 +1761,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par07/Предел в метрическом пр-ве.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 422,
       "exportedPath": "hse/ma/conspects/sem02/par07/предел-в-метрическом-пр-ве.html",
       "dependencies": []
@@ -1711,25 +1776,25 @@
       ]
     },
     "hse/ma/conspects/sem02/par07/Свойства фунд посл-ти в метр пр-ве.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1464,
       "exportedPath": "hse/ma/conspects/sem02/par07/свойства-фунд-посл-ти-в-метр-пр-ве.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par07/Теорема о покоординатной сх-ти.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 460,
       "exportedPath": "hse/ma/conspects/sem02/par07/теорема-о-покоординатной-сх-ти.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par07/Теорема о полноте Rd.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 624,
       "exportedPath": "hse/ma/conspects/sem02/par07/теорема-о-полноте-rd.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par07/Теорема об арифметических действиях с пределами в нормированном пр-ве.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1499,
       "exportedPath": "hse/ma/conspects/sem02/par07/теорема-об-арифметических-действиях-с-пределами-в-нормированном-пр-ве.html",
       "dependencies": []
@@ -1741,10 +1806,13 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par08/Вполне ограниченное множество.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 144,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1206,
       "exportedPath": "hse/ma/conspects/sem02/par08/вполне-ограниченное-множество.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/pasted-image-20250331180643.png",
+        "lib/media/pasted-image-20250331182037.png"
+      ]
     },
     "hse/ma/conspects/sem02/par08/Компакт.md": {
       "modifiedTime": 1743345058571,
@@ -1771,31 +1839,31 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par08/Секвенциональный компакт.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 302,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 345,
       "exportedPath": "hse/ma/conspects/sem02/par08/секвенциональный-компакт.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par08/Теорема о критерии полноты.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 314,
       "exportedPath": "hse/ma/conspects/sem02/par08/теорема-о-критерии-полноты.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par08/Теорема о пересечении семейства компактов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1102,
       "exportedPath": "hse/ma/conspects/sem02/par08/теорема-о-пересечении-семейства-компактов.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par08/Теорема о предельной точке в компакте.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1471,
       "exportedPath": "hse/ma/conspects/sem02/par08/теорема-о-предельной-точке-в-компакте.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par08/Теорема о свойствах компактов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2837,
       "exportedPath": "hse/ma/conspects/sem02/par08/теорема-о-свойствах-компактов.html",
       "dependencies": []
@@ -1807,37 +1875,37 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par13/Равномерная непрерывность отображения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 254,
       "exportedPath": "hse/ma/conspects/sem02/par13/равномерная-непрерывность-отображения.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par13/Теорема Кантора в метрических пространствах.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1154,
       "exportedPath": "hse/ma/conspects/sem02/par13/теорема-кантора-в-метрических-пространствах.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par13/Теорема о непрерывности обратной функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 608,
       "exportedPath": "hse/ma/conspects/sem02/par13/теорема-о-непрерывности-обратной-функции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par13/Теорема об эквивалентности норм.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 901,
       "exportedPath": "hse/ma/conspects/sem02/par13/теорема-об-эквивалентности-норм.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par13/Эквивалентность норм.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 654,
       "exportedPath": "hse/ma/conspects/sem02/par13/эквивалентность-норм.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par14/Гладкий путь.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 311,
       "exportedPath": "hse/ma/conspects/sem02/par14/гладкий-путь.html",
       "dependencies": []
@@ -1849,19 +1917,19 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par14/Длина пути.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 445,
       "exportedPath": "hse/ma/conspects/sem02/par14/длина-пути.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par14/Кривая.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 161,
       "exportedPath": "hse/ma/conspects/sem02/par14/кривая.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par14/Лемма о длине гладкого пути.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 515,
       "exportedPath": "hse/ma/conspects/sem02/par14/лемма-о-длине-гладкого-пути.html",
       "dependencies": []
@@ -1873,43 +1941,43 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par14/Носитель пути.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 67,
       "exportedPath": "hse/ma/conspects/sem02/par14/носитель-пути.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par14/Противоположный путь.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 83,
       "exportedPath": "hse/ma/conspects/sem02/par14/противоположный-путь.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par14/Путь.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 398,
       "exportedPath": "hse/ma/conspects/sem02/par14/путь.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par14/Теорема Больцано-Коши в лин. св. мн-вах.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 221,
       "exportedPath": "hse/ma/conspects/sem02/par14/теорема-больцано-коши-в-лин.-св.-мн-вах.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par14/Теорема о длине гладкого пути.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 164,
       "exportedPath": "hse/ma/conspects/sem02/par14/теорема-о-длине-гладкого-пути.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par14/Теорема о линейности длины пути.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 963,
       "exportedPath": "hse/ma/conspects/sem02/par14/теорема-о-линейности-длины-пути.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem02/par14/Эквивалентные пути.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 215,
       "exportedPath": "hse/ma/conspects/sem02/par14/эквивалентные-пути.html",
       "dependencies": []
@@ -1933,8 +2001,8 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem02/Пар04.canvas": {
-      "modifiedTime": 1743280853721,
-      "sourceSize": 3774,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 4056,
       "exportedPath": "hse/ma/conspects/sem02/пар04.html",
       "dependencies": []
     },
@@ -1965,14 +2033,19 @@
       ]
     },
     "hse/ma/conspects/sem02/Пар08.canvas": {
-      "modifiedTime": 1743280853721,
-      "sourceSize": 3242,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 4967,
       "exportedPath": "hse/ma/conspects/sem02/пар08.html",
-      "dependencies": []
+      "dependencies": [
+        "lib/media/pasted-image-20250331180643.png",
+        "lib/media/pasted-image-20250331182037.png",
+        "lib/media/pasted-image-20250331184226.png",
+        "lib/media/pasted-image-20250331191014.png"
+      ]
     },
     "hse/ma/Матан экз03.md": {
-      "modifiedTime": 1743345058571,
-      "sourceSize": 11874,
+      "modifiedTime": 1743596876215,
+      "sourceSize": 12057,
       "exportedPath": "hse/ma/матан-экз03.html",
       "dependencies": []
     },
@@ -2133,7 +2206,7 @@
       "dependencies": []
     },
     "lib/media/pasted-image-20250328232445.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 47138,
       "exportedPath": "lib/media/pasted-image-20250328232445.png",
       "dependencies": []
@@ -2145,7 +2218,7 @@
       "dependencies": []
     },
     "lib/media/pasted-image-20250329160058.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 5141,
       "exportedPath": "lib/media/pasted-image-20250329160058.png",
       "dependencies": []
@@ -2169,61 +2242,61 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture01/Алгоритм Евклида.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 120,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture01/алгоритм-евклида.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture01/Деление с остатком.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1181,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture01/деление-с-остатком.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture01/Делимость.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 248,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture01/делимость.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture01/Идеал.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 544,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture01/идеал.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture01/Лемма об инварианте НОД.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 290,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture01/лемма-об-инварианте-нод.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture01/Линейные диофантовы уравнения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 223,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture01/линейные-диофантовы-уравнения.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture01/НОД.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 580,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture01/нод.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture01/Основные св-ва делимости.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 708,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture01/основные-св-ва-делимости.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture01/Теорема о главных идеалах.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 900,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture01/теорема-о-главных-идеалах.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture01/Теорема о линейном представлении НОД.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1128,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture01/теорема-о-линейном-представлении-нод.html",
       "dependencies": []
@@ -2235,85 +2308,85 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture02/Группа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 397,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture02/группа.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture02/Лемма о характеристике взаимной простоты.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 179,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture02/лемма-о-характеристике-взаимной-простоты.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture02/Лемма о характеристике простоты.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 626,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture02/лемма-о-характеристике-простоты.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture02/Лемма об отбрасывании вз.прост. множителей.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 280,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture02/лемма-об-отбрасывании-вз.прост.-множителей.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture02/НОД и НОК через ОТА.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 588,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture02/нод-и-нок-через-ота.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture02/НОД от нескольких чисел.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 341,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture02/нод-от-нескольких-чисел.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture02/НОК.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 122,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture02/нок.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture02/Основная теорема арифметики.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1824,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture02/основная-теорема-арифметики.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture02/Простое число.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 200,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture02/простое-число.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture02/Следствия из ОТА.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 908,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture02/следствия-из-ота.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture02/Степень вхождения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 928,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture02/степень-вхождения.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture03/Группа с композицией.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 811,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture03/группа-с-композицией.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture03/Кольца вычетов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 499,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture03/кольца-вычетов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture03/Кольцо, поле, тело.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 821,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture03/кольцо,-поле,-тело.html",
       "dependencies": []
@@ -2325,55 +2398,55 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture03/Пример некоммутативной группы (композиция).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 353,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture03/пример-некоммутативной-группы-(композиция).html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture03/Простейшие свойства группы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 529,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture03/простейшие-свойства-группы.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture03/Простейшие свойства колец.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 57,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture03/простейшие-свойства-колец.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture03/Равенство по модулю.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 587,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture03/равенство-по-модулю.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture03/Свойства сравнений.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 139,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture03/свойства-сравнений.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture04/Взаимнопростые в кольце вычетов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1003,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture04/взаимнопростые-в-кольце-вычетов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture04/Делители нуля.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 171,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture04/делители-нуля.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture04/Каноническое отображение.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 706,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture04/каноническое-отображение.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture04/Лемма об области целостности.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 570,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture04/лемма-об-области-целостности.html",
       "dependencies": []
@@ -2385,103 +2458,103 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture04/Признак поля.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 418,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture04/признак-поля.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture04/Произведение групп и колец.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 513,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture04/произведение-групп-и-колец.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture04/Теорема о свойства кольца вычетов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 853,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture04/теорема-о-свойства-кольца-вычетов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture04/Утверждение около КТО.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1128,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture04/утверждение-около-кто.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture05/Гомоморфизм групп.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 197,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture05/гомоморфизм-групп.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture05/Гомоморфизм колец.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 235,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture05/гомоморфизм-колец.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture05/Изоморфизм групп.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 633,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture05/изоморфизм-групп.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture05/Китайская теорема об остатках.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2522,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture05/китайская-теорема-об-остатках.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture05/Лемма для порядка.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 629,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture05/лемма-для-порядка.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture05/Малая теорема Ферма.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 207,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture05/малая-теорема-ферма.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture05/Порядок.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 149,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture05/порядок.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture05/Теорема Лагранжа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 250,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture05/теорема-лагранжа.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture05/Явная формула для КТО.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 841,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture05/явная-формула-для-кто.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture06/Алгоритм RSA.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 990,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture06/алгоритм-rsa.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture06/Группа, порождённая числом.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 631,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture06/группа,-порождённая-числом.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture06/Лемма о биективном отображении.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 443,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture06/лемма-о-биективном-отображении.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture06/Первообразный корень.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 252,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture06/первообразный-корень.html",
       "dependencies": []
@@ -2493,25 +2566,25 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture06/Теорема о циклических группах для простых чисел.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 159,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture06/теорема-о-циклических-группах-для-простых-чисел.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture06/Теорема об изоморфности циклических групп.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 901,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture06/теорема-об-изоморфности-циклических-групп.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture06/Теорема Эйлера.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 72,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture06/теорема-эйлера.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture06/Функция Эйлера.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2054,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture06/функция-эйлера.html",
       "dependencies": []
@@ -2523,43 +2596,43 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture07/Лемма о связи порядка и степени.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 552,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture07/лемма-о-связи-порядка-и-степени.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture07/Неустойчивость теста Люка.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 691,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture07/неустойчивость-теста-люка.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture07/Тест Люка.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1634,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture07/тест-люка.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture07/Тест Равина-Миллера.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1306,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture07/тест-равина-миллера.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture07/Тест Ферма.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 848,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture07/тест-ферма.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Значения многочлена в точке.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 170,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/значения-многочлена-в-точке.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Кольцо формальных степенных рядов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 903,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/кольцо-формальных-степенных-рядов.html",
       "dependencies": []
@@ -2571,7 +2644,7 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Лемма о гомоморфизме между кольцом ФСР и кольцом.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 249,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/лемма-о-гомоморфизме-между-кольцом-фср-и-кольцом.html",
       "dependencies": []
@@ -2583,19 +2656,19 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Лемма о подкольце многочленов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 447,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/лемма-о-подкольце-многочленов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Лемма о свойствах 'икса'.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 417,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/лемма-о-свойствах-'икса'.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Многочлен.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 160,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/многочлен.html",
       "dependencies": []
@@ -2607,13 +2680,13 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Полиномиальная функция.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 375,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/полиномиальная-функция.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Свойства степени.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 524,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/свойства-степени.html",
       "dependencies": []
@@ -2625,151 +2698,151 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Теорема Безу.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 307,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/теорема-безу.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Теорема о гомоморфизме эвалюации.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 798,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/теорема-о-гомоморфизме-эвалюации.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Теорема о делении многочленов с остатком.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1403,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/теорема-о-делении-многочленов-с-остатком.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture08/Теорема о свойствах кольца ФСР.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1425,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture08/теорема-о-свойствах-кольца-фср.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture09/Евклидово кольцо.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 648,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture09/евклидово-кольцо.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture09/Замечание о сведении интерп задачи к КТО.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 168,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture09/замечание-о-сведении-интерп-задачи-к-кто.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture09/Замечание о функциях в кольце вычетов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 615,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture09/замечание-о-функциях-в-кольце-вычетов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture09/Интерполяционные данные.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 171,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture09/интерполяционные-данные.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture09/Лемма о делимости на серию корней.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 164,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture09/лемма-о-делимости-на-серию-корней.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture09/Теорема о кол-ве корней многочлена.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 819,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture09/теорема-о-кол-ве-корней-многочлена.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture09/Теорема о первообразном корне.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2232,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture09/теорема-о-первообразном-корне.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture09/Теорема о формальном и функциональном равенстве.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 712,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture09/теорема-о-формальном-и-функциональном-равенстве.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture09/Теорема об интерполяционной задаче.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1251,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture09/теорема-об-интерполяционной-задаче.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Ассоциированные элементы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 799,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/ассоциированные-элементы.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Делимость в кольцах.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 153,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/делимость-в-кольцах.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Дифференцирование (алгебра).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 202,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/дифференцирование-(алгебра).html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Кратный корень.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 247,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/кратный-корень.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Лемма о мультипликативной группе для многочленов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 212,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/лемма-о-мультипликативной-группе-для-многочленов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Неразложимый элемент.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 180,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/неразложимый-элемент.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Область главных идеалов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 408,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/область-главных-идеалов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Производная многочленов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 649,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/производная-многочленов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Теорема о главных идеалах в евкл кольце.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 494,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/теорема-о-главных-идеалах-в-евкл-кольце.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Теорема о кратных корнях.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 803,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/теорема-о-кратных-корнях.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Теорема о признаке факториальной ОЦ.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 696,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/теорема-о-признаке-факториальной-оц.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture10/Теорема о третьем определении производной.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1179,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture10/теорема-о-третьем-определении-производной.html",
       "dependencies": []
@@ -2787,19 +2860,19 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture11/Задание комплексных чисел.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 813,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture11/задание-комплексных-чисел.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture11/Комплексные числа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 143,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture11/комплексные-числа.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture11/Модуль комплесного числа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 103,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture11/модуль-комплесного-числа.html",
       "dependencies": []
@@ -2811,13 +2884,13 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture11/Расширение полей.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1443,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture11/расширение-полей.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture11/Свойства модуля и сопряжения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 657,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture11/свойства-модуля-и-сопряжения.html",
       "dependencies": []
@@ -2829,163 +2902,163 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture11/Теорема о замене 'икса'.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 452,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture11/теорема-о-замене-'икса'.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture11/Теорема о формуле Тейлора.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 935,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture11/теорема-о-формуле-тейлора.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture11/Теорема о характеристике поля.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 389,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture11/теорема-о-характеристике-поля.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture11/Характеристика поля.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 378,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture11/характеристика-поля.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture12/Геом преобразования в терминах CC.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 737,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture12/геом-преобразования-в-терминах-cc.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture12/Геометрические преобразования.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 345,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture12/геометрические-преобразования.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture12/Гомотетия.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 367,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture12/гомотетия.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture12/Группа углов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 683,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture12/группа-углов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture12/Извлечение корней в комплексной плоскости.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1141,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture12/извлечение-корней-в-комплексной-плоскости.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture12/Корни из единицы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 531,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture12/корни-из-единицы.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture12/Теорема о композиции поворотных гомотетий.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 301,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture12/теорема-о-композиции-поворотных-гомотетий.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture12/Теорема Шаля.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 525,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture12/теорема-шаля.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture12/Тригонометрическая форма комплексного числа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 421,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture12/тригонометрическая-форма-комплексного-числа.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture12/Умножение в триг форме.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 272,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture12/умножение-в-триг-форме.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture12/Формула Муавра.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1137,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture12/формула-муавра.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Гауссовы числа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 447,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/гауссовы-числа.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Группы корней в поле.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 948,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/группы-корней-в-поле.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Дискретное преобразование Фурье.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 530,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/дискретное-преобразование-фурье.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Лемма о сопряженных комплексных корнях.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 268,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/лемма-о-сопряженных-комплексных-корнях.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Лемма о сумме корней.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 552,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/лемма-о-сумме-корней.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Основная теорема алгебры.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 146,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/основная-теорема-алгебры.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Применение ДПФ (быстрое умножение мн-нов).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 428,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/применение-дпф-(быстрое-умножение-мн-нов).html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Разложение мн-нов в R, C, Q.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 713,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/разложение-мн-нов-в-r,-c,-q.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Рождественская теорема Ферма 🎄🎁.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1014,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/рождественская-теорема-ферма-🎄🎁.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Теорема о евклидовости гауссовых чисел.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 407,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/теорема-о-евклидовости-гауссовых-чисел.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Теорема о неразложимых элементах в поле вещественных многочленов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 878,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/теорема-о-неразложимых-элементах-в-поле-вещественных-многочленов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem01/lecture13/Формула для обратного ДПФ.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 838,
       "exportedPath": "hse/alg/alg_conspects/sem01/lecture13/формула-для-обратного-дпф.html",
       "dependencies": []
@@ -3069,25 +3142,25 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Базис векторного пространства.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 126,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/базис-векторного-пространства.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Векторное пространство.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 518,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/векторное-пространство.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Главный пример ВП.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 501,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/главный-пример-вп.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Изоморфизм ВП.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 147,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/изоморфизм-вп.html",
       "dependencies": []
@@ -3099,43 +3172,43 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Лемма о свойствах ВП.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 449,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/лемма-о-свойствах-вп.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Лемма об операциях над линейными оболочками.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 638,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/лемма-об-операциях-над-линейными-оболочками.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Линейная комбинация.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 225,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/линейная-комбинация.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Линейная независимость.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 281,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/линейная-независимость.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Линейная оболочка.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 836,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/линейная-оболочка.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Линейное отображение.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 181,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/линейное-отображение.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Подпространство ВП.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 272,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/подпространство-вп.html",
       "dependencies": []
@@ -3147,145 +3220,145 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Размерность ВП.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 278,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/размерность-вп.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Теорема о единственности и существовании базиса.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 879,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/теорема-о-единственности-и-существовании-базиса.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture14/Утверждение о признаке ЛЗ.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 895,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture14/утверждение-о-признаке-лз.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Внешняя (прямая) сумма.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 147,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/внешняя-(прямая)-сумма.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Координаты вектора.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 242,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/координаты-вектора.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Лемма о дополнении до базиса.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 872,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/лемма-о-дополнении-до-базиса.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Лемма о линейной зависимости линейных комбинаций (ЛЗЛК).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1817,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/лемма-о-линейной-зависимости-линейных-комбинаций-(лзлк).html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Лемма о пересечении подпространств.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 142,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/лемма-о-пересечении-подпространств.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Лемма о природе ядра и образа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 534,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/лемма-о-природе-ядра-и-образа.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Лемма о прямой сумме.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 492,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/лемма-о-прямой-сумме.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Лемма о сумме подпространств.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 386,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/лемма-о-сумме-подпространств.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Пример базисов для фиббоначиевых последовательностей.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 843,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/пример-базисов-для-фиббоначиевых-последовательностей.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Системы линейный уравнений.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 866,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/системы-линейный-уравнений.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Сумма подпространств (сумма по Минковскому).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 89,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/сумма-подпространств-(сумма-по-минковскому).html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Теорема о  решениях однородной СЛУ.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 601,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/теорема-о-решениях-однородной-слу.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Теорема о равносильности для базиса.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1598,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/теорема-о-равносильности-для-базиса.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Теорема о ядре и образе.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1422,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/теорема-о-ядре-и-образе.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Теорема об изоморфизме в пространство столбцов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 798,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/теорема-об-изоморфизме-в-пространство-столбцов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Формула Грассмана.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 722,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/формула-грассмана.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture15/Ядро и образ отображения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 176,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture15/ядро-и-образ-отображения.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture16/Линейный оператор.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 168,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture16/линейный-оператор.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture16/Матрица перехода.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 845,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture16/матрица-перехода.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture16/Отображение умножения на матрицу.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 467,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture16/отображение-умножения-на-матрицу.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture16/Подобные матрицы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 105,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture16/подобные-матрицы.html",
       "dependencies": []
@@ -3297,43 +3370,43 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture16/Теорема о поведении матрицы отображения при замене базиса.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 245,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture16/теорема-о-поведении-матрицы-отображения-при-замене-базиса.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture16/Теорема о ядре и образе в матричной форме.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 547,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture16/теорема-о-ядре-и-образе-в-матричной-форме.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture16/Транспонированная матрица.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 193,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture16/транспонированная-матрица.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture16/Умножение матриц.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1832,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture16/умножение-матриц.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Дилатация.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 487,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/дилатация.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Канонический вид матрицы линейного отображения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 119,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/канонический-вид-матрицы-линейного-отображения.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Лемма об обратимости треугольной матрицы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 495,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/лемма-об-обратимости-треугольной-матрицы.html",
       "dependencies": []
@@ -3351,85 +3424,85 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Ранг линейного отображения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 287,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/ранг-линейного-отображения.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Системы простых образующих.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 391,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/системы-простых-образующих.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Теорема о методе Гаусса.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 3469,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/теорема-о-методе-гаусса.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Теорема о св-ве ранга.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2560,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/теорема-о-св-ве-ранга.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Теорема об обратимых матрицах.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 831,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/теорема-об-обратимых-матрицах.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Трансвекция.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1041,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/трансвекция.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture17/Транспозиция.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 474,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture17/транспозиция.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture18/Определитель.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 926,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture18/определитель.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture18/Разложение Гаусса.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1180,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture18/разложение-гаусса.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture18/Теорема о существовании определителя.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1019,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture18/теорема-о-существовании-определителя.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture18/Теорема об однозначности определителя.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1023,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture18/теорема-об-однозначности-определителя.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture18/Явная формула определителя.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 888,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture18/явная-формула-определителя.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture18/Явные формулы линейной алгебры.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 773,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture18/явные-формулы-линейной-алгебры.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture19/Лемма об определителе треугольной матрицы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 314,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture19/лемма-об-определителе-треугольной-матрицы.html",
       "dependencies": []
@@ -3441,43 +3514,43 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture19/Разложение по столбцам-строкам.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1227,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture19/разложение-по-столбцам-строкам.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture19/Теорема о знаке перестановки.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1125,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture19/теорема-о-знаке-перестановки.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture19/Теорема о транспонируемости детерминанта.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 399,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture19/теорема-о-транспонируемости-детерминанта.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture19/Теорема о элементарных операциях в определителе.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 544,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture19/теорема-о-элементарных-операциях-в-определителе.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture20/Общий вид полилин кососимм функция.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 240,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture20/общий-вид-полилин-кососимм-функция.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture20/Определитель блочной матрицы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 896,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture20/определитель-блочной-матрицы.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture20/Правило Крамера.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 636,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture20/правило-крамера.html",
       "dependencies": []
@@ -3489,97 +3562,97 @@
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture20/Теорема о гомоморфности определителя.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 834,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture20/теорема-о-гомоморфности-определителя.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture20/Теорема о явной формуле для обратной матрицы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 500,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture20/теорема-о-явной-формуле-для-обратной-матрицы.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture21/Алг и геом кратность собственного числа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 383,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture21/алг-и-геом-кратность-собственного-числа.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture21/Диагонализуемый оператор.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1086,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture21/диагонализуемый-оператор.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture21/Замечание об однозначности характеристич многочлена.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 568,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture21/замечание-об-однозначности-характеристич-многочлена.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture21/Лемма о ЛНЗ собственных векторов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1747,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture21/лемма-о-лнз-собственных-векторов.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture21/Операторы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 848,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture21/операторы.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture21/Собственное подпространство.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 431,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture21/собственное-подпространство.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture21/Собственное число и вектор.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 309,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture21/собственное-число-и-вектор.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture21/Теорема о критерии диагонализуемости.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1883,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture21/теорема-о-критерии-диагонализуемости.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture21/Характеристический многочлен.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 640,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture21/характеристический-многочлен.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Жорданова цепочка.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 295,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/жорданова-цепочка.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Нильпотентные операторы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 496,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/нильпотентные-операторы.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Теорема Гамильтона-Кэли.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2252,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/теорема-гамильтона-кэли.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Теорема о жордановых цепочках.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 3343,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/теорема-о-жордановых-цепочках.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Untitled.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1059,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/untitled.html",
       "dependencies": []
@@ -3615,43 +3688,43 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Бинарное отношение.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 597,
       "exportedPath": "hse/ma/conspects/sem01/par1/бинарное-отношение.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Декартово произведение.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 161,
       "exportedPath": "hse/ma/conspects/sem01/par1/декартово-произведение.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Канонические обозначения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 76,
       "exportedPath": "hse/ma/conspects/sem01/par1/канонические-обозначения.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Композиция бинарных отношений.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 220,
       "exportedPath": "hse/ma/conspects/sem01/par1/композиция-бинарных-отношений.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Кортеж.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 211,
       "exportedPath": "hse/ma/conspects/sem01/par1/кортеж.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/М-во значений.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 76,
       "exportedPath": "hse/ma/conspects/sem01/par1/м-во-значений.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Множества.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 202,
       "exportedPath": "hse/ma/conspects/sem01/par1/множества.html",
       "dependencies": []
@@ -3663,19 +3736,19 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Область определения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 156,
       "exportedPath": "hse/ma/conspects/sem01/par1/область-определения.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Обратное отношение.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 143,
       "exportedPath": "hse/ma/conspects/sem01/par1/обратное-отношение.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Операции над м-вами.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 355,
       "exportedPath": "hse/ma/conspects/sem01/par1/операции-над-м-вами.html",
       "dependencies": []
@@ -3693,43 +3766,43 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Правило ДеМоргана.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 297,
       "exportedPath": "hse/ma/conspects/sem01/par1/правило-деморгана.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Пустое множество.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 96,
       "exportedPath": "hse/ma/conspects/sem01/par1/пустое-множество.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Равенство множеств.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 137,
       "exportedPath": "hse/ma/conspects/sem01/par1/равенство-множеств.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Свойства бин. отношений.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 473,
       "exportedPath": "hse/ma/conspects/sem01/par1/свойства-бин.-отношений.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Свойства функций.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 362,
       "exportedPath": "hse/ma/conspects/sem01/par1/свойства-функций.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Собственное подмножество.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 167,
       "exportedPath": "hse/ma/conspects/sem01/par1/собственное-подмножество.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Способы задания м-в.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 380,
       "exportedPath": "hse/ma/conspects/sem01/par1/способы-задания-м-в.html",
       "dependencies": []
@@ -3741,37 +3814,37 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Теорема о связи объединения и пересечения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 290,
       "exportedPath": "hse/ma/conspects/sem01/par1/теорема-о-связи-объединения-и-пересечения.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Упорядоченная пара.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 203,
       "exportedPath": "hse/ma/conspects/sem01/par1/упорядоченная-пара.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par1/Функция.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 263,
       "exportedPath": "hse/ma/conspects/sem01/par1/функция.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Аксиома полноты.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 231,
       "exportedPath": "hse/ma/conspects/sem01/par2/аксиома-полноты.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Аксиома связи суммы и произведения.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 95,
       "exportedPath": "hse/ma/conspects/sem01/par2/аксиома-связи-суммы-и-произведения.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Аксиомы порядка.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 333,
       "exportedPath": "hse/ma/conspects/sem01/par2/аксиомы-порядка.html",
       "dependencies": []
@@ -3783,7 +3856,7 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Ограниченность.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 183,
       "exportedPath": "hse/ma/conspects/sem01/par2/ограниченность.html",
       "dependencies": []
@@ -3795,55 +3868,55 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Принцип Архимеда.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1036,
       "exportedPath": "hse/ma/conspects/sem01/par2/принцип-архимеда.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Произведение.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 509,
       "exportedPath": "hse/ma/conspects/sem01/par2/произведение.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Следствие из пр-па Архимеда.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 178,
       "exportedPath": "hse/ma/conspects/sem01/par2/следствие-из-пр-па-архимеда.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Сумма.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 434,
       "exportedPath": "hse/ma/conspects/sem01/par2/сумма.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Теорема о сущ-нии граничных чисел.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 826,
       "exportedPath": "hse/ma/conspects/sem01/par2/теорема-о-сущ-нии-граничных-чисел.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Теорема о существовании наиб. и наим. элемента.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 929,
       "exportedPath": "hse/ma/conspects/sem01/par2/теорема-о-существовании-наиб.-и-наим.-элемента.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Теорема о существовании наибольших в м-ве целых.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 765,
       "exportedPath": "hse/ma/conspects/sem01/par2/теорема-о-существовании-наибольших-в-м-ве-целых.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par2/Целая часть числа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 348,
       "exportedPath": "hse/ma/conspects/sem01/par2/целая-часть-числа.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par3/Следствие из теоремы о сущ-нии sup и inf.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 577,
       "exportedPath": "hse/ma/conspects/sem01/par3/следствие-из-теоремы-о-сущ-нии-sup-и-inf.html",
       "dependencies": []
@@ -3855,19 +3928,19 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par3/Теорема о вложенных отрезках.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1626,
       "exportedPath": "hse/ma/conspects/sem01/par3/теорема-о-вложенных-отрезках.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par3/Теорема о существовании sup и inf.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 815,
       "exportedPath": "hse/ma/conspects/sem01/par3/теорема-о-существовании-sup-и-inf.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par3/Теорема о характеристике sup и inf.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 631,
       "exportedPath": "hse/ma/conspects/sem01/par3/теорема-о-характеристике-sup-и-inf.html",
       "dependencies": []
@@ -3885,13 +3958,13 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Бесконечный предел.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1071,
       "exportedPath": "hse/ma/conspects/sem01/par4/бесконечный-предел.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Лемма о двух сходящихся последовательностях.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 504,
       "exportedPath": "hse/ma/conspects/sem01/par4/лемма-о-двух-сходящихся-последовательностях.html",
       "dependencies": []
@@ -3903,55 +3976,55 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Предел.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 542,
       "exportedPath": "hse/ma/conspects/sem01/par4/предел.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Предельный переход в неравенстве.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 992,
       "exportedPath": "hse/ma/conspects/sem01/par4/предельный-переход-в-неравенстве.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Принцип двух миллиционеров (th о сжатой переменной).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 986,
       "exportedPath": "hse/ma/conspects/sem01/par4/принцип-двух-миллиционеров-(th-о-сжатой-переменной).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Свойства бесконечно малых.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1782,
       "exportedPath": "hse/ma/conspects/sem01/par4/свойства-бесконечно-малых.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Свойства предела.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2079,
       "exportedPath": "hse/ma/conspects/sem01/par4/свойства-предела.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Свойства пределов в Rbar.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 877,
       "exportedPath": "hse/ma/conspects/sem01/par4/свойства-пределов-в-rbar.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Следствие из П2М.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 310,
       "exportedPath": "hse/ma/conspects/sem01/par4/следствие-из-п2м.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Стабилизация знака (предел).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 403,
       "exportedPath": "hse/ma/conspects/sem01/par4/стабилизация-знака-(предел).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Теорема о пределе монотонной посл-ти.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1399,
       "exportedPath": "hse/ma/conspects/sem01/par4/теорема-о-пределе-монотонной-посл-ти.html",
       "dependencies": [
@@ -3959,13 +4032,13 @@
       ]
     },
     "hse/ma/conspects/sem01/par4/Теорема об арифметических действиях с последовательностями.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2609,
       "exportedPath": "hse/ma/conspects/sem01/par4/теорема-об-арифметических-действиях-с-последовательностями.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par4/Теорема об арифметических действиях с пределами в Rbar.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 88,
       "exportedPath": "hse/ma/conspects/sem01/par4/теорема-об-арифметических-действиях-с-пределами-в-rbar.html",
       "dependencies": [
@@ -3974,115 +4047,115 @@
       ]
     },
     "hse/ma/conspects/sem01/par5/Замечание о пределе.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 649,
       "exportedPath": "hse/ma/conspects/sem01/par5/замечание-о-пределе.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par5/Лемма об экспоненте предела.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1638,
       "exportedPath": "hse/ma/conspects/sem01/par5/лемма-об-экспоненте-предела.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par5/Неравенство Бернулли.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 609,
       "exportedPath": "hse/ma/conspects/sem01/par5/неравенство-бернулли.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par5/Предел степенной последовательности.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 593,
       "exportedPath": "hse/ma/conspects/sem01/par5/предел-степенной-последовательности.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par5/Свойства exp.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1547,
       "exportedPath": "hse/ma/conspects/sem01/par5/свойства-exp.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par5/Теорема о свойствах последовательности.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1422,
       "exportedPath": "hse/ma/conspects/sem01/par5/теорема-о-свойствах-последовательности.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par5/Число e.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 78,
       "exportedPath": "hse/ma/conspects/sem01/par5/число-e.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par5/Экспонента.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 129,
       "exportedPath": "hse/ma/conspects/sem01/par5/экспонента.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par6/Признак бесконечно малой.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 618,
       "exportedPath": "hse/ma/conspects/sem01/par6/признак-бесконечно-малой.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par6/Сравнение роста последовательностей.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1133,
       "exportedPath": "hse/ma/conspects/sem01/par6/сравнение-роста-последовательностей.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par6/Сумма степеней натуральных чисел (оценка).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 423,
       "exportedPath": "hse/ma/conspects/sem01/par6/сумма-степеней-натуральных-чисел-(оценка).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par6/Теорема Штольца (для бесконечно больших).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 3301,
       "exportedPath": "hse/ma/conspects/sem01/par6/теорема-штольца-(для-бесконечно-больших).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par6/Теорема Штольца для бесконечно малых.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1081,
       "exportedPath": "hse/ma/conspects/sem01/par6/теорема-штольца-для-бесконечно-малых.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Критерий Коши.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 369,
       "exportedPath": "hse/ma/conspects/sem01/par7/критерий-коши.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Нижний (верхний) предел.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 483,
       "exportedPath": "hse/ma/conspects/sem01/par7/нижний-(верхний)-предел.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Подпоследовательность.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 210,
       "exportedPath": "hse/ma/conspects/sem01/par7/подпоследовательность.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Свойства подпоследовательностей.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 617,
       "exportedPath": "hse/ma/conspects/sem01/par7/свойства-подпоследовательностей.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Свойства фундаментальной последовательности.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1534,
       "exportedPath": "hse/ma/conspects/sem01/par7/свойства-фундаментальной-последовательности.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Теорема Больцано-Вейерштрасса.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 137,
       "exportedPath": "hse/ma/conspects/sem01/par7/теорема-больцано-вейерштрасса.html",
       "dependencies": [
@@ -4090,7 +4163,7 @@
       ]
     },
     "hse/ma/conspects/sem01/par7/Теорема Больцано-Вейерштрасса для неограниченных.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 73,
       "exportedPath": "hse/ma/conspects/sem01/par7/теорема-больцано-вейерштрасса-для-неограниченных.html",
       "dependencies": [
@@ -4099,25 +4172,25 @@
       ]
     },
     "hse/ma/conspects/sem01/par7/Теорема о неограниченных последовательностях.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1087,
       "exportedPath": "hse/ma/conspects/sem01/par7/теорема-о-неограниченных-последовательностях.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Теорема о свойствах верхних-нижних пределов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 687,
       "exportedPath": "hse/ma/conspects/sem01/par7/теорема-о-свойствах-верхних-нижних-пределов.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Теорема о связи между пределами.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1251,
       "exportedPath": "hse/ma/conspects/sem01/par7/теорема-о-связи-между-пределами.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Теорема о стягивающихся отрезках.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 846,
       "exportedPath": "hse/ma/conspects/sem01/par7/теорема-о-стягивающихся-отрезках.html",
       "dependencies": []
@@ -4129,37 +4202,37 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Характеристика верхних-нижних пределов на языке e-N.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 977,
       "exportedPath": "hse/ma/conspects/sem01/par7/характеристика-верхних-нижних-пределов-на-языке-e-n.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Характеристика частичного предела.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 858,
       "exportedPath": "hse/ma/conspects/sem01/par7/характеристика-частичного-предела.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par7/Частичный предел.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 162,
       "exportedPath": "hse/ma/conspects/sem01/par7/частичный-предел.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par8/Действия с рядами.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 668,
       "exportedPath": "hse/ma/conspects/sem01/par8/действия-с-рядами.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par8/Необходимый признак сходимости ряда.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 311,
       "exportedPath": "hse/ma/conspects/sem01/par8/необходимый-признак-сходимости-ряда.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par8/Примеры рядов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1216,
       "exportedPath": "hse/ma/conspects/sem01/par8/примеры-рядов.html",
       "dependencies": []
@@ -4177,283 +4250,283 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par8/Частичная сумма ряда.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 167,
       "exportedPath": "hse/ma/conspects/sem01/par8/частичная-сумма-ряда.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par8/Числовой ряд.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 70,
       "exportedPath": "hse/ma/conspects/sem01/par8/числовой-ряд.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Арифметические действия с пределами (функций).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 837,
       "exportedPath": "hse/ma/conspects/sem01/par9/арифметические-действия-с-пределами-(функций).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Бесконечный предел (функции).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 178,
       "exportedPath": "hse/ma/conspects/sem01/par9/бесконечный-предел-(функции).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Критерий Коши для функций.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1126,
       "exportedPath": "hse/ma/conspects/sem01/par9/критерий-коши-для-функций.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Монотонность функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 131,
       "exportedPath": "hse/ma/conspects/sem01/par9/монотонность-функции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Односторонний предел.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1080,
       "exportedPath": "hse/ma/conspects/sem01/par9/односторонний-предел.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Окрестность точки.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 148,
       "exportedPath": "hse/ma/conspects/sem01/par9/окрестность-точки.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Предел функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 445,
       "exportedPath": "hse/ma/conspects/sem01/par9/предел-функции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Предел функции (Гейне).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 838,
       "exportedPath": "hse/ma/conspects/sem01/par9/предел-функции-(гейне).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Предел функции (Коши).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 202,
       "exportedPath": "hse/ma/conspects/sem01/par9/предел-функции-(коши).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Предел функции (через окрестности).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 185,
       "exportedPath": "hse/ma/conspects/sem01/par9/предел-функции-(через-окрестности).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Предельная точка множества.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 320,
       "exportedPath": "hse/ma/conspects/sem01/par9/предельная-точка-множества.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Предельный переход в неравенстве (функции).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 564,
       "exportedPath": "hse/ma/conspects/sem01/par9/предельный-переход-в-неравенстве-(функции).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Принцип 2 миллиционеров (функции).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 676,
       "exportedPath": "hse/ma/conspects/sem01/par9/принцип-2-миллиционеров-(функции).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Проколотая окрестность.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 159,
       "exportedPath": "hse/ma/conspects/sem01/par9/проколотая-окрестность.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Равносильность определений предела.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1333,
       "exportedPath": "hse/ma/conspects/sem01/par9/равносильность-определений-предела.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Свойства пределов.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1061,
       "exportedPath": "hse/ma/conspects/sem01/par9/свойства-пределов.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Стремление к бесконечности в пределе.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 145,
       "exportedPath": "hse/ma/conspects/sem01/par9/стремление-к-бесконечности-в-пределе.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Теорема о предельной точке.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1028,
       "exportedPath": "hse/ma/conspects/sem01/par9/теорема-о-предельной-точке.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par9/Теорема о сходимости ограниченных функций.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 772,
       "exportedPath": "hse/ma/conspects/sem01/par9/теорема-о-сходимости-ограниченных-функций.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par10/Арифметические действия с непрерывностью.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 510,
       "exportedPath": "hse/ma/conspects/sem01/par10/арифметические-действия-с-непрерывностью.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par10/Непрерывность функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 595,
       "exportedPath": "hse/ma/conspects/sem01/par10/непрерывность-функции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par10/Непрерывность экспоненты.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 510,
       "exportedPath": "hse/ma/conspects/sem01/par10/непрерывность-экспоненты.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par10/Стабилизация знака в непрерывности.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 407,
       "exportedPath": "hse/ma/conspects/sem01/par10/стабилизация-знака-в-непрерывности.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par10/Теорема о пределе композиции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 582,
       "exportedPath": "hse/ma/conspects/sem01/par10/теорема-о-пределе-композиции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par11/Обратная функция.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 338,
       "exportedPath": "hse/ma/conspects/sem01/par11/обратная-функция.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par11/Первый замечательный предел.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 463,
       "exportedPath": "hse/ma/conspects/sem01/par11/первый-замечательный-предел.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par11/Промежуток.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 161,
       "exportedPath": "hse/ma/conspects/sem01/par11/промежуток.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par11/Следствие из теоремы об ограничениях для триг функций.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 742,
       "exportedPath": "hse/ma/conspects/sem01/par11/следствие-из-теоремы-об-ограничениях-для-триг-функций.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par11/Теорема Больцано-Коши.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1697,
       "exportedPath": "hse/ma/conspects/sem01/par11/теорема-больцано-коши.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par11/Теорема Вейерштрасса.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1924,
       "exportedPath": "hse/ma/conspects/sem01/par11/теорема-вейерштрасса.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par11/Теорема о непрерывном образе отрезка.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 711,
       "exportedPath": "hse/ma/conspects/sem01/par11/теорема-о-непрерывном-образе-отрезка.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par11/Теорема о непрерывном образе промежутка.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 991,
       "exportedPath": "hse/ma/conspects/sem01/par11/теорема-о-непрерывном-образе-промежутка.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par11/Теорема о непрерывности триг функций.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 903,
       "exportedPath": "hse/ma/conspects/sem01/par11/теорема-о-непрерывности-триг-функций.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par11/Теорема об обратных функциях.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2127,
       "exportedPath": "hse/ma/conspects/sem01/par11/теорема-об-обратных-функциях.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par11/Теорема об ограничениях триг функций.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 286,
       "exportedPath": "hse/ma/conspects/sem01/par11/теорема-об-ограничениях-триг-функций.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par12/Возведение в вещественную степень.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 47,
       "exportedPath": "hse/ma/conspects/sem01/par12/возведение-в-вещественную-степень.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par12/Натуральный логарифм.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 134,
       "exportedPath": "hse/ma/conspects/sem01/par12/натуральный-логарифм.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par12/Показательная функция.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 295,
       "exportedPath": "hse/ma/conspects/sem01/par12/показательная-функция.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par12/Свойства натурального логарифма.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1429,
       "exportedPath": "hse/ma/conspects/sem01/par12/свойства-натурального-логарифма.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par12/Свойства степени.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 787,
       "exportedPath": "hse/ma/conspects/sem01/par12/свойства-степени.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par12/Степенная функция.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 273,
       "exportedPath": "hse/ma/conspects/sem01/par12/степенная-функция.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par12/Теорема о сходимости к e.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 978,
       "exportedPath": "hse/ma/conspects/sem01/par12/теорема-о-сходимости-к-e.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par12/Теорема об эквивалентности показательной функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 656,
       "exportedPath": "hse/ma/conspects/sem01/par12/теорема-об-эквивалентности-показательной-функции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par12/Теорема об эквивалентности степенной функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 469,
       "exportedPath": "hse/ma/conspects/sem01/par12/теорема-об-эквивалентности-степенной-функции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par12/Тригонометрические функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 610,
       "exportedPath": "hse/ma/conspects/sem01/par12/тригонометрические-функции.html",
       "dependencies": []
@@ -4465,271 +4538,271 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par13/Примеры для символов Ландау.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 450,
       "exportedPath": "hse/ma/conspects/sem01/par13/примеры-для-символов-ландау.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par13/Свойства символов Ландау.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2750,
       "exportedPath": "hse/ma/conspects/sem01/par13/свойства-символов-ландау.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par13/Символы Ландау.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 770,
       "exportedPath": "hse/ma/conspects/sem01/par13/символы-ландау.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Арифметические действия с производной.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2827,
       "exportedPath": "hse/ma/conspects/sem01/par14/арифметические-действия-с-производной.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Бесконечная производная.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 284,
       "exportedPath": "hse/ma/conspects/sem01/par14/бесконечная-производная.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Дифференциал функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 515,
       "exportedPath": "hse/ma/conspects/sem01/par14/дифференциал-функции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Дифференцируемость композиции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1245,
       "exportedPath": "hse/ma/conspects/sem01/par14/дифференцируемость-композиции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Дифференцируемость функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 212,
       "exportedPath": "hse/ma/conspects/sem01/par14/дифференцируемость-функции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Диффиренцируемость обратной функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1143,
       "exportedPath": "hse/ma/conspects/sem01/par14/диффиренцируемость-обратной-функции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Касательная.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 627,
       "exportedPath": "hse/ma/conspects/sem01/par14/касательная.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Критерий дифференцируемости.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1197,
       "exportedPath": "hse/ma/conspects/sem01/par14/критерий-дифференцируемости.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Односторонние пределы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 415,
       "exportedPath": "hse/ma/conspects/sem01/par14/односторонние-пределы.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Производная функции.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 294,
       "exportedPath": "hse/ma/conspects/sem01/par14/производная-функции.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Производные элементарных функций.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2505,
       "exportedPath": "hse/ma/conspects/sem01/par14/производные-элементарных-функций.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par14/Утверждение о связи непрерывности и дифференцируемости.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 419,
       "exportedPath": "hse/ma/conspects/sem01/par14/утверждение-о-связи-непрерывности-и-дифференцируемости.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par15/Липшицева функция.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 184,
       "exportedPath": "hse/ma/conspects/sem01/par15/липшицева-функция.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par15/Правило Лопиталя - примеры.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 511,
       "exportedPath": "hse/ma/conspects/sem01/par15/правило-лопиталя-примеры.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par15/Правило Лопиталя для беск больших.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 378,
       "exportedPath": "hse/ma/conspects/sem01/par15/правило-лопиталя-для-беск-больших.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par15/Правило Лопиталя для беск малых.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1201,
       "exportedPath": "hse/ma/conspects/sem01/par15/правило-лопиталя-для-беск-малых.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par15/Следствия из теоремы Лагранжа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1836,
       "exportedPath": "hse/ma/conspects/sem01/par15/следствия-из-теоремы-лагранжа.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par15/Теорема Дарбу.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2006,
       "exportedPath": "hse/ma/conspects/sem01/par15/теорема-дарбу.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par15/Теорема Коши.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1003,
       "exportedPath": "hse/ma/conspects/sem01/par15/теорема-коши.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par15/Теорема Лагранжа (о конечных приращениях).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 679,
       "exportedPath": "hse/ma/conspects/sem01/par15/теорема-лагранжа-(о-конечных-приращениях).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par15/Теорема Ролля.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 795,
       "exportedPath": "hse/ma/conspects/sem01/par15/теорема-ролля.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par15/Теорема Ферма.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 893,
       "exportedPath": "hse/ma/conspects/sem01/par15/теорема-ферма.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Арифметические действия в пределах высших порядков.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 2195,
       "exportedPath": "hse/ma/conspects/sem01/par16/арифметические-действия-в-пределах-высших-порядков.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Дифференцируемость высших порядков.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 306,
       "exportedPath": "hse/ma/conspects/sem01/par16/дифференцируемость-высших-порядков.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Единственность многочлена Тейлора (следствие из Пеано).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 751,
       "exportedPath": "hse/ma/conspects/sem01/par16/единственность-многочлена-тейлора-(следствие-из-пеано).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Иррациональность e.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 789,
       "exportedPath": "hse/ma/conspects/sem01/par16/иррациональность-e.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Классы непрерывных функций.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 857,
       "exportedPath": "hse/ma/conspects/sem01/par16/классы-непрерывных-функций.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Лемма об о-малое.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 877,
       "exportedPath": "hse/ma/conspects/sem01/par16/лемма-об-о-малое.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Многочлен Тейлора.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 408,
       "exportedPath": "hse/ma/conspects/sem01/par16/многочлен-тейлора.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Непрерывная дифференцируемость.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 211,
       "exportedPath": "hse/ma/conspects/sem01/par16/непрерывная-дифференцируемость.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Ряды Тейлора для sin cos exp.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 895,
       "exportedPath": "hse/ma/conspects/sem01/par16/ряды-тейлора-для-sin-cos-exp.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Следствие из остатков Лагранжа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 816,
       "exportedPath": "hse/ma/conspects/sem01/par16/следствие-из-остатков-лагранжа.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Формула Тейлора для многочлена.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 968,
       "exportedPath": "hse/ma/conspects/sem01/par16/формула-тейлора-для-многочлена.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Формула Тейлора с остатком в форме Лагранжа.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1215,
       "exportedPath": "hse/ma/conspects/sem01/par16/формула-тейлора-с-остатком-в-форме-лагранжа.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Формула Тейлора с остатком в форме Пеано.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 621,
       "exportedPath": "hse/ma/conspects/sem01/par16/формула-тейлора-с-остатком-в-форме-пеано.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par16/Формулы Тейлора для элементарных функций.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 848,
       "exportedPath": "hse/ma/conspects/sem01/par16/формулы-тейлора-для-элементарных-функций.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par17/Достаточное условие экстремума в терминах второй производной.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 836,
       "exportedPath": "hse/ma/conspects/sem01/par17/достаточное-условие-экстремума-в-терминах-второй-производной.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par17/Достаточные условия экстр в терминах первой производной.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1261,
       "exportedPath": "hse/ma/conspects/sem01/par17/достаточные-условия-экстр-в-терминах-первой-производной.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par17/Необходимое условие экстремума.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 626,
       "exportedPath": "hse/ma/conspects/sem01/par17/необходимое-условие-экстремума.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par17/Экстремумы функций.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 460,
       "exportedPath": "hse/ma/conspects/sem01/par17/экстремумы-функций.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Выпуклая (вогнутая) функция.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 649,
       "exportedPath": "hse/ma/conspects/sem01/par18/выпуклая-(вогнутая)-функция.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Выпуклость через три точки.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 760,
       "exportedPath": "hse/ma/conspects/sem01/par18/выпуклость-через-три-точки.html",
       "dependencies": []
@@ -4741,61 +4814,61 @@
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Критерий выпуклости.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1060,
       "exportedPath": "hse/ma/conspects/sem01/par18/критерий-выпуклости.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Лемма о трех хордах.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1244,
       "exportedPath": "hse/ma/conspects/sem01/par18/лемма-о-трех-хордах.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Неравенство Гёльдера.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1248,
       "exportedPath": "hse/ma/conspects/sem01/par18/неравенство-гёльдера.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Неравенство Йенсена.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 856,
       "exportedPath": "hse/ma/conspects/sem01/par18/неравенство-йенсена.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Неравенство Коши-Буняковского.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 420,
       "exportedPath": "hse/ma/conspects/sem01/par18/неравенство-коши-буняковского.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Неравенство между средними степенными.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1883,
       "exportedPath": "hse/ma/conspects/sem01/par18/неравенство-между-средними-степенными.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Неравенство Минковского.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1318,
       "exportedPath": "hse/ma/conspects/sem01/par18/неравенство-минковского.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Неравенство о средних (Коши).md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 615,
       "exportedPath": "hse/ma/conspects/sem01/par18/неравенство-о-средних-(коши).html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Теорема о неравенстве касательной.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1215,
       "exportedPath": "hse/ma/conspects/sem01/par18/теорема-о-неравенстве-касательной.html",
       "dependencies": []
     },
     "hse/ma/conspects/sem01/par18/Теорема о связи производной и выпуклости.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 1289,
       "exportedPath": "hse/ma/conspects/sem01/par18/теорема-о-связи-производной-и-выпуклости.html",
       "dependencies": []
@@ -4917,7 +4990,7 @@
       "dependencies": []
     },
     "hse/ma/Матан экз01 билеты.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 9794,
       "exportedPath": "hse/ma/матан-экз01-билеты.html",
       "dependencies": [
@@ -4937,151 +5010,151 @@
       ]
     },
     "lib/media/pasted-image-20241030164713.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 56609,
       "exportedPath": "lib/media/pasted-image-20241030164713.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241030175329.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 436356,
       "exportedPath": "lib/media/pasted-image-20241030175329.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241030175734.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 348929,
       "exportedPath": "lib/media/pasted-image-20241030175734.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241030163134.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 201208,
       "exportedPath": "lib/media/pasted-image-20241030163134.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241030163326.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 100228,
       "exportedPath": "lib/media/pasted-image-20241030163326.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241030163336.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 16556,
       "exportedPath": "lib/media/pasted-image-20241030163336.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029162419.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 164498,
       "exportedPath": "lib/media/pasted-image-20241029162419.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029162450.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 465123,
       "exportedPath": "lib/media/pasted-image-20241029162450.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029162504.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 362373,
       "exportedPath": "lib/media/pasted-image-20241029162504.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029163244.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 621677,
       "exportedPath": "lib/media/pasted-image-20241029163244.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029163518.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 474683,
       "exportedPath": "lib/media/pasted-image-20241029163518.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029164021.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 573958,
       "exportedPath": "lib/media/pasted-image-20241029164021.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029164034.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 77785,
       "exportedPath": "lib/media/pasted-image-20241029164034.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029164204.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 693167,
       "exportedPath": "lib/media/pasted-image-20241029164204.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029164307.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 923462,
       "exportedPath": "lib/media/pasted-image-20241029164307.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029164436.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 728007,
       "exportedPath": "lib/media/pasted-image-20241029164436.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029164617.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 791905,
       "exportedPath": "lib/media/pasted-image-20241029164617.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029164640.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 545233,
       "exportedPath": "lib/media/pasted-image-20241029164640.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241029164713.png": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 302091,
       "exportedPath": "lib/media/pasted-image-20241029164713.png",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Замечание про операторы с одним собственным числом.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 860,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/замечание-про-операторы-с-одним-собственным-числом.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Инвариантные подпространства.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 255,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/инвариантные-подпространства.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Лемма об инвариантных подпространствах.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 764,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/лемма-об-инвариантных-подпространствах.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Примеры инвариантных подпространств.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 230,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/примеры-инвариантных-подпространств.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/След матрицы.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 355,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/след-матрицы.html",
       "dependencies": []
     },
     "hse/alg/alg_conspects/sem02/lecture22/Теорема о внутренней прямой сумме.md": {
-      "modifiedTime": 1743345058571,
+      "modifiedTime": 1743596876215,
       "sourceSize": 734,
       "exportedPath": "hse/alg/alg_conspects/sem02/lecture22/теорема-о-внутренней-прямой-сумме.html",
       "dependencies": []
@@ -5090,6 +5163,399 @@
       "modifiedTime": 1743344351760,
       "sourceSize": 5656,
       "exportedPath": "hse/alg/alg_conspects/sem02/лекции-21-22.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par04/Формула Стирлинга.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1899,
+      "exportedPath": "hse/ma/conspects/sem02/par04/формула-стирлинга.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par08/Лемма Лебега.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 966,
+      "exportedPath": "hse/ma/conspects/sem02/par08/лемма-лебега.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par08/Обобщение равносильностей для компакта.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 732,
+      "exportedPath": "hse/ma/conspects/sem02/par08/обобщение-равносильностей-для-компакта.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par08/Признак полной ограниченности.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 970,
+      "exportedPath": "hse/ma/conspects/sem02/par08/признак-полной-ограниченности.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par08/Теорема Хаусдорфа.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 2419,
+      "exportedPath": "hse/ma/conspects/sem02/par08/теорема-хаусдорфа.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250331184226.png",
+        "lib/media/pasted-image-20250331191014.png"
+      ]
+    },
+    "hse/ma/conspects/sem02/par08/Характеристика компактов в Rd.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 341,
+      "exportedPath": "hse/ma/conspects/sem02/par08/характеристика-компактов-в-rd.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Критерий Коши в метр пр-ве.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1231,
+      "exportedPath": "hse/ma/conspects/sem02/par09/критерий-коши-в-метр-пр-ве.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Непрерывность отображения в метр пр-ве.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 633,
+      "exportedPath": "hse/ma/conspects/sem02/par09/непрерывность-отображения-в-метр-пр-ве.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Ограниченная функция в метр пр-ве.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 123,
+      "exportedPath": "hse/ma/conspects/sem02/par09/ограниченная-функция-в-метр-пр-ве.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Равномерная непрерывность отображения.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 256,
+      "exportedPath": "hse/ma/conspects/sem02/par09/равномерная-непрерывность-отображения.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Теорема Кантора в метрических пространствах.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1189,
+      "exportedPath": "hse/ma/conspects/sem02/par09/теорема-кантора-в-метрических-пространствах.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Теорема о непрерывном образе компакта.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1359,
+      "exportedPath": "hse/ma/conspects/sem02/par09/теорема-о-непрерывном-образе-компакта.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Теорема о непрерывности композиции в метр пр-ве.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 356,
+      "exportedPath": "hse/ma/conspects/sem02/par09/теорема-о-непрерывности-композиции-в-метр-пр-ве.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Теорема о непрерывности обратной функции.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 608,
+      "exportedPath": "hse/ma/conspects/sem02/par09/теорема-о-непрерывности-обратной-функции.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Теорема о характеристики непрерывности в терминах открытых множеств.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1085,
+      "exportedPath": "hse/ma/conspects/sem02/par09/теорема-о-характеристики-непрерывности-в-терминах-открытых-множеств.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Теорема об арифм действиях с пределами в метр пр-ве.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 599,
+      "exportedPath": "hse/ma/conspects/sem02/par09/теорема-об-арифм-действиях-с-пределами-в-метр-пр-ве.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Теорема об эквивалентности норм.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 999,
+      "exportedPath": "hse/ma/conspects/sem02/par09/теорема-об-эквивалентности-норм.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par09/Эквивалентность норм.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 679,
+      "exportedPath": "hse/ma/conspects/sem02/par09/эквивалентность-норм.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Гладкий путь.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 315,
+      "exportedPath": "hse/ma/conspects/sem02/par10/гладкий-путь.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Длина кривой.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 138,
+      "exportedPath": "hse/ma/conspects/sem02/par10/длина-кривой.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Длина пути.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 538,
+      "exportedPath": "hse/ma/conspects/sem02/par10/длина-пути.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Кривая.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 201,
+      "exportedPath": "hse/ma/conspects/sem02/par10/кривая.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Лемма о длине гладкого пути.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1127,
+      "exportedPath": "hse/ma/conspects/sem02/par10/лемма-о-длине-гладкого-пути.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Линейно связное множество.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 141,
+      "exportedPath": "hse/ma/conspects/sem02/par10/линейно-связное-множество.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Носитель пути.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 67,
+      "exportedPath": "hse/ma/conspects/sem02/par10/носитель-пути.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Противоположный путь.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 83,
+      "exportedPath": "hse/ma/conspects/sem02/par10/противоположный-путь.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Путь.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 433,
+      "exportedPath": "hse/ma/conspects/sem02/par10/путь.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Теорема Больцано-Коши в лин. св. мн-вах.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 486,
+      "exportedPath": "hse/ma/conspects/sem02/par10/теорема-больцано-коши-в-лин.-св.-мн-вах.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Теорема о длине гладкого пути.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 2610,
+      "exportedPath": "hse/ma/conspects/sem02/par10/теорема-о-длине-гладкого-пути.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Теорема о линейности длины пути.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 963,
+      "exportedPath": "hse/ma/conspects/sem02/par10/теорема-о-линейности-длины-пути.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Теорема об аддитивности длины пути.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1114,
+      "exportedPath": "hse/ma/conspects/sem02/par10/теорема-об-аддитивности-длины-пути.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par10/Эквивалентные пути.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 223,
+      "exportedPath": "hse/ma/conspects/sem02/par10/эквивалентные-пути.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par11/Композиция линейных операторов.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 125,
+      "exportedPath": "hse/ma/conspects/sem02/par11/композиция-линейных-операторов.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par11/Линейный оператор.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 319,
+      "exportedPath": "hse/ma/conspects/sem02/par11/линейный-оператор.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par11/Матричное представление лин операторов.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 466,
+      "exportedPath": "hse/ma/conspects/sem02/par11/матричное-представление-лин-операторов.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par11/Норма линейного оператора.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 951,
+      "exportedPath": "hse/ma/conspects/sem02/par11/норма-линейного-оператора.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par11/Обратный оператор.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 688,
+      "exportedPath": "hse/ma/conspects/sem02/par11/обратный-оператор.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par11/Ограниченный оператор.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1048,
+      "exportedPath": "hse/ma/conspects/sem02/par11/ограниченный-оператор.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par11/Сложение линейных операторов.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 251,
+      "exportedPath": "hse/ma/conspects/sem02/par11/сложение-линейных-операторов.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par11/Теорема о норме оператора в Rd.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 885,
+      "exportedPath": "hse/ma/conspects/sem02/par11/теорема-о-норме-оператора-в-rd.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par11/Теорема о равносильностях для операторов.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 936,
+      "exportedPath": "hse/ma/conspects/sem02/par11/теорема-о-равносильностях-для-операторов.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par11/Теорема о формулах для нормы оператора.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1646,
+      "exportedPath": "hse/ma/conspects/sem02/par11/теорема-о-формулах-для-нормы-оператора.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par12/Абсолютная сходимость ряда.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 298,
+      "exportedPath": "hse/ma/conspects/sem02/par12/абсолютная-сходимость-ряда.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par12/Критерий Коши.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 544,
+      "exportedPath": "hse/ma/conspects/sem02/par12/критерий-коши.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par12/Необходимое условие сходимости ряда в метр пр-ве.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 250,
+      "exportedPath": "hse/ma/conspects/sem02/par12/необходимое-условие-сходимости-ряда-в-метр-пр-ве.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par12/Ряд в нормированном пространстве.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 392,
+      "exportedPath": "hse/ma/conspects/sem02/par12/ряд-в-нормированном-пространстве.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par12/Свойства ряда в метр пр-ве.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 579,
+      "exportedPath": "hse/ma/conspects/sem02/par12/свойства-ряда-в-метр-пр-ве.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par12/Теорема о сходимости сгруппированного ряда.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1308,
+      "exportedPath": "hse/ma/conspects/sem02/par12/теорема-о-сходимости-сгруппированного-ряда.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par12/Теорема об абсолютной сходимости.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 723,
+      "exportedPath": "hse/ma/conspects/sem02/par12/теорема-об-абсолютной-сходимости.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par13/Критерий сходимости для знакопостоянных рядов.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 255,
+      "exportedPath": "hse/ma/conspects/sem02/par13/критерий-сходимости-для-знакопостоянных-рядов.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/par13/Признак сравнения для рядов.md": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 1251,
+      "exportedPath": "hse/ma/conspects/sem02/par13/признак-сравнения-для-рядов.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/Пар09.canvas": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 3557,
+      "exportedPath": "hse/ma/conspects/sem02/пар09.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/Пар10.canvas": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 3770,
+      "exportedPath": "hse/ma/conspects/sem02/пар10.html",
+      "dependencies": []
+    },
+    "hse/ma/conspects/sem02/Пар11.canvas": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 3184,
+      "exportedPath": "hse/ma/conspects/sem02/пар11.html",
+      "dependencies": []
+    },
+    "images/Pasted image 20250331180643.png": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 19450,
+      "exportedPath": "images/pasted-image-20250331180643.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20250331181947.png": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 72396,
+      "exportedPath": "images/pasted-image-20250331181947.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20250331182014.png": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 67762,
+      "exportedPath": "images/pasted-image-20250331182014.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20250331182037.png": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 77251,
+      "exportedPath": "images/pasted-image-20250331182037.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20250331184223.png": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 23666,
+      "exportedPath": "images/pasted-image-20250331184223.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20250331184226.png": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 23666,
+      "exportedPath": "images/pasted-image-20250331184226.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20250331191014.png": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 24041,
+      "exportedPath": "images/pasted-image-20250331191014.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250331180643.png": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 19450,
+      "exportedPath": "lib/media/pasted-image-20250331180643.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250331182037.png": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 77251,
+      "exportedPath": "lib/media/pasted-image-20250331182037.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250331184226.png": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 23666,
+      "exportedPath": "lib/media/pasted-image-20250331184226.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250331191014.png": {
+      "modifiedTime": 1743596876215,
+      "sourceSize": 24041,
+      "exportedPath": "lib/media/pasted-image-20250331191014.png",
       "dependencies": []
     }
   }

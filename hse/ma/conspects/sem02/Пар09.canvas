@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"28b36c11d810ff06","x":-774,"y":1244,"width":528,"height":433,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема об арифм действиях с пределами в метр пр-ве.md"},
+		{"id":"131933ca383ead34","x":133,"y":1465,"width":548,"height":424,"type":"file","file":"hse/ma/conspects/sem02/par09/Непрерывность отображения в метр пр-ве.md"},
+		{"id":"5f214bb64d333917","x":767,"y":1549,"width":476,"height":256,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема о характеристики непрерывности в терминах открытых множеств.md"},
+		{"id":"2805b8b1a36ae9a0","x":-35,"y":2014,"width":442,"height":216,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема о непрерывности композиции в метр пр-ве.md"},
+		{"id":"bcb3c729c0ad1bf4","x":449,"y":2014,"width":464,"height":212,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема о непрерывности обратной функции.md"},
+		{"id":"d4afad4f22ba1dc3","x":1401,"y":1440,"width":501,"height":474,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема о непрерывном образе компакта.md"},
+		{"id":"e8eecc3fef589cb5","x":1452,"y":2014,"width":400,"height":128,"type":"file","file":"hse/ma/conspects/sem02/par09/Ограниченная функция в метр пр-ве.md"},
+		{"id":"e88796615944b57c","x":170,"y":1203,"width":474,"height":194,"type":"file","file":"hse/ma/conspects/sem02/par09/Равномерная непрерывность отображения.md"},
+		{"id":"db6a1bdaefe39a84","x":767,"y":1190,"width":467,"height":220,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема Кантора в метрических пространствах.md"},
+		{"id":"5e706a01f99c1c46","x":-857,"y":1739,"width":694,"height":275,"type":"file","file":"hse/ma/conspects/sem02/par09/Критерий Коши в метр пр-ве.md"},
+		{"id":"cfc6b6a83e9b85d7","x":31,"y":2450,"width":601,"height":527,"type":"file","file":"hse/ma/conspects/sem02/par09/Эквивалентность норм.md"},
+		{"id":"06d93e111d55198b","x":744,"y":2655,"width":657,"height":117,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема об эквивалентности норм.md"}
+	],
+	"edges":[
+		{"id":"c40b1ba108754079","fromNode":"131933ca383ead34","fromSide":"right","toNode":"5f214bb64d333917","toSide":"left"},
+		{"id":"408b512fe3b7718b","fromNode":"131933ca383ead34","fromSide":"bottom","toNode":"2805b8b1a36ae9a0","toSide":"top"},
+		{"id":"e5d74addfd792e4e","fromNode":"131933ca383ead34","fromSide":"bottom","toNode":"bcb3c729c0ad1bf4","toSide":"top"},
+		{"id":"bca1da15b58eaac0","fromNode":"5f214bb64d333917","fromSide":"right","toNode":"d4afad4f22ba1dc3","toSide":"left"},
+		{"id":"8182970702a6586c","fromNode":"e8eecc3fef589cb5","fromSide":"top","toNode":"d4afad4f22ba1dc3","toSide":"bottom"},
+		{"id":"3efe45ff869c464d","fromNode":"131933ca383ead34","fromSide":"top","toNode":"e88796615944b57c","toSide":"bottom"},
+		{"id":"560e45bc4f2c3487","fromNode":"e88796615944b57c","fromSide":"right","toNode":"db6a1bdaefe39a84","toSide":"left"},
+		{"id":"3e58b8f2b962f1b8","fromNode":"5e706a01f99c1c46","fromSide":"top","toNode":"28b36c11d810ff06","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"393b70a660a4cc4e","fromNode":"cfc6b6a83e9b85d7","fromSide":"right","toNode":"06d93e111d55198b","toSide":"left"}
+	]
+}

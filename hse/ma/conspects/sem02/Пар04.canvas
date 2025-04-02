@@ -13,7 +13,8 @@
 		{"id":"c903cf95d191591d","type":"file","file":"hse/ma/conspects/sem02/par04/Лемма об интеграле через вторую производную.md","x":613,"y":-185,"width":564,"height":262},
 		{"id":"7da7c0cb33c311bf","type":"file","file":"hse/ma/conspects/sem02/par04/Формула трапеций.md","x":1318,"y":-680,"width":650,"height":639},
 		{"id":"21c49f7878354ac7","type":"file","file":"hse/ma/conspects/sem02/par04/Формула Эйлера-Маклорена для второй производной.md","x":589,"y":179,"width":610,"height":200},
-		{"id":"01700957551fff0c","type":"file","file":"hse/ma/conspects/sem02/par04/Примеры для формулы Эйлера-Маклорена.md","x":547,"y":461,"width":694,"height":516}
+		{"id":"01700957551fff0c","type":"file","file":"hse/ma/conspects/sem02/par04/Примеры для формулы Эйлера-Маклорена.md","x":547,"y":461,"width":694,"height":516},
+		{"id":"2caf751892e9d7d8","x":1318,"y":129,"width":517,"height":300,"type":"file","file":"hse/ma/conspects/sem02/par04/Формула Стирлинга.md"}
 	],
 	"edges":[
 		{"id":"7eece08b4c31c310","fromNode":"391761c1cda529c0","fromSide":"right","toNode":"95de404c838d9362","toSide":"left"},
@@ -25,6 +26,7 @@
 		{"id":"47d6547c42761403","fromNode":"c903cf95d191591d","fromSide":"top","toNode":"1dcacb61e41a21ad","toSide":"bottom"},
 		{"id":"c45e6cd62eeaffb0","fromNode":"7da7c0cb33c311bf","fromSide":"left","toNode":"1dcacb61e41a21ad","toSide":"right"},
 		{"id":"391e0d4f92d33e63","fromNode":"c903cf95d191591d","fromSide":"bottom","toNode":"21c49f7878354ac7","toSide":"top"},
-		{"id":"a6e8262b33c925f5","fromNode":"21c49f7878354ac7","fromSide":"bottom","toNode":"01700957551fff0c","toSide":"top"}
+		{"id":"a6e8262b33c925f5","fromNode":"21c49f7878354ac7","fromSide":"bottom","toNode":"01700957551fff0c","toSide":"top"},
+		{"id":"761be0266fff7294","fromNode":"21c49f7878354ac7","fromSide":"right","toNode":"2caf751892e9d7d8","toSide":"left"}
 	]
 }

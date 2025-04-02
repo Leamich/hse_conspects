@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"4383192fa6956e56","x":735,"y":-1253,"width":481,"height":363,"type":"file","file":"hse/ma/conspects/sem02/par10/Путь.md"},
+		{"id":"4e11bfb9b7325397","x":1325,"y":-1143,"width":381,"height":143,"type":"file","file":"hse/ma/conspects/sem02/par10/Линейно связное множество.md"},
+		{"id":"e68ee5694151b060","x":1299,"y":-890,"width":433,"height":200,"type":"file","file":"hse/ma/conspects/sem02/par10/Теорема Больцано-Коши в лин. св. мн-вах.md"},
+		{"id":"b6437f0edc75eba8","x":302,"y":-1663,"width":299,"height":131,"type":"file","file":"hse/ma/conspects/sem02/par10/Носитель пути.md"},
+		{"id":"7510a7a0f577973f","x":201,"y":-1483,"width":400,"height":132,"type":"file","file":"hse/ma/conspects/sem02/par10/Противоположный путь.md"},
+		{"id":"483d9db0ecb4f3d2","x":201,"y":-1280,"width":400,"height":417,"type":"file","file":"hse/ma/conspects/sem02/par10/Длина пути.md"},
+		{"id":"e514ac6d41cb43d3","x":-511,"y":-1525,"width":528,"height":448,"type":"file","file":"hse/ma/conspects/sem02/par10/Теорема о длине гладкого пути.md"},
+		{"id":"e0fc864959f0f792","x":-1050,"y":-1483,"width":464,"height":361,"type":"file","file":"hse/ma/conspects/sem02/par10/Лемма о длине гладкого пути.md"},
+		{"id":"ce3c0f9c55925f6d","x":-499,"y":-1846,"width":504,"height":265,"type":"file","file":"hse/ma/conspects/sem02/par10/Гладкий путь.md"},
+		{"id":"dcf70d354104de00","x":-599,"y":-1028,"width":616,"height":165,"type":"file","file":"hse/ma/conspects/sem02/par10/Теорема об аддитивности длины пути.md"},
+		{"id":"379ee4ac561f6674","x":184,"y":-759,"width":433,"height":200,"type":"file","file":"hse/ma/conspects/sem02/par10/Длина кривой.md"},
+		{"id":"c0d567f6e407e4d0","x":172,"y":-446,"width":459,"height":213,"type":"file","file":"hse/ma/conspects/sem02/par10/Кривая.md"},
+		{"id":"5d1c504f1626cc5f","x":735,"y":-450,"width":495,"height":221,"type":"file","file":"hse/ma/conspects/sem02/par10/Эквивалентные пути.md"}
+	],
+	"edges":[
+		{"id":"661e25ef75193d74","fromNode":"4383192fa6956e56","fromSide":"left","toNode":"b6437f0edc75eba8","toSide":"right"},
+		{"id":"3d32ac6e10d40119","fromNode":"4383192fa6956e56","fromSide":"left","toNode":"7510a7a0f577973f","toSide":"right"},
+		{"id":"fffbe71c09f73101","fromNode":"4383192fa6956e56","fromSide":"right","toNode":"4e11bfb9b7325397","toSide":"left"},
+		{"id":"32a6ecea9b674de5","fromNode":"4e11bfb9b7325397","fromSide":"bottom","toNode":"e68ee5694151b060","toSide":"top"},
+		{"id":"fe8ab45065bda679","fromNode":"4383192fa6956e56","fromSide":"left","toNode":"483d9db0ecb4f3d2","toSide":"right"},
+		{"id":"ea29ded4fdf32d21","fromNode":"483d9db0ecb4f3d2","fromSide":"left","toNode":"e514ac6d41cb43d3","toSide":"right"},
+		{"id":"6857fd465a8be9f6","fromNode":"e0fc864959f0f792","fromSide":"right","toNode":"e514ac6d41cb43d3","toSide":"left"},
+		{"id":"2a221f52d005f6bc","fromNode":"ce3c0f9c55925f6d","fromSide":"bottom","toNode":"e514ac6d41cb43d3","toSide":"top"},
+		{"id":"8823294fe4e7e280","fromNode":"483d9db0ecb4f3d2","fromSide":"left","toNode":"dcf70d354104de00","toSide":"right"},
+		{"id":"fe7cb43c5d29e0d5","fromNode":"483d9db0ecb4f3d2","fromSide":"bottom","toNode":"379ee4ac561f6674","toSide":"top","fromEnd":"arrow"},
+		{"id":"aab803241ad32f2f","fromNode":"c0d567f6e407e4d0","fromSide":"top","toNode":"379ee4ac561f6674","toSide":"bottom"},
+		{"id":"e0a93769896c6634","fromNode":"4383192fa6956e56","fromSide":"bottom","toNode":"5d1c504f1626cc5f","toSide":"top"},
+		{"id":"e0376d8b6e601d05","fromNode":"5d1c504f1626cc5f","fromSide":"left","toNode":"c0d567f6e407e4d0","toSide":"right"}
+	]
+}
