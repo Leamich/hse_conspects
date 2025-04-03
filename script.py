@@ -29,7 +29,7 @@ def update_headings(file_path):
             updated_lines.append(line)
 
     if modified:  # Only write if changes were made
-        print(file_name)
+        print(file_path)
         with open(file_path, "w", encoding="utf-8") as file:
             file.writelines(updated_lines)
 

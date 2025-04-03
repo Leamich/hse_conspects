@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"40f4cd5a49523ba5","type":"file","file":"hse/ma/conspects/sem02/par12/Ряд в нормированном пространстве.md","x":-551,"y":315,"width":513,"height":437},
+		{"id":"d438128202574e15","type":"file","file":"hse/ma/conspects/sem02/par12/Свойства ряда в метр пр-ве.md","x":-771,"y":840,"width":473,"height":388},
+		{"id":"7b30e309dc990e9f","type":"file","file":"hse/ma/conspects/sem02/par12/Необходимое условие сходимости ряда в метр пр-ве.md","x":-240,"y":840,"width":400,"height":147},
+		{"id":"14335fff06ada3ae","type":"file","file":"hse/ma/conspects/sem02/par12/Абсолютная сходимость ряда.md","x":-498,"y":-65,"width":407,"height":282},
+		{"id":"c37773bf3a79e390","type":"file","file":"hse/ma/conspects/sem02/par12/Теорема об абсолютной сходимости.md","x":-1174,"y":-15,"width":557,"height":176},
+		{"id":"274e28cf44bf8275","type":"file","file":"hse/ma/conspects/sem02/par12/Теорема о сходимости сгруппированного ряда.md","x":101,"y":264,"width":691,"height":190},
+		{"id":"bcac8dd081f2c303","type":"file","file":"hse/ma/conspects/sem02/par12/Критерий Коши.md","x":101,"y":534,"width":559,"height":206},
+		{"id":"01b3b2acc9b56e67","type":"file","file":"hse/ma/conspects/sem02/par12/Критерий сходимости для знакопостоянных рядов.md","x":-1074,"y":425,"width":457,"height":219},
+		{"id":"cb2a949240d18e42","type":"file","file":"hse/ma/conspects/sem02/par12/Признак сравнения для рядов.md","x":-1797,"y":276,"width":623,"height":518}
+	],
+	"edges":[
+		{"id":"36d69820dd2dd669","fromNode":"40f4cd5a49523ba5","fromSide":"bottom","toNode":"d438128202574e15","toSide":"top"},
+		{"id":"fb312549230f513c","fromNode":"40f4cd5a49523ba5","fromSide":"bottom","toNode":"7b30e309dc990e9f","toSide":"top"},
+		{"id":"e6d59f55157dbf15","fromNode":"40f4cd5a49523ba5","fromSide":"top","toNode":"14335fff06ada3ae","toSide":"bottom"},
+		{"id":"6db20edf10801646","fromNode":"14335fff06ada3ae","fromSide":"left","toNode":"c37773bf3a79e390","toSide":"right"},
+		{"id":"544ebdb3b5bcfc3e","fromNode":"40f4cd5a49523ba5","fromSide":"right","toNode":"274e28cf44bf8275","toSide":"left"},
+		{"id":"9724fab5dc074d46","fromNode":"40f4cd5a49523ba5","fromSide":"right","toNode":"bcac8dd081f2c303","toSide":"left"},
+		{"id":"a8b72d8ea9c25338","fromNode":"40f4cd5a49523ba5","fromSide":"left","toNode":"01b3b2acc9b56e67","toSide":"right"},
+		{"id":"b17017cad76d02c2","fromNode":"01b3b2acc9b56e67","fromSide":"left","toNode":"cb2a949240d18e42","toSide":"right"}
+	]
+}

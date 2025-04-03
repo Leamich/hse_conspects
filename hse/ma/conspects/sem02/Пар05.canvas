@@ -8,12 +8,12 @@
 		{"id":"e99936b6ebc16ea6","type":"file","file":"hse/ma/conspects/sem02/par05/Замечание про необходимое условие признаков Дирихле и Абеля.md","x":1628,"y":-27,"width":551,"height":449},
 		{"id":"53723f9cb5c000e3","type":"file","file":"hse/ma/conspects/sem02/par05/Примеры для признаков Дирихле-Абеля.md","x":2562,"y":-677,"width":528,"height":231},
 		{"id":"dc81aa9a044a8fd4","type":"file","file":"hse/ma/conspects/sem02/par05/Абсолютная сходимость интеграла.md","x":1119,"y":-1415,"width":400,"height":197},
-		{"id":"90e28e90aafcfe5d","x":-1495,"y":-858,"width":438,"height":444,"type":"file","file":"hse/ma/conspects/sem02/par05/Несобственный интеграл.md"},
-		{"id":"9509761a4bf17527","x":-1571,"y":-326,"width":591,"height":535,"type":"file","file":"hse/ma/conspects/sem02/par05/Примеры для несобственных интегралов.md"},
-		{"id":"d1e3a078df1a521f","x":-2421,"y":-1108,"width":765,"height":968,"type":"file","file":"hse/ma/conspects/sem02/par05/Свойства несобственных интегралов.md"},
-		{"id":"2a3e02ec469da23d","x":-916,"y":-736,"width":473,"height":200,"type":"file","file":"hse/ma/conspects/sem02/par05/Сходимость несобственного интеграла.md"},
+		{"id":"90e28e90aafcfe5d","type":"file","file":"hse/ma/conspects/sem02/par05/Несобственный интеграл.md","x":-1495,"y":-858,"width":438,"height":444},
+		{"id":"9509761a4bf17527","type":"file","file":"hse/ma/conspects/sem02/par05/Примеры для несобственных интегралов.md","x":-1571,"y":-326,"width":591,"height":535},
+		{"id":"d1e3a078df1a521f","type":"file","file":"hse/ma/conspects/sem02/par05/Свойства несобственных интегралов.md","x":-2421,"y":-1108,"width":765,"height":968},
+		{"id":"2a3e02ec469da23d","type":"file","file":"hse/ma/conspects/sem02/par05/Сходимость несобственного интеграла.md","x":-916,"y":-736,"width":473,"height":200},
 		{"id":"b17233ea6a62f456","type":"file","file":"hse/ma/conspects/sem02/par05/Критерий Коши для сходимости несобственного интеграла.md","x":-949,"y":-469,"width":539,"height":452},
-		{"id":"ea7fa425e49cf4d4","x":-339,"y":-740,"width":500,"height":204,"type":"file","file":"hse/ma/conspects/sem02/par05/Теорема о признаке сходимости через ограниченность.md"},
+		{"id":"ea7fa425e49cf4d4","type":"file","file":"hse/ma/conspects/sem02/par05/Теорема о признаке сходимости через ограниченность.md","x":-339,"y":-740,"width":500,"height":204},
 		{"id":"1e4b8092bf7a4312","type":"file","file":"hse/ma/conspects/sem02/par05/Замена переменной в несобственном интеграле.md","x":-1561,"y":-1352,"width":570,"height":426}
 	],
 	"edges":[
