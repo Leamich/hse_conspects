@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"28b36c11d810ff06","x":-774,"y":1244,"width":528,"height":433,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема об арифм действиях с пределами в метр пр-ве.md"},
 		{"id":"131933ca383ead34","x":133,"y":1465,"width":548,"height":424,"type":"file","file":"hse/ma/conspects/sem02/par09/Непрерывность отображения в метр пр-ве.md"},
-		{"id":"5f214bb64d333917","x":767,"y":1549,"width":476,"height":256,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема о характеристики непрерывности в терминах открытых множеств.md"},
+		{"id":"5f214bb64d333917","x":767,"y":1549,"width":476,"height":256,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема о характеристике непрерывности в терминах открытых множеств.md"},
 		{"id":"2805b8b1a36ae9a0","x":-35,"y":2014,"width":442,"height":216,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема о непрерывности композиции в метр пр-ве.md"},
 		{"id":"bcb3c729c0ad1bf4","x":449,"y":2014,"width":464,"height":212,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема о непрерывности обратной функции.md"},
 		{"id":"d4afad4f22ba1dc3","x":1401,"y":1440,"width":501,"height":474,"type":"file","file":"hse/ma/conspects/sem02/par09/Теорема о непрерывном образе компакта.md"},
